@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+	<head>
+<!-- Mirrored from itctestweekindia.org/tutorial-program-2021/?swcfpc=1 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Nov 2021 04:44:25 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+	<meta charset="UTF-8">
+		<script>function fvmuag(){if(navigator.userAgent.match(/x11.*fox\/54|oid\s4.*xus.*ome\/62|oobot|ighth|tmetr|eadles|ingdo/i))return!1;if(navigator.userAgent.match(/x11.*ome\/75\.0\.3770\.100/i)){var e=screen.width,t=screen.height;if("number"==typeof e&&"number"==typeof t&&862==t&&1367==e)return!1}return!0}</script><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- Search Engine Optimization by Rank Math - https://s.rankmath.com/home -->
+<title>Tutorial Program 2021 - International Test Week India 2021</title>
+<meta name="description" content="T1 : Identifying Good, Bad and Ugly chips through DFT : A Primer on VLSI Testing"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Tutorial Program 2021 - International Test Week India 2021">
+<meta property="og:description" content="T1 : Identifying Good, Bad and Ugly chips through DFT : A Primer on VLSI Testing">
+<meta property="og:url" content="https://itctestweekindia.org/tutorial-program-2021/">
+<meta property="og:site_name" content="International Test Week India 2021">
+<meta property="og:updated_time" content="2021-07-16T06:32:28+00:00">
+<meta property="og:image" content="https://itctestweekindia.org/axbdfajskljdf/zwrpcnmqgh/2021/07/abihisek.jpg">
+<meta property="og:image:secure_url" content="https://itctestweekindia.org/axbdfajskljdf/zwrpcnmqgh/2021/07/abihisek.jpg">
+<meta property="og:image:width" content="230">
+<meta property="og:image:height" content="295">
+<meta property="og:image:alt" content="Tutorial Program 2021">
+<meta property="og:image:type" content="image/jpeg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tutorial Program 2021 - International Test Week India 2021">
+<meta name="twitter:description" content="T1 : Identifying Good, Bad and Ugly chips through DFT : A Primer on VLSI Testing">
+<meta name="twitter:image" content="https://itctestweekindia.org/axbdfajskljdf/zwrpcnmqgh/2021/07/abihisek.jpg">
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="International Test Week India 2021 &raquo; Feed" href="../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="International Test Week India 2021 &raquo; Comments Feed" href="../comments/feed/index.html" />
+<link rel="preload" href="../axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/css/font-awesome.min.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'" /><noscript><link rel="stylesheet" href="../axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/css/font-awesome.min.css" media="all" /></noscript><!--[if IE]><link rel="stylesheet" href="https://itctestweekindia.org/axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/css/font-awesome.min.css" media="all" /><![endif]--><link rel="preload" href="../axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/css/all.min.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'" /><noscript><link rel="stylesheet" href="../axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/css/all.min.css" media="all" /></noscript><!--[if IE]><link rel="stylesheet" href="https://itctestweekindia.org/axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/css/all.min.css" media="all" /><![endif]--><link rel="preload" href="../axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/css/v4-shims.min.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'" /><noscript><link rel="stylesheet" href="../axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/css/v4-shims.min.css" media="all" /></noscript><!--[if IE]><link rel="stylesheet" href="https://itctestweekindia.org/axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/css/v4-shims.min.css" media="all" /><![endif]--><link rel='stylesheet' id='cx-google-fonts-kava-css'  href='http://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C900%7CMontserrat%3A700&amp;subset=latin&amp;ver=3e37492d17f91a882b42893e63e9a00a' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Livvic%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNunito%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CArtifika%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=3e37492d17f91a882b42893e63e9a00a' type='text/css' media='all' />
+<link rel='stylesheet' id='fvm-header-0-css'  href='../axbdfajskljdf/zwrpcnmqgh/cache/fvm/1633242297/out/header-5326cbf550c7fdb336605de0681c2489376e252d.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery.js' id='jquery-core-js'></script><script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/pb-add-iu-sdfgwh-asdfghj-ihnes/assets/js/wppb_cpm_main.js' id='wppb-cpm-script-js'></script><script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/js/v4-shims.min.js' id='font-awesome-4-shim-js'></script><link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/1183.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../index0db0.html?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='../index6836.html?p=1183' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed2856.json?url=https%3A%2F%2Fitctestweekindia.org%2Ftutorial-program-2021%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed0d70?url=https%3A%2F%2Fitctestweekindia.org%2Ftutorial-program-2021%2F&amp;format=xml" />
+<style>
+.som-password-error-message,
+.som-password-sent-message {
+	background-color: #2679ce;
+	border-color: #2679ce;
+}
+</style>
+<link rel="icon" href="../axbdfajskljdf/zwrpcnmqgh/2021/01/cropped-2018-ITC-logo-2-1-975x1024-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="../axbdfajskljdf/zwrpcnmqgh/2021/01/cropped-2018-ITC-logo-2-1-975x1024-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="../axbdfajskljdf/zwrpcnmqgh/2021/01/cropped-2018-ITC-logo-2-1-975x1024-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://itctestweekindia.org/axbdfajskljdf/zwrpcnmqgh/2021/01/cropped-2018-ITC-logo-2-1-975x1024-1-270x270.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /></head>
+<body class="page-template page-template-elementor_canvas page page-id-1183 layout-fullwidth blog-default elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-1183">
+			<div data-elementor-type="wp-page" data-elementor-id="1183" class="elementor elementor-1183" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-aa72435 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="aa72435" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-761a94d" data-id="761a94d" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-9266ef9 elementor-widget elementor-widget-template" data-id="9266ef9" data-element_type="widget" data-widget_type="template.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-template">
+					<div data-elementor-type="header" data-elementor-id="887" class="elementor elementor-887" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<header class="elementor-section elementor-top-section elementor-element elementor-element-874f7a5 elementor-section-content-middle elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="874f7a5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-f318864" data-id="f318864" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ba33139 elementor-widget elementor-widget-image" data-id="ba33139" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+											<a href="../index.html">
+							<img src="../axbdfajskljdf/zwrpcnmqgh/elementor/thumbs/2018-ITC-logo-2-1-975x1024-1-p1e4bnk3si7xug5fpue5mh11a6yw62c4zy3vhlflrc.png" title="2018-ITC-logo-2-1-975&#215;1024.png" alt="2018-ITC-logo-2-1-975x1024.png" />								</a>
+											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-d82f252" data-id="d82f252" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c5f0434 elementor-nav-menu__align-center elementor-nav-menu--indicator-angle elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="c5f0434" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-drop-in"><ul id="menu-1-c5f0434" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-754"><a href="../index.html" class="elementor-item">Home</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-959"><a href="../contact-us/index.html" class="elementor-sub-item">Contact Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1197"><a href="../blog-2021/index.html" class="elementor-sub-item">Blog</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-757"><a href="#" class="elementor-sub-item elementor-item-anchor">ITC Archives</a>
+	<ul class="sub-menu elementor-nav-menu--dropdown">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-758"><a href="../archives/itc_2017_2018/2017/index.html" class="elementor-sub-item">ITC 2017</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-759"><a href="../archives/itc_2017_2018/2018/home.html" class="elementor-sub-item">ITC 2018</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-760"><a href="../archives/itc_2019/index.html" class="elementor-sub-item">ITC 2019</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-761"><a href="../archives/itc_2020/index.html" class="elementor-sub-item">ITC 2020</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-762"><a href="#" class="elementor-item elementor-item-anchor">Program</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1195"><a href="../agenda/index.html" class="elementor-sub-item">Agenda</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1196"><a href="../keynote-2021/index.html" class="elementor-sub-item">Keynote</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1183 current_page_item menu-item-1194"><a href="index.html" aria-current="page" class="elementor-sub-item elementor-item-active">Tutorial Program</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1166"><a href="../committee-2021/index.html" class="elementor-sub-item">Committee</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1438"><a href="../panel-discussion-2021/index.html" class="elementor-sub-item">Panel Discussion</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1448"><a href="../special-sessions-2021/index.html" class="elementor-sub-item">Special Sessions 2021</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-767"><a href="#" class="elementor-item elementor-item-anchor">Authors</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-768"><a href="../call-for-papers-2021/index.html" class="elementor-sub-item">Call for Papers</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-964"><a href="../call-for-tutorials-2021/index.html" class="elementor-sub-item">Call for Tutorials</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-963"><a href="../test-reality-check-track-2021/index.html" class="elementor-sub-item">Test Reality Check Track</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-962"><a href="../academia-research-track-2021/index.html" class="elementor-sub-item">Academia Research Track</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-961"><a href="../fellowships-2021/index.html" class="elementor-sub-item">Fellowships</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-960"><a href="../authors-instruction-2021/index.html" class="elementor-sub-item">Author Toolkit</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1193"><a href="../supporters-2021/index.html" class="elementor-item">Supporters</a></li>
+</ul></nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i class="eicon-menu-bar" aria-hidden="true"></i>
+			<span class="elementor-screen-only">Menu</span>
+		</div>
+			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true"><ul id="menu-2-c5f0434" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-754"><a href="../index.html" class="elementor-item">Home</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-959"><a href="../contact-us/index.html" class="elementor-sub-item">Contact Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1197"><a href="../blog-2021/index.html" class="elementor-sub-item">Blog</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-757"><a href="#" class="elementor-sub-item elementor-item-anchor">ITC Archives</a>
+	<ul class="sub-menu elementor-nav-menu--dropdown">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-758"><a href="../archives/itc_2017_2018/2017/index.html" class="elementor-sub-item">ITC 2017</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-759"><a href="../archives/itc_2017_2018/2018/home.html" class="elementor-sub-item">ITC 2018</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-760"><a href="../archives/itc_2019/index.html" class="elementor-sub-item">ITC 2019</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-761"><a href="../archives/itc_2020/index.html" class="elementor-sub-item">ITC 2020</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-762"><a href="#" class="elementor-item elementor-item-anchor">Program</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1195"><a href="../agenda/index.html" class="elementor-sub-item">Agenda</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1196"><a href="../keynote-2021/index.html" class="elementor-sub-item">Keynote</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1183 current_page_item menu-item-1194"><a href="index.html" aria-current="page" class="elementor-sub-item elementor-item-active">Tutorial Program</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1166"><a href="../committee-2021/index.html" class="elementor-sub-item">Committee</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1438"><a href="../panel-discussion-2021/index.html" class="elementor-sub-item">Panel Discussion</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1448"><a href="../special-sessions-2021/index.html" class="elementor-sub-item">Special Sessions 2021</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-767"><a href="#" class="elementor-item elementor-item-anchor">Authors</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-768"><a href="../call-for-papers-2021/index.html" class="elementor-sub-item">Call for Papers</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-964"><a href="../call-for-tutorials-2021/index.html" class="elementor-sub-item">Call for Tutorials</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-963"><a href="../test-reality-check-track-2021/index.html" class="elementor-sub-item">Test Reality Check Track</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-962"><a href="../academia-research-track-2021/index.html" class="elementor-sub-item">Academia Research Track</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-961"><a href="../fellowships-2021/index.html" class="elementor-sub-item">Fellowships</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-960"><a href="../authors-instruction-2021/index.html" class="elementor-sub-item">Author Toolkit</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1193"><a href="../supporters-2021/index.html" class="elementor-item">Supporters</a></li>
+</ul></nav>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-51f89c9" data-id="51f89c9" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-3b0a075 elementor-align-center elementor-widget elementor-widget-button" data-id="3b0a075" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="../email-list/index.html" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Subscribe Now</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</header>
+				</div>
+		</div>
+				</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-35fc3fba elementor-section-stretched elementor-section-full_width elementor-section-content-bottom animated-slow elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="35fc3fba" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;animation&quot;:&quot;slideInUp&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3ec38372" data-id="3ec38372" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7e2b89d9 elementor-widget elementor-widget-heading" data-id="7e2b89d9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tutorial Program</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-561445e7 elementor-widget-divider--separator-type-pattern elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="561445e7" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider" style="--divider-pattern-url: url(_data_image/svg%2bxml%2c_svg%20xmlns%3d%27http_/www.w3.org/2000/svg%27%20preserveAspectRatio%3d%27none%27%20overflow%3d%27visib/__/svg__.html);">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1660147d elementor-widget elementor-widget-spacer" data-id="1660147d" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7405fb4b elementor-section-stretched animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="7405fb4b" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;animation&quot;:&quot;slideInUp&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7b1c62d3" data-id="7b1c62d3" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d389df5 elementor-widget elementor-widget-jet-table" data-id="d389df5" data-element_type="widget" data-widget_type="jet-table.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-jet-table jet-elements">
+		<div class="jet-table-wrapper">
+			<table class="jet-table jet-table--fa5-compat">
+				<thead class="jet-table__head"><tr class="jet-table__head-row"><th class="jet-table__cell elementor-repeater-item-ad225c2 jet-table__head-cell" colspan="4" scope="col"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text">Sunday, July 18, 2021</div></div></div></th></tr></thead>
+				<tbody class="jet-table__body"><tr class="jet-table__body-row elementor-repeater-item-97ed818"><td class="jet-table__cell elementor-repeater-item-1b1934e jet-table__body-cell" colspan="1"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text">8:30 am &#8211; 9:30 am</div></div></div></td><td class="jet-table__cell elementor-repeater-item-88e7640 jet-table__body-cell" colspan="3"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text">REGISTRATIONS</div></div></div></td></tr><tr class="jet-table__body-row elementor-repeater-item-4d938a3"><th class="jet-table__cell elementor-repeater-item-fa77ab6 jet-table__head-cell" scope="row"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text">TRACKS</div></div></div></th><th class="jet-table__cell elementor-repeater-item-4b4aea4 jet-table__head-cell" scope="row"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text">TRACK 1<br>Session Chair: Anurag Jain</div></div></div></th><th class="jet-table__cell elementor-repeater-item-7c86448 jet-table__head-cell" scope="row"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text">TRACK 2<br>Session Chair: Shamitha Rao</div></div></div></th><th class="jet-table__cell elementor-repeater-item-f6fe55c jet-table__head-cell" scope="row"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text">TRACK 3<br>Session Chair: Kavitha Shankar</div></div></div></th></tr><tr class="jet-table__body-row elementor-repeater-item-b9d469e"><td class="jet-table__cell elementor-repeater-item-c85a95d jet-table__body-cell"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text">HALL NAME</div></div></div></td><td class="jet-table__cell elementor-repeater-item-95d7bbc jet-table__body-cell" colspan="1"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text">Zoom Meeting</div></div></div></td><td class="jet-table__cell elementor-repeater-item-6bd72b9 jet-table__body-cell" colspan="1"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text">Zoom Meeting</div></div></div></td><td class="jet-table__cell elementor-repeater-item-304a48d jet-table__body-cell" colspan="1"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text">Zoom Meeting</div></div></div></td></tr><tr class="jet-table__body-row elementor-repeater-item-f4398d5"><td class="jet-table__cell elementor-repeater-item-0f7f2ee jet-table__body-cell"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text">9:30 am &#8211; 11:00 am <br> (15 mins. Break) <br> 11:15 am &#8211; 12:45 pm</div></div></div></td><td class="jet-table__cell elementor-repeater-item-48534c0 jet-table__body-cell" colspan="1"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text"><p style="color:DodgerBlue;">T1 : Identifying Good, Bad and Ugly chips through DFT : A Primer on VLSI Testing</p>
+
+Abhishek Chaudhary<br>(Texas Instruments India)</div></div></div></td><td class="jet-table__cell elementor-repeater-item-036dcbb jet-table__body-cell" colspan="1"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text"><p style="color:DodgerBlue;">T2 : Advanced DFT and Security Technology for AI chips</p>
+
+Lee Harrison, Peter Orlando, 
+<br>Jay jahangiri<br>(Siemens EDA)</div></div></div></td><td class="jet-table__cell elementor-repeater-item-da25941 jet-table__body-cell" colspan="1"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text"><p style="color:DodgerBlue;">T3 : Addressing Test, Safety and Security for Connected Automotive IC&#8217;s</p>
+Gajinder Panesar, Nilanjan Mukherjee, Raghav Mehta, Lee Harrison<br>(Siemens EDA)<br>Nir Sever, Gal Carmel (protean Tecs)</div></div></div></td></tr><tr class="jet-table__body-row elementor-repeater-item-6db8d1d"><th class="jet-table__cell elementor-repeater-item-888404d jet-table__head-cell" scope="row"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text">12:45 pm &#8211; 1:45 pm</div></div></div></th><th class="jet-table__cell elementor-repeater-item-bd4682b jet-table__head-cell" colspan="3" scope="row"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text">LUNCH BREAK</div></div></div></th></tr><tr class="jet-table__body-row elementor-repeater-item-af4a3d3"><td class="jet-table__cell elementor-repeater-item-60124d4 jet-table__body-cell"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text">1:45 pm &#8211; 3:15 pm <br> (15 mins. Break) <br> 3:30 pm &#8211; 5:00 pm</div></div></div></td><td class="jet-table__cell elementor-repeater-item-f56ae87 jet-table__body-cell" colspan="1"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text"><p style="color:DodgerBlue;">T4 : Testing Power and Clock Networks</p>
+
+Prof. Shi-Yu Huang (Professor, Faculty of Electrical Engineering Department, National Tsing Hua University, Taiwan)</div></div></div></td><td class="jet-table__cell elementor-repeater-item-ee35f5e jet-table__body-cell" colspan="1"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text"><p style="color:DodgerBlue;">T5 : Device-Aware-Test for Emerging Memories: The means to win the war against unmodeled faults</p>
+
+Said Hamdioui (Delft Universitty of Technology)</div></div></div></td><td class="jet-table__cell elementor-repeater-item-64ad62c jet-table__body-cell" colspan="1"><div class="jet-table__cell-inner"><div class="jet-table__cell-content"><div class="jet-table__cell-text"><p style="color:DodgerBlue;">T6 : New Directions in Semiconductor Test and Validation</p>
+
+Dr. C P Ravikumar (Texas Instruments India)</div></div></div></td></tr></tbody>
+			</table>
+		</div>
+
+		</div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-0edcd92 elementor-widget elementor-widget-spacer" data-id="0edcd92" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-56855b7 elementor-section-stretched animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="56855b7" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;animation&quot;:&quot;slideInUp&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8fe2aea" data-id="8fe2aea" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6e558f6 elementor-widget elementor-widget-spacer" data-id="6e558f6" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2886b59 elementor-widget elementor-widget-heading" data-id="2886b59" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tutorial 1:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fed9695 elementor-widget elementor-widget-heading" data-id="fed9695" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Title: "Identifying good , bad and ugly chips through DFT : A primer on VLSI testing"</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a715ae2 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="a715ae2" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e13322a elementor-widget elementor-widget-spacer" data-id="e13322a" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-15dae48 elementor-widget elementor-widget-heading" data-id="15dae48" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Abhishek Chaudhary</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7341d64 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="7341d64" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-fa16568 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fa16568" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a6a288c" data-id="a6a288c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7b9cda7 elementor-widget elementor-widget-image" data-id="7b9cda7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="230" height="295" src="../axbdfajskljdf/zwrpcnmqgh/2021/07/abihisek.jpg" class="attachment-medium size-medium" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-7cf2f88" data-id="7cf2f88" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6a7c000 elementor-widget elementor-widget-heading" data-id="6a7c000" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bio:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ce0ca36 elementor-widget elementor-widget-text-editor" data-id="ce0ca36" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>           Abhishek Chaudhary is an experienced DFT Engineer with 14 years of experience in the semiconductor industry. He is presently working at Texas Instruments Bangalore. Prior to joining TI, he led the team of engineers that owned DFT for all IPs, testchips and bufferchip ASIC designs developed worldwide at Rambus. Prior to Rambus, Abhishek worked at Freescale Semiconductor where he worked primarily on DFT for automotive chips.<br />Abhishek has a passion for continued education and has been an active participant in IEEE TTTC events and has presented on DFT topics at various external events and conferences.<br />Abhishek holds a Master&#8217;s degree from IIT Delhi and Bachelors from Visvesvaraya National Institute of Technology, Nagpur.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-cf6caf8 elementor-widget elementor-widget-spacer" data-id="cf6caf8" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-9bf6b7c elementor-section-stretched animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="9bf6b7c" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;animation&quot;:&quot;slideInUp&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f9ae019" data-id="f9ae019" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-269fbc8 elementor-widget elementor-widget-spacer" data-id="269fbc8" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-74f1615 elementor-widget elementor-widget-heading" data-id="74f1615" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tutorial 2:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ba916dd elementor-widget elementor-widget-heading" data-id="ba916dd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Title: "Advanced DFT and Security technologies for AI Chips"</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-bb690ae elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="bb690ae" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-50f604a elementor-widget elementor-widget-spacer" data-id="50f604a" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0542ddd elementor-widget elementor-widget-heading" data-id="0542ddd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Jay Jahangiri</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4963043 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="4963043" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-c31af71 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c31af71" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-24045d5" data-id="24045d5" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-8b5a00d elementor-widget elementor-widget-image" data-id="8b5a00d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="230" height="295" src="../axbdfajskljdf/zwrpcnmqgh/2021/07/jay.jpg" class="attachment-medium size-medium" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-a7917a1" data-id="a7917a1" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-e5f28b9 elementor-widget elementor-widget-heading" data-id="e5f28b9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bio:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5645f42 elementor-widget elementor-widget-text-editor" data-id="5645f42" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>       Jay Jahangiri is a Product Manager for Tessent products at Siemens EDA (Siemens Digital Industry Software). He has over 25 years of experience in various DFT disciplines including ATPG, compression, BIST, and boundary scan. Jay worked as a DFT engineer for Texas Instruments and Raytheon prior to joining Siemens EDA. He is the co-inventor of two US patents related to silicon test and holds a Bachelor of Science degree in Electrical Engineering and an MBA. Jay has published numerous papers and articles in the area of silicon test.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-81ec666 elementor-widget elementor-widget-spacer" data-id="81ec666" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-89ff79a elementor-widget elementor-widget-heading" data-id="89ff79a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Lee Harrison</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-bdc168d elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="bdc168d" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-16cd823 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="16cd823" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f8a5cc6" data-id="f8a5cc6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1f44b3e elementor-widget elementor-widget-image" data-id="1f44b3e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="230" height="295" src="../axbdfajskljdf/zwrpcnmqgh/2021/07/lee1.jpg" class="attachment-medium size-medium" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-7a9ac93" data-id="7a9ac93" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-3dd914b elementor-widget elementor-widget-heading" data-id="3dd914b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bio:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-79d54c7 elementor-widget elementor-widget-text-editor" data-id="79d54c7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>           Lee Harrison is Automotive IC Test Solutions Manager, at Siemens EDA. He has over 20 years of industry experience with Tessent DFT products and has been involved in the specification of new test features and methodologies for Siemens customers, delivering high quality DFT solutions. With a focus on automotive, Lee is working to ensure that current and future DFT requirements of Siemens’s automotive customers are understood and met. Lee received his BEng in MicroElectronic Engineering from Brunel University London in 1996.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-c3d306d elementor-widget elementor-widget-spacer" data-id="c3d306d" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c15c2d1 elementor-widget elementor-widget-heading" data-id="c15c2d1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Peter Orlando</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-05bda5b elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="05bda5b" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-6c26a2e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6c26a2e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-aed2b83" data-id="aed2b83" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-87012a8 elementor-widget elementor-widget-image" data-id="87012a8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="230" height="295" src="../axbdfajskljdf/zwrpcnmqgh/2021/07/peter-orlando.jpg" class="attachment-medium size-medium" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-4f645cc" data-id="4f645cc" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1488cbb elementor-widget elementor-widget-heading" data-id="1488cbb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bio:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e892416 elementor-widget elementor-widget-text-editor" data-id="e892416" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>          Peter has been working for Siemens in Wilsonville, Oregon since June 2018 as a member of Tessent DFT products division. During his time at Siemens, he has been focusing on the development and deployment of the Streaming Scan Network (SSN) product. Prior to joining Mentor, Peter has worked in the silicon industry for 25 years for such companies as Marvell Semiconductor, Micron Technology, ST Microelectronics, and LSI logic.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-9694864 elementor-widget elementor-widget-spacer" data-id="9694864" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-50a17d6 elementor-section-stretched animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="50a17d6" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;animation&quot;:&quot;slideInUp&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6b42f9e" data-id="6b42f9e" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5bb7cac elementor-widget elementor-widget-spacer" data-id="5bb7cac" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4edb2ef elementor-widget elementor-widget-heading" data-id="4edb2ef" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tutorial 3:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9a1d7b1 elementor-widget elementor-widget-heading" data-id="9a1d7b1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Title: "Addressing Test, Safety and Security for Connected Automotive ICs"</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4bcbe93 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="4bcbe93" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-8f1bf2b elementor-widget elementor-widget-spacer" data-id="8f1bf2b" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7aa82b7 elementor-widget elementor-widget-heading" data-id="7aa82b7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Gajinder Panesar</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6b60bd3 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="6b60bd3" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-22512a6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="22512a6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-20934ed" data-id="20934ed" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4de4729 elementor-widget elementor-widget-image" data-id="4de4729" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="230" height="295" src="../axbdfajskljdf/zwrpcnmqgh/2021/07/gajin.jpg" class="attachment-medium size-medium" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-a586979" data-id="a586979" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f1e5cc3 elementor-widget elementor-widget-heading" data-id="f1e5cc3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bio:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8d0e23b elementor-widget elementor-widget-text-editor" data-id="8d0e23b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>           Gajinder Panesar is a Fellow at Mentor, A Siemens Business. One of Europe’s leading SoC architects, Gadge’s experience includes senior architecture definition and design roles within both blue-chip and start-up environments. He holds more than 50 patents and is the author of more than 20 published works. Gajinder was CTO at UltraSoC prior to the company’s acquisition by Mentor-Siemens. He has also held roles at NVIDIA (NASDAQ:NVDA); and Picochip, where he was Chief Architect, a role in which he continued after the company’s acquisition by Mindspeed Inc (NASDAQ:MSPD). His previous experience includes roles at STMicroelectronics, INMOS, and Acorn Computers. He is a former Research Fellow at the UK’s Southampton University, and a former Visiting Fellow at the University of Amsterdam.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-df296f4 elementor-widget elementor-widget-spacer" data-id="df296f4" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2ca790f elementor-widget elementor-widget-heading" data-id="2ca790f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Nilanjan Mukherjee </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c48ee26 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="c48ee26" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-dbc5e66 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="dbc5e66" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-851c953" data-id="851c953" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ee9bf76 elementor-widget elementor-widget-image" data-id="ee9bf76" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="230" height="295" src="../axbdfajskljdf/zwrpcnmqgh/2021/07/nilanj.jpg" class="attachment-medium size-medium" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-a778b79" data-id="a778b79" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a7c3b1d elementor-widget elementor-widget-heading" data-id="a7c3b1d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bio:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d86dc9b elementor-widget elementor-widget-text-editor" data-id="d86dc9b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>          Nilanjan Mukherjee is a Senior Engineering Director for Tessent Silicon Lifecycle Solution Division at Siemens Digital Industries Software (DISW). He has been with Siemens (previously Mentor) for almost two decades, where he is involved in the research and development of key technologies in the areas of test compression, Logic BIST, Memory BIST, low power DFT, and memory test/diagnosis. Some of his major accomplishments include being a co-inventor and an architect of the Embedded Deterministic Test (EDT) technology, the VersaPoint Test Points technology, a Low Power Hybrid EDT/Logic BIST scheme for automotive ICs, and the Observation Scan Technology for Logic BIST. Currently, his focus is on developing new solutions and methodologies for improving the quality and reliability of automotive ICs. Prior to joining Mentor Graphics, he worked at Lucent Bell Laboratories in New Jersey.<br /><br />          As a researcher, Nilanjan has co-authored more than 85 technical papers for various conference proceedings and archival journals. He is a co-inventor of 52 US patents and several international patents. He has received numerous awards and recognition including the Best Paper Award at VTS 2020, Siemens Digital Industries Software Invention of the year 2019, the Most Significant Paper Award at ITC 2012, the Best Paper Award at VLSI Design in 2009, the Donald O. Pederson Outstanding Paper Award from the IEEE Circuits and Systems Society in 2006, the Teruhiko Yamada Memorial Best Student Paper Award at ATS 2001, and the Best Paper Award at VTS 1995. Nilanjan received a B.Tech. (Hons) degree from IIT, India, and a Ph.D. degree from McGill University, Canada. He has given numerous tutorials and invited talks at DAC, ITC, VTS, ATS, and VLSI Design, and has offered many short term courses on DFT.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-86d547f elementor-widget elementor-widget-spacer" data-id="86d547f" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-9623899 elementor-widget elementor-widget-heading" data-id="9623899" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Raghav Mehta</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5ad0909 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="5ad0909" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-3dd509e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3dd509e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e053d50" data-id="e053d50" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-cd9f842 elementor-widget elementor-widget-image" data-id="cd9f842" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="230" height="295" src="../axbdfajskljdf/zwrpcnmqgh/2021/07/raghav1.jpg" class="attachment-medium size-medium" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-083a404" data-id="083a404" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-3f3bf1f elementor-widget elementor-widget-heading" data-id="3f3bf1f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bio:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-76db888 elementor-widget elementor-widget-text-editor" data-id="76db888" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>           Raghav Mehta is Technology Enablement Engineer at Siemens. He specializes in automotive DFT implementation. Over last couple of years, he has focused on consulting efficient flow methodology for automotive ICs. At Siemens, Raghav has co-created custom MBIST solution for various different memories. His work focuses on memory testing, built in test technologies for logic and memory and DFT for automotive. Raghav achieved his MS degree in VLSI system design from University of Southern California, United States</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-906bffb elementor-widget elementor-widget-spacer" data-id="906bffb" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e19be80 elementor-widget elementor-widget-heading" data-id="e19be80" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Lee Harrison</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-dcc3435 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="dcc3435" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-36e82e1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="36e82e1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-784abf2" data-id="784abf2" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4b02020 elementor-widget elementor-widget-image" data-id="4b02020" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="230" height="295" src="../axbdfajskljdf/zwrpcnmqgh/2021/07/lee1.jpg" class="attachment-medium size-medium" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-fe45919" data-id="fe45919" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-35fd390 elementor-widget elementor-widget-heading" data-id="35fd390" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bio:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-37f07df elementor-widget elementor-widget-text-editor" data-id="37f07df" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>           Lee Harrison is Automotive IC Test Solutions Manager, at Siemens EDA. He has over 20 years of industry experience with Tessent DFT products and has been involved in the specification of new test features and methodologies for Siemens customers, delivering high quality DFT solutions. With a focus on automotive, Lee is working to ensure that current and future DFT requirements of Siemens’s automotive customers are understood and met. Lee received his BEng in MicroElectronic Engineering from Brunel University London in 1996.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-2ccbb65 elementor-widget elementor-widget-spacer" data-id="2ccbb65" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-9043bf1 elementor-widget elementor-widget-heading" data-id="9043bf1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Gal Carmel</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f58ca09 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="f58ca09" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-4c43a05 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4c43a05" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-49c41fe" data-id="49c41fe" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-728528e elementor-widget elementor-widget-image" data-id="728528e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="230" height="295" src="../axbdfajskljdf/zwrpcnmqgh/2021/07/gal1.jpg" class="attachment-medium size-medium" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-84cbb57" data-id="84cbb57" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-20eaffa elementor-widget elementor-widget-heading" data-id="20eaffa" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bio:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1d6f337 elementor-widget elementor-widget-text-editor" data-id="1d6f337" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>          Gal Carmel, EVP, GM Automotive, proteanTecs. An Automotive and Product entrepreneur with a proven track record of over 15 years in rapidly honing emerging technologies, markets and opportunities, both on business and diverse R&amp;D aspects. Before joining proteanTecs, Gal served as Chief Technology and Production Engineering of Samsung Smart Machines, building from the ground-up Samsung’s ADAS/AV technology, focusing on full-stack platforms for automated driving systems. Prior to that, he held key roles in some of the most innovative pillars of autonomous driving at Mobileye (acquired by Intel), a leading supplier of Advanced Driver Assist Systems (ADAS). In 2016, Gal brought up Mobileye’s Road Experience Management (REM) technology for data harvesting and localization engine, enabling full autonomy. And in 2013, he brought to production its first Mono Vision Camera AEB (Autonomous Emergency Braking), reaching 5 Star Euro NCAP rating for the most advanced production programs OEMS (Audi, BMW, Nissan). Gal holds a BSc in Electrical Engineering from Tel Aviv University.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-0a7cc06 elementor-widget elementor-widget-spacer" data-id="0a7cc06" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7dbafcd elementor-widget elementor-widget-heading" data-id="7dbafcd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Nir Sever</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-db365f5 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="db365f5" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-83c2184 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="83c2184" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0a5a796" data-id="0a5a796" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7d33dfc elementor-widget elementor-widget-image" data-id="7d33dfc" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="230" height="295" src="../axbdfajskljdf/zwrpcnmqgh/2021/07/nir-ser.jpg" class="attachment-medium size-medium" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-0079bee" data-id="0079bee" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-94b36fd elementor-widget elementor-widget-heading" data-id="94b36fd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bio:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-bc3a3a5 elementor-widget elementor-widget-text-editor" data-id="bc3a3a5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>      Nir Sever is an industry veteran with over 30 years of technological and managerial experience in advanced VLSI engineering. Before joining proteanTecs, Nir served for 10 years as the COO of Tehuti Networks, a pioneer in the area of high-speed networking Semiconductors. Prior to that, he served for 9 years as Senior Director of VLSI Design and Technologies for Zoran Corporation, a recognized world leader in Semiconductors for the highly competitive Consumer Electronics market. Nir was responsible for driving Zoran’s silicon technologies and delivering more than 10 new silicon products each year. Prior to that, Nir held various managerial and technological VLSI roles at 3dfx Interactive, GigaPixel Corporation, Cadence Design Systems, ASP Solutions, and Zoran Microelectronics. Nir holds a B.Sc in Electrical Engineering from The Israel Institute of Technology, Technion.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-f6ed6db elementor-widget elementor-widget-spacer" data-id="f6ed6db" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-25682f3 elementor-section-stretched animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="25682f3" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;animation&quot;:&quot;slideInUp&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-532872c" data-id="532872c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a526bfa elementor-widget elementor-widget-spacer" data-id="a526bfa" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3e741f9 elementor-widget elementor-widget-heading" data-id="3e741f9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tutorial 4:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ecc5fae elementor-widget elementor-widget-heading" data-id="ecc5fae" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Title: "Testing Clock and Power Networks"</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a53d8ae elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="a53d8ae" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e1a1815 elementor-widget elementor-widget-spacer" data-id="e1a1815" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-34f2b8e elementor-widget elementor-widget-heading" data-id="34f2b8e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Shi-Yu Huang </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1823859 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="1823859" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-b89b592 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b89b592" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0993735" data-id="0993735" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-be8eee1 elementor-widget elementor-widget-image" data-id="be8eee1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="230" height="295" src="../axbdfajskljdf/zwrpcnmqgh/2021/07/shi-yu.jpg" class="attachment-medium size-medium" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-1b49835" data-id="1b49835" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b7a97e2 elementor-widget elementor-widget-heading" data-id="b7a97e2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bio:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fe7348a elementor-widget elementor-widget-text-editor" data-id="fe7348a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>      Shi-Yu Huang received his Ph.D. degree in Electrical and Computer Engineering from University of California, Santa Barbara, in 1997. Since 1999, he has joined National Tsing Hua University, Taiwan until now. He recent research is concentrated on all-digital timing circuit designs, such as all-digital phase-locked loop (PLL), all-digital delay-locked loop (DLL), time-to-digital converter (TDC), and their applications to parametric fault testing and reliability enhancement for 3D-ICs. He has published more than 160 refereed technical papers. Dr. Huang ever co-founded a company in 2007-2012, TinnoTek Inc., specializing a cell-based PLL compiler and system-level power estimation tools. He received the best-presentation award or best-paper awards from several IEEE technical meetings, (i.e., VLSI-DAT’2006, VLSI-DAT’2013, ATS’2014, WRTLT’2017, ISOCC’2018). He is a senior member of IEEE.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-86848d9 elementor-widget elementor-widget-spacer" data-id="86848d9" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-fdc9a69 elementor-section-stretched animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="fdc9a69" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;animation&quot;:&quot;slideInUp&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cabf04f" data-id="cabf04f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2db4ca3 elementor-widget elementor-widget-spacer" data-id="2db4ca3" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4441574 elementor-widget elementor-widget-heading" data-id="4441574" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tutorial 5:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-267f7c9 elementor-widget elementor-widget-heading" data-id="267f7c9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Title: "Device-Aware-Test for Emerging Memories: The means to win the war against unmodeled faults"</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ac0d399 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="ac0d399" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1f43152 elementor-widget elementor-widget-spacer" data-id="1f43152" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-8368246 elementor-widget elementor-widget-heading" data-id="8368246" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Said Hamdioui</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-aa35e06 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="aa35e06" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-5bea00e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5bea00e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-74390b0" data-id="74390b0" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5d4eb8e elementor-widget elementor-widget-image" data-id="5d4eb8e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="230" height="295" src="../axbdfajskljdf/zwrpcnmqgh/2021/07/said.jpg" class="attachment-medium size-medium" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-8a8b574" data-id="8a8b574" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-bbe9a2d elementor-widget elementor-widget-heading" data-id="bbe9a2d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bio:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c6e38fe elementor-widget elementor-widget-text-editor" data-id="c6e38fe" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>    Hamdioui is currently Chair Professor on Dependable and Emerging Computer Technologies, Head of the Quantum and Computer Engineering department, and also serving as Head of the Computer Engineering Laboratory (CE-Lab) of the Delft University of Technology, the Netherlands. He is also co-founder and CEO of Cognitive-IC, a start-up focusing on hardware dependability solutions and consultancy.<br /><br />         Hamdioui received the MSEE and PhD degrees (both with honors) from TUDelft. Prior to joining TUDelft as a professor, Hamdioui spent about seven years within industry including Intel Corporation (Califorina, USA), Philips Semiconductors R&amp;D (Crolles, France) and Philips/ NXP Semiconductors (Nijmegen, The Netherlands). His research focuses on two domains: emerging technologies and computing paradigms (including memristors, in-memory-computing, neuromorphic computing, low power HW architecture for edge AI, etc.), and hardware dependability (including Testability, Reliability, Hardware Security).<br /><br />         Hamdioui owns many patents, has published one book and contributed to other two, and had co-authored over 250 conference and journal papers. He has consulted for many worldwide leading semiconductor companies . He is strongly involved in the international community as a member of organizing committees or a member of the technical program committees of the leading conferences. He delivered dozens of keynote speeches, distinguished lectures, and invited presentations and tutorial at major international forums/conferences/schools and at leading semiconductor companies. Hamdioui is a Senior member of the IEEE, Served as Associate Editor of IEEE Transactions on VLSI Systems (TVLSI) [215-2018], Journal, the Journal of Electronic Testing: Theory and Applications (JETTA) [2011-2019], Elsevier Microelectronic Reliability [2019-2020]; and he serves on the editorial board of IEEE Design &amp; Test, and ACM Journal on Emerging Technologies in Computing (JETC). He is also member of AENEAS/ENIAC Scientific Committee Council (AENEAS =Association for European NanoElectronics Activities). He is also EEE Circuits and Systems Society (CASS)Distinguished Lecturer.<br /><br />         Hamdioui is the recipient of many international/national awards. E.g., he is the recipient of European Design Automation Association Outstanding Dissertation Award 2001; European Commission Components and Systems Innovation Award in 2020; the 2015 HiPEAC Technology Transfer Award; and many Best Paper Awards (DATE’20, ICCD’15, LATS’18, DTIS’15, IVLSI’16, FCST’17); Teacher of the Year Award at the faculty of Electrical Engineering, Delft University of Technology, the Netherlands, 2017;. In addition, he is a leading member of Cadence Academic Network on Dependability and Design-for-Testability.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-159046d elementor-widget elementor-widget-spacer" data-id="159046d" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-16cafe3 elementor-section-stretched animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="16cafe3" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;animation&quot;:&quot;slideInUp&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-62871f5" data-id="62871f5" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c21b516 elementor-widget elementor-widget-spacer" data-id="c21b516" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-8ec1605 elementor-widget elementor-widget-heading" data-id="8ec1605" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tutorial 6:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-35b650f elementor-widget elementor-widget-heading" data-id="35b650f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Title: "New Directions in Semiconductor Test and Validation "</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e05c18b elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="e05c18b" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3a0231d elementor-widget elementor-widget-spacer" data-id="3a0231d" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-9b66368 elementor-widget elementor-widget-heading" data-id="9b66368" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Dr. C.P. Ravikumar </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c9b902d elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="c9b902d" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-d4de990 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d4de990" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c5f001b" data-id="c5f001b" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1094c60 elementor-widget elementor-widget-image" data-id="1094c60" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="230" height="295" src="../axbdfajskljdf/zwrpcnmqgh/2021/07/cp-ravi.jpg" class="attachment-medium size-medium" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-cb42b63" data-id="cb42b63" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-07bd7fb elementor-widget elementor-widget-heading" data-id="07bd7fb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bio:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2d43c7c elementor-widget elementor-widget-text-editor" data-id="2d43c7c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>         Dr. C.P. Ravikumar is the Director of Talent Development at Texas Instruments, India. He is also an adjunct faculty of EE at IIT Madras. Before joining TI India in 2001, Ravikumar was a Professor of Electrical Engineering at IIT, Delhi (1991-2001). He also held a visiting position at the University of Southern California (1995-1996) and the position of Vice President (Training) at Controlnet India Pvt Ltd (2000-2001). He obtained his Ph.D. (Computer Engineering) from the University of Southern California (1991), M.E. in Computer Science with highest scores from Indian Institute of Science (1987) and B.E. in Electronics with a Gold Medal from Bangalore University (1983). He has published over 200 papers in leading International conferences and journals. He has 4 US patents in the area of VLSI Test. He founded the VLSI Design and Test Symposium (VDAT) and was the General Chair of this event from its inception in 1998 for 15 years. He is the author/editor/coauthor of over 15 books in areas of VLSI and has contributed several book chapters. He has served as an associate editor of IEEE Transactions on Circuits and Systems and has served on editorial board of the Journal of Electronic Testing – Theory and Applications and the Journal of Low Power Electronics. He has won the best paper award at IEEE International Conference on VLSI Design (2002) and VLSI Test Symposium (2005). He founded the Bangalore chapter of IEEE CAS society and was its honorary secretary for 15 years, and served as the honorary secretary of VSI for 6 years. He has served on the Execom of IEEE Bangalore Section (2017-2019). He is a Fellow of the INAE and a Senior Member of IEEE.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-20b29b7 elementor-widget elementor-widget-spacer" data-id="20b29b7" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7adc26fe elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="7adc26fe" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1a5a86d" data-id="1a5a86d" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-cf7ca63 elementor-widget elementor-widget-template" data-id="cf7ca63" data-element_type="widget" data-widget_type="template.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-template">
+					<div data-elementor-type="footer" data-elementor-id="897" class="elementor elementor-897" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-0b2cb92 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="0b2cb92" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;animation&quot;:&quot;none&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-f21f3ff" data-id="f21f3ff" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-160e9bd elementor-widget elementor-widget-image" data-id="160e9bd" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img src="../axbdfajskljdf/zwrpcnmqgh/elementor/thumbs/2018-ITC-logo-2-1-975x1024-1-p1e4bnk3si7xug5fpue5mh11a6yw62c4zy3vhlflrc.png" title="2018-ITC-logo-2-1-975&#215;1024.png" alt="2018-ITC-logo-2-1-975x1024.png" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e831061 elementor-shape-circle elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="e831061" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper elementor-grid">
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-c45d446" href="https://www.linkedin.com/company/international-test-conference-india/" target="_blank" rel="noopener">
+						<span class="elementor-screen-only">Linkedin</span>
+						<i class="fab fa-linkedin"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-0267196" href="https://www.facebook.com/ITCTestIndia/" target="_blank" rel="noopener">
+						<span class="elementor-screen-only">Facebook-f</span>
+						<i class="fab fa-facebook-f"></i>					</a>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5bd1cb4" data-id="5bd1cb4" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-371ff90 elementor-widget elementor-widget-heading" data-id="371ff90" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Submissions</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-feadb52 elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="feadb52" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+					<a href="../call-for-papers-2021/index.html">					<span class="elementor-icon-list-text">Call for Papers</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="../call-for-tutorials-2021/index.html">					<span class="elementor-icon-list-text">Call for Tutorials</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="../test-reality-check-track-2021/index.html">					<span class="elementor-icon-list-text">Test Reality Check Track</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="../academia-research-track-2021/index.html">					<span class="elementor-icon-list-text">Academia Research Track</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-d695b03" data-id="d695b03" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2a0e020 elementor-widget elementor-widget-heading" data-id="2a0e020" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Conference</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-abeb58a elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="abeb58a" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+					<a href="../blog-2021/index.html">					<span class="elementor-icon-list-text">Blog</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="../contact-us/index.html">					<span class="elementor-icon-list-text">Contact Us</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-9f5d6a3" data-id="9f5d6a3" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<footer class="elementor-section elementor-top-section elementor-element elementor-element-d55c43e elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="d55c43e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-18ab2e4" data-id="18ab2e4" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b9aa8ee elementor-widget elementor-widget-heading" data-id="b9aa8ee" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">2019 - 2021 © All rights reserved</h3>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-396e813" data-id="396e813" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-8ffe461 elementor-widget elementor-widget-heading" data-id="8ffe461" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default"><a href="https://www.confispace.com/" rel="noopener">Made proudly in India with ❤ by www.ConfiSpace.com</a></h3>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</footer>
+				</div>
+		</div>
+				</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		<!-- Begin Constant Contact Active Forms -->
+<script> var _ctct_m = "0864dd1d121a5795bf1408f6fd1d734f"; </script>
+<script id="signupScript" src="../../static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+<!-- End Constant Contact Active Forms -->
+<link rel="preload" href="../axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/css/fontawesome.min.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'" /><noscript><link rel="stylesheet" href="../axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/css/fontawesome.min.css" media="all" /></noscript><!--[if IE]><link rel="stylesheet" href="https://itctestweekindia.org/axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/css/fontawesome.min.css" media="all" /><![endif]--><link rel="preload" href="../axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/css/brands.min.css" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'" /><noscript><link rel="stylesheet" href="../axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/css/brands.min.css" media="all" /></noscript><!--[if IE]><link rel="stylesheet" href="https://itctestweekindia.org/axbdfajskljdf/kncmvnweruil/elementor/assets/lib/font-awesome/css/brands.min.css" media="all" /><![endif]--><link rel='stylesheet' id='fvm-footer-0-css'  href='../axbdfajskljdf/zwrpcnmqgh/cache/fvm/1633242297/out/footer-e467bed8a3ff1a1b555ec0c835d8014275cb92a4.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/frontend-reset-password/assets/js/password-lost.js' id='som_reset_password_script-js'></script><script type='text/javascript' id='thickbox-js-extra'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/itctestweekindia.org\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-includes/js/thickbox/thickbox.js' id='thickbox-js'></script><script type='text/javascript' id='weurin-qwplo-js-before'>
+window.FPConfig= {
+	delay: 3600,
+	ignoreKeywords: ["\/wp-admin","#\/wp-login.php","\/cart","\/checkout","add-to-cart","logout","#","?",".png",".jpeg",".jpg",".gif",".svg",".webp"],
+	maxRPS: 1,
+    hoverDelay: 0
+};
+</script>
+<script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/weurin-qwplo/weurin-qwplo.min.js' id='weurin-qwplo-js' defer></script><script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/metform/public/assets/js/htm.js' id='htm-js'></script><script type='text/javascript' src='../wp-includes/js/dist/vendor/lodash.min.js' id='lodash-js'></script>
+<script type='text/javascript' id='lodash-js-after'>
+window.lodash = _.noConflict();
+</script><script type='text/javascript' src='../wp-includes/js/dist/vendor/wp-polyfill.min.js' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-fetch.min6e0e.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-node-contains.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-url.min5aed.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-formdata.mine9bd.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-element-closest.min4c56.js?ver=2.0.2"></scr' + 'ipt>' );
+</script><script type='text/javascript' src='../wp-includes/js/dist/vendor/react.min.js' id='react-js'></script><script type='text/javascript' src='../wp-includes/js/dist/vendor/react-dom.min.js' id='react-dom-js'></script><script type='text/javascript' src='../wp-includes/js/dist/escape-html.min.js' id='wp-escape-html-js'></script><script type='text/javascript' src='../wp-includes/js/dist/element.min.js' id='wp-element-js'></script><script type='text/javascript' id='metform-app-js-extra'>
+/* <![CDATA[ */
+var mf = {"postType":"page","restURI":"https:\/\/itctestweekindia.org\/wp-json\/metform\/v1\/forms\/views\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/metform/public/assets/js/app.js' id='metform-app-js'></script><script type='text/javascript' id='kava-theme-script-js-extra'>
+/* <![CDATA[ */
+var kavaConfig = {"toTop":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../axbdfajskljdf/urghbxndf/kava/assets/js/theme-script.js' id='kava-theme-script-js'></script>
+<script type='text/javascript' id='kava-theme-script-js-after'>
+function CxCSSCollector(){"use strict";var t,e=window.CxCollectedCSS;void 0!==e&&((t=document.createElement("style")).setAttribute("title",e.title),t.setAttribute("type",e.type),t.textContent=e.css,document.head.appendChild(t))}CxCSSCollector();
+</script><script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/happy-elementor-addons/assets/vendor/anime/lib/anime.min.js' id='anime-js'></script><script type='text/javascript' id='happy-elementor-addons-js-extra'>
+/* <![CDATA[ */
+var HappyLocalize = {"ajax_url":"https:\/\/itctestweekindia.org\/wp-admin\/admin-ajax.php","nonce":"c4a703c41d"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/happy-elementor-addons/assets/js/happy-addons.min.js' id='happy-elementor-addons-js'></script><script type='text/javascript' src='../wp-includes/js/wp-embed.min.js' id='wp-embed-js'></script><script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js' id='smartmenus-js'></script><script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/elementor/assets/js/frontend-modules.min.js' id='elementor-frontend-modules-js'></script><script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/elementor-pro/assets/lib/sticky/jquery.sticky.min.js' id='elementor-sticky-js'></script><script type='text/javascript' id='elementor-pro-frontend-js-before'>
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/itctestweekindia.org\/wp-admin\/admin-ajax.php","nonce":"ea052b80fb","i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"delicious":{"title":"Delicious"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"weixin":{"title":"WeChat"},"weibo":{"title":"Weibo"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/itctestweekindia.org\/axbdfajskljdf\/kncmvnweruil\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/elementor-pro/assets/js/frontend.min.js' id='elementor-pro-frontend-js'></script><script type='text/javascript' src='../wp-includes/js/jquery/ui/position.min.js' id='jquery-ui-position-js'></script><script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/elementor/assets/lib/dialog/dialog.min.js' id='elementor-dialog-js'></script><script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/elementor/assets/lib/waypoints/waypoints.min.js' id='elementor-waypoints-js'></script><script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/elementor/assets/lib/swiper/swiper.min.js' id='swiper-js'></script><script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/elementor/assets/lib/share-link/share-link.min.js' id='share-link-js'></script><script type='text/javascript' id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.0.12","is_static":false,"legacyMode":{"elementWrappers":true},"urls":{"assets":"https:\/\/itctestweekindia.org\/axbdfajskljdf\/kncmvnweruil\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[],"general":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":1183,"title":"Tutorial%20Program%202021%20-%20International%20Test%20Week%20India%202021","excerpt":"","featuredImage":false}};
+</script>
+<script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/elementor/assets/js/frontend.min.js' id='elementor-frontend-js'></script><script type='text/javascript' id='jet-elements-js-extra'>
+/* <![CDATA[ */
+var jetElements = {"ajaxUrl":"https:\/\/itctestweekindia.org\/wp-admin\/admin-ajax.php","isMobile":"false","templateApiUrl":"https:\/\/itctestweekindia.org\/wp-json\/jet-elements-api\/v1\/elementor-template","devMode":"false","messages":{"invalidMail":"Please specify a valid e-mail"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/jet-elements/assets/js/jet-elements.min.js' id='jet-elements-js'></script><script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/metform/controls/assets/js/form-picker-editor.js' id='metform-js-formpicker-control-editor-js'></script><script type='text/javascript' src='../../cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js' id='gsap-js-js'></script><script type='text/javascript' id='elementor-extras-frontend-js-extra'>
+/* <![CDATA[ */
+var elementorExtrasFrontendConfig = {"urls":{"assets":"https:\/\/itctestweekindia.org\/axbdfajskljdf\/kncmvnweruil\/elementor-extras\/assets\/"},"refreshableWidgets":["ee-offcanvas.classic","ee-popup.classic","gallery-slider.default","media-carousel.default","image-carousel.default","slides.default"]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/elementor-extras/assets/js/frontend.min.js' id='elementor-extras-frontend-js'></script><script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/elementor-extras/assets/lib/parallax-gallery/parallax-gallery.min.js' id='parallax-gallery-js'></script><script type='text/javascript' src='../axbdfajskljdf/kncmvnweruil/elementor-extras/assets/lib/hotips/hotips.min.js' id='hotips-js'></script><script>
+/* loadCSS. [c]2017 Filament Group, Inc. MIT License */
+(function(w){if(!w.loadCSS)w.loadCSS=function(){};var rp=loadCSS.relpreload={};rp.support=function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=false}return function(){return ret}}();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){if(link.addEventListener)link.removeEventListener("load",enableStylesheet);else if(link.attachEvent)link.detachEvent("onload",enableStylesheet);link.setAttribute("onload",null);link.media=finalMedia}if(link.addEventListener)link.addEventListener("load",enableStylesheet);else if(link.attachEvent)link.attachEvent("onload",enableStylesheet);setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3E3)};rp.poly=function(){if(rp.support())return;var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss", true);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener)w.addEventListener("load",function(){rp.poly();w.clearInterval(run)});else if(w.attachEvent)w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}if(typeof exports!=="undefined")exports.loadCSS=loadCSS;else w.loadCSS=loadCSS})(typeof global!=="undefined"?global:this);
+</script>	</body>
+
+<!-- Mirrored from itctestweekindia.org/tutorial-program-2021/?swcfpc=1 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Nov 2021 04:44:27 GMT -->
+</html>
