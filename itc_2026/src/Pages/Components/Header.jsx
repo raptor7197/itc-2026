@@ -63,9 +63,9 @@ export default function Example() {
   </Link>
           <div className=" flex flex-col gap-4 ml-8 md:ml-12">
             <div className="text-white text-center md:text-start text-[6vw]  pt-5 md:text-[2.5vw] md:leading-[5vw] lg:text-[2vw] font-bold" style={{fontFamily:'"Poppins", arial'}}>10 <sup>th</sup> IEEE International Test Conference India 2026</div>
-          <div className="flex flex-row justify-center md:justify-start text-white md:gap-16 gap-8  text-4xl" style={{fontFamily:'"Poppins", arial'}}>
+          {/* <div className="flex flex-row justify-center md:justify-start text-white md:gap-16 gap-8  text-4xl" style={{fontFamily:'"Poppins", arial'}}>
             <Link to="https://maps.app.goo.gl/Su9eU1hLBaaRZcKEA" className=" p-[1vw] px-[2vw] text-center font-bold text-[2.1vw] md:text-[1vw]" style={{borderRadius:'20px', backgroundColor:'rgba(200, 219, 254, 50%)'}}>RADISSON BLU, MARATHAHALLI , BENGALURU</Link>
-            </div>
+            </div> */}
             </div>
         </div>
     <header className="bg-blue-950 bg-opacity-60 ml-1 mr-1 mt-2 backdrop-brightness-50 z-[1000]" style={{borderRadius:'20px', fontFamily:'"Poppins",arial'}}>
