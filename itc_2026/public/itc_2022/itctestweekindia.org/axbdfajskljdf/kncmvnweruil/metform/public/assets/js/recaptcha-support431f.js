@@ -1,0 +1,1 @@
+jQuery((function(t){"use strict";t(document).on("elementor/popup/show",(function(){jQuery.getScript("../../google.com/recaptcha/api.js")}))}));
