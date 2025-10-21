@@ -69,7 +69,7 @@ function App() {
               </SheetTitle>
               <SheetDescription className="text-white">
                 <Accordion type="single" collapsible className="w-full mt-4">
-                  <AccordionItem value="item-1">
+                  {/* <AccordionItem value="item-1">
                     <AccordionTrigger className="text-2xl">
                       Conference
                     </AccordionTrigger>
@@ -165,7 +165,7 @@ function App() {
                         </li>
                       </ul>
                     </AccordionContent>
-                  </AccordionItem>
+                  </AccordionItem> */}
                   <AccordionItem value="item-4">
                     <AccordionTrigger className="text-2xl">
                       ITC Archives
