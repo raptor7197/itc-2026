@@ -7,7 +7,7 @@
 
 ## 🎯 Overview
 
-The official website for **IEEE International Test Conference (ITC) India 2025**, scheduled for **July 20-22, 2025**. This modern, responsive web application serves as the central hub for conference information, registration, submissions, and attendee resources.
+The official website for **IEEE International Test Conference (ITC) India 2026**, scheduled for **July 19-21, 2026**. This modern, responsive web application serves as the central hub for conference information, registration, submissions, and attendee resources.
 
 
 ### Installation
@@ -107,10 +107,10 @@ ITCWeb/
 ## 📅 Conference Information
 
 ### Event Details
-- **Conference Name**: IEEE International Test Conference (ITC) India 2025
-- **Dates**: July 20-22, 2025
+- **Conference Name**: IEEE International Test Conference (ITC) India 2026
+- **Dates**: July 19-21, 2025
 - **Location**: India
-- **Theme**: Test Week India 2025
+- **Theme**: Test Week India 2026
 
 ### Key Tracks
 1. **Conference Papers**: Technical paper presentations
@@ -161,4 +161,4 @@ npm run build
 
 
 
-**© 2025 IEEE International Test Conference India. All rights reserved.**
+**© 2026 IEEE International Test Conference India. All rights reserved.**
