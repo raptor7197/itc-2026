@@ -1,0 +1,236 @@
+.woo-vou-check-ticket-code-loader {
+	display: none;
+}
+.woo-vou-loader-wrap {
+	display: none;
+}
+.woo-vou-ticket-code-msg {
+	margin-top: 5px;
+}
+.woo-vou-ticket-code-error {
+	color: #FF0000;
+}
+.woo-vou-ticket-code-success {
+	color: #00AA00;
+}
+.woo-vou-ticket-code-submit-wrap {
+	display: none;
+}
+.woo_vou_product_details{
+	color: #000;
+	margin-top: 15px;
+}
+.woo_vou_product_details h2 {
+  line-height: 29px;  
+}
+.woo_vou_product_details .alt, .woo_vou_product_details .alternate {
+  background-color: #f9f9f9;
+}
+.woo_vou_product_details table.ngyshopping_order_items th, .woo_vou_product_details table.ngyshopping_order_items thead th {
+  padding: 7px !important;  
+  vertical-align: middle !important;   
+}
+.woo_vou_product_details table.ngyshopping_order_items td {
+  margin-bottom: 9px;
+  padding: 7px !important;
+  vertical-align: top !important;
+}
+.woo_vou_product_details table.woo-vou-buyer-info-table td {
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+}
+.woo_vou_product_details table.ngyshopping_order_items thead th {
+  background: none repeat scroll 0 0 #f8f8f8;  
+}
+.woo_vou_product_details table.display_meta th {
+  padding: 7px 0 !important;
+}
+.woo_vou_product_details table.display_meta p {
+  margin: 0;
+}
+.woo_vou_product_details table{
+  border: none;
+}
+
+/*************** Check Ticket Code New CSS Start ****************/
+.woo_pdf_vou_main {
+    float: left;
+    width: 100%;
+}
+.woo_pdf_vou_tit,
+.woo_pdf_pro_tit {
+    float: left;
+    width: 98.5%;
+    background: #f8f8f8 none repeat scroll 0 0;
+    font-weight: bold;
+    padding: 10px;
+}
+.woo_pdf_vou_pro_lst {
+    float: left;
+    padding: 10px;
+    width: 98.5%;
+    margin-bottom: 35px;
+}
+.woo_vou_padding {
+    padding: 0 3px;
+}
+.woo-vou-check-code .col-1 {
+    float: none;
+    width: 98%;
+    clear: both;
+    word-wrap: break-word;
+}
+.woo-vou-check-code .col-2 {
+    float: left;
+    width: 48%;
+    word-wrap: break-word;
+}
+.woo-vou-check-code .col-3 {
+    float: left;
+    width: 31.33%;
+    word-wrap: break-word;
+}
+.woo-vou-check-code .col-4 {
+    float: left;
+    width: 23%;
+    word-wrap: break-word;
+}
+.woo-vou-check-code .col-5 {
+    float: left;
+    width: 18%;
+    word-wrap: break-word;
+}
+.woo-vou-check-code .col-6 {
+    float: left;
+    width: 14.66%;
+    word-wrap: break-word;
+}
+.woo-vou-check-code .col-7 {
+    float: left;
+    width: 12.28%;
+    word-wrap: break-word;
+}
+.woo-vou-check-code .col-8 {
+    float: left;
+    width: 10.5%;
+    word-wrap: break-word;
+}
+.woo_pdf_res_order {
+    display: none;
+    font-weight: bold;
+    float: left;
+    width: auto;
+}
+.woo_pdf_res_buyer {
+    display: none;
+    font-weight: bold;
+    float: left;
+    width: auto;
+}
+.woo_pdf_res_vou {
+    display: none;
+    font-weight: bold;
+    float: left;
+    width: auto;
+}
+.woo_pdf_val {
+    float: left;
+}
+.woo-vou-partial-redeem-amount {
+	display: none;
+}
+.woo-vou-margin-bottom-0 {
+	margin-bottom: 0px;
+}
+@media only screen and (max-device-width: 1024px) {
+    .woo_pdf_vou_tit {
+        display: none;
+    }
+    .woo_pdf_res_order {
+        display: block;
+        margin: 0px 10px;
+    }
+    .woo_pdf_res_buyer {
+        display: block;
+        margin: 0px 10px;
+    }
+    .woo-vou-check-code .col-8,
+    .woo-vou-check-code .col-7,
+    .woo-vou-check-code .col-6,
+    .woo-vou-check-code .col-5 {
+        width: 100%;
+    }
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 639px) {
+    .woo_pdf_pro_tit {
+        display: none;
+    }
+    .woo_pdf_res_vou {
+        display: block;
+        margin: 0px 10px;
+    }
+    .woo-vou-check-code .col-4,
+    .woo-vou-check-code .col-3,
+    .woo-vou-check-code .col-2 {
+        width: 100%;
+    }
+}
+@media only screen and (max-device-width: 479px) {
+    .woo_pdf_vou_tit,
+    .woo_pdf_pro_tit {
+        display: none;
+    }
+    .woo_pdf_res_vou {
+        display: block;
+        width: 100%
+    }
+    .col-2 {
+        width: 100%;
+    }
+}
+/*************** Check Ticket Code New CSS End ****************/
+
+#ui-datepicker-div{
+	width:14em;
+}
+#woo_vou_start_date, #woo_vou_end_date{
+	width:14.83em;
+}
+.woo_vou_multi_select{
+	width:250px !important;
+}
+#woo_vou_end_date{
+	margin-right:6px;
+}
+.tablenav .actions{
+	padding:0px !important;
+}
+.woo-vou-dropdown-wrapper .woo-vou-clear-filter {
+    display: inline-block !important;
+    margin: auto !important;
+}
+.woo_vou_product_details .woo_pdf_val > span {
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+.woo-vou-recipient-email-content .woo-vou-popup table.form-table input[type="text"] {
+	width: 100%;
+}
+.woo-vou-recipient-email-content .woo-vou-popup table.form-table tr:last-child td:last-child {
+	float: right;
+}
+.woo-vou-popup-content.woo-vou-recipient-email-content .woo-vou-recipient-email-message{
+	display:none;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding:5px;
+}
+.woo-vou-popup-content.woo-vou-recipient-email-content .woo-vou-recipient-email-errors{
+	background-color: #FFEBE8;
+    border-color: #CC0000;
+}
+.woo-vou-popup-content.woo-vou-recipient-email-content .woo-vou-recipient-email-success {
+	background-color: #ebffe8;
+	border-color: #00cc00;
+}

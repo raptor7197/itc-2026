@@ -1,0 +1,967 @@
+/* css for check code shortcode */
+.woo-vou-fields-wrapper {
+  display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+}
+.vou-clearfix::before {
+  clear: both;
+  content: "";
+  display: table;
+}
+.vou-clearfix::after {
+  clear: both;
+  content: "";
+}
+.woo-vou-check-code{
+	border : 1px solid #EDEDED !important;
+}
+.woo-vou-check-code td{
+	border-top : none !important;
+	padding: 10px 10px 10px 0 !important;
+}
+.woo-vou-check-code label{
+	padding-left : 10px;
+}
+.woo-vou-check-code{
+	padding-left : 10px;
+}
+.woo-vou-check-code th{
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  padding: 20px 10px 20px 0 !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  width: 120px !important;
+  text-transform: none !important;
+}
+
+
+tr.woo-vou-used-codes-row-body td, tr.woo-vou-unused-codes-row-body td, tr.woo-vou-purchased-codes-row-body td {
+  width: 10%;
+  word-break: break-all;
+}
+
+@media only screen and (max-width: 769px) {
+.woo-vou-check-code th {
+  border-bottom: 0 none;
+  padding-bottom: 0;
+  padding-top: 10px;
+}
+.woo-vou-check-code td, .woo-vou-check-code th {
+  display: block;
+  vertical-align: middle;
+  width: auto;
+}
+.woo-vou-check-code td input[type="text"]{
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: none;
+  padding: 7px 10px;
+  width: 92%;
+}
+}
+/* css for check code shortcode end */
+.woo-vou-recipient-fields td{
+	padding: 3px;
+}
+.woo-vou-fields-wrapper-variation{
+  display: none;
+}
+
+
+/*************** Recipient CSS *************/
+.woo-vou-recipient-fields {
+	width: 100%;
+}
+.woo-vou-recipient-fields {
+    margin-bottom: 1em;
+}
+.woo-vou-recipient-fields label {
+    font-weight: bold;
+}
+.woo-vou-recipient-fields input[type="text"], .woo-vou-recipient-fields textarea,
+.woo-vou-recipient-fields input[type="date"] {
+    float: none;
+    width: calc(100% - 15px);
+    width: -webkit-calc(100% - 15px);
+}
+.woo-vou-recipient-fields td.value span {
+	display: block;
+	width: 100%;
+    clear: both;
+}
+table.woo-vou-recipient-delivery-method tbody {
+	width: 100%;
+}
+table.woo-vou-recipient-delivery-method tbody tr.woo-vou-delivery-method-wrapper input {
+    margin-right: 5px;
+}
+.woo-vou-fields-wrapper {
+	clear:both;
+}
+.woo-vou-recipient-fields td.label {
+    padding-right: 1em;
+}
+.woo-vou-recipient-fields td {
+    padding-bottom: 8px;
+    vertical-align: top;
+}
+#woo-vou-ticket-recipient-details .woo-vou-recipient-value-edit:not(:last-child) input,
+#woo-vou-ticket-recipient-details .woo-vou-recipient-value-edit textarea{
+	width: 95%;
+	margin: 0;
+	padding: 0 5px;
+	line-height: 2;
+}
+table.woo-vou-recipient-value-edit td {
+	border: none;
+}
+.woo-vou-recipient-fields .ticket-image-option {
+    float: left;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+}
+.woo-vou-recipient-fields .ticket-image-option img {
+    display: block;
+    width: 100px;
+}
+.woo-vou-recipient-fields-wrapper-variation {
+    display: none;
+}
+.woo-vou-edit-history-table .woo-vou-recipient-error {
+	padding:4px 0;
+	display: none;
+	color: red;
+}
+.woo-vou-recipient-invalid-giftdate-err-message {
+	color: red;
+}
+.woo-vou-recipient-delivery-method {
+	border: 1px solid #f1f1f1 !important;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+	margin-bottom: 25px;
+	padding: 20px;
+	width: 100%;
+}
+.woo-vou-recipient-delivery-method tr:not(:first-child){
+	display: none;
+}
+.woo-vou-recipient-fields .woo-vou-recipient-delivery-method tr>td {
+	padding: 15px !important;
+}
+table.woo-vou-recipient-fields td.label {
+	width: 40%;
+}
+
+/*************** Expired/Upcoming Product CSS ****************/
+.woo-vou-product-expired {
+	color: #ff0000;
+    font-size: 30px;
+    opacity: 0.7;
+    position: absolute;
+    transform: rotate(-45deg);
+ 	z-index: 9999;
+}
+
+/*************** Ticket Selection CSS Start ****************/
+.woo-vou-preview-template-img-wrap{
+	max-height: 140px;
+    overflow: auto;
+    padding: 5px;
+    width: 100%;
+}
+.woo-vou-preview-template-img-wrap img {
+	display: inline-block;
+}
+.woo-vou-preview-template-img{
+	height:60px !important;
+	cursor:pointer;
+	border:solid 2px #fff;
+	padding:1px;
+}
+.woo-vou-preview-template-img-border{
+	border: 2px solid rgba(81, 203, 238, 1);
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+._woo_vou_preview_cart_img{
+	width:50px !important;
+	height:50px !important;
+	cursor:pointer;
+}
+/*************** Ticket Selection CSS End ****************/
+/*************** Custom CSS for Used Ticket Code Listing Table Start ****************/
+tr.woo-vou-used-codes-table-row-head, tr.woo-vou-used-codes-row-foot,
+tr.woo-vou-unused-codes-table-row-head, tr.woo-vou-unused-codes-row-foot,
+tr.woo-vou-purchased-codes-table-row-head, tr.woo-vou-purchased-codes-row-foot{
+	background-color:#F5F5F5;
+}
+table.woo-vou-used-codes-table, table.woo-vou-unused-codes-table, table.woo-vou-purchased-codes-table{
+	width:100%;
+}
+.woo-vou-used-codes-table th, .woo-vou-unused-codes-table th, .woo-vou-purchased-codes-table th{
+	padding:8px 0px;
+}
+.woo-vou-used-codes-table td, .woo-vou-used-codes-table th,
+.woo-vou-unused-codes-table td, .woo-vou-unused-codes-table th,
+.woo-vou-purchased-codes-table td, .woo-vou-purchased-codes-table th{
+	vertical-align: middle;
+}
+tr.woo-vou-used-codes-row-body td, tr.woo-vou-unused-codes-row-body td, tr.woo-vou-purchased-codes-row-body td{
+	vertical-align: top;
+	text-align: justify;
+}
+.woo-vou-clear {
+	clear: both;
+}
+.woo-vou-no-record-message{
+	background-color: white;
+ 	margin-top: 40px;
+ 	clear: both;
+ 	padding: 9px 9px !important;
+}
+tr.woo-vou-used-codes-row-body table, tr.woo-vou-used-codes-row-body table td,
+tr.woo-vou-unused-codes-row-body table, tr.woo-vou-unused-codes-row-body table td,
+tr.woo-vou-purchased-codes-row-body table, tr.woo-vou-purchased-codes-row-body table td {
+	border: none !important;
+}
+td.woo-vou-used-code-list-codes, td.woo-vou-unused-code-list-codes, td.woo-vou-purchased-code-list-codes{
+	padding-top: 12px !important;
+	font-weight: bold;
+}
+
+.woo-vou-used-codes-table.wp-list-table.fixed.widefat th.sortable,
+.woo-vou-unused-codes-table.wp-list-table.fixed.widefat th.sortable,
+.woo-vou-purchased-codes-table.wp-list-table.fixed.widefat th.sortable, .widefat th.sorted {
+  padding: 6px 10px;
+}
+.product_info.column-product_info {
+  padding: 4px 5px;
+}
+
+.woo-vou-used-code-list-codes.code.column-code.has-row-actions.column-primary,
+.woo-vou-unused-code-list-codes.code.column-code.has-row-actions.column-primary,
+.woo-vou-purchased-code-list-codes.code.column-code.has-row-actions.column-primary {
+  padding-left: 10px;
+}
+
+
+.product_info.column-product_info td {
+  text-align: left;
+}
+
+.woo-vou-used-codes-table td, .woo-vou-used-codes-table th,
+.woo-vou-unused-codes-table td, .woo-vou-unused-codes-table th,
+.woo-vou-purchased-codes-table td, .woo-vou-purchased-codes-table th {
+  color: #555555 !important;
+}
+
+.woo-vou-used-codes-table td, .woo-vou-used-codes-table td ol, .woo-vou-used-codes-table td p, .woo-vou-used-codes-table td ul,
+.woo-vou-unused-codes-table td, .woo-vou-unused-codes-table td ol, .woo-vou-unused-codes-table td p, .woo-vou-unused-codes-table td ul,
+.woo-vou-purchased-codes-table td, .woo-vou-purchased-codes-table td ol, .woo-vou-purchased-codes-table td p, .woo-vou-purchased-codes-table td ul {
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+.woo-vou-used-code-list-codes.code.column-code.has-row-actions.column-primary,
+.woo-vou-unused-code-list-codes.code.column-code.has-row-actions.column-primary,
+.woo-vou-purchased-code-list-codes.code.column-code.has-row-actions.column-primary {
+  font-size: 11px;
+}
+
+.woo-vou-btn-front{
+	background: #f7f7f7 none repeat scroll 0 0 !important;
+    border-color: #ccc !important;
+    box-shadow: 0 1px 0 #ccc !important;
+    color: #555 !important;
+    vertical-align: top !important;
+    border-radius: 3px !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-size: 13px !important;
+    height: 28px !important;
+    line-height: 26px !important;
+    margin: 0 !important;
+    padding: 0 10px 1px !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    margin-bottom: 15px !important;
+}
+.woo-vou-apply-btn{
+	margin-top: -1px;
+}
+.woo-vou-grnpdf-btn, .woo-vou-grncsv-btn{
+	float: right;
+	margin: 0px 0px 15px 9px !important;
+}
+.woo_vou_multi_select{
+	line-height: 2.2em;
+    width: 220px !important;
+}
+.select2-container{
+	display: inline-block !important;
+}
+
+@media only screen and (max-width: 950px) {
+.woo-vou-grnpdf-btn {
+  float: left;
+  margin-top: 0 !important;
+}
+}
+
+@media only screen and (max-width: 781px) {
+
+.woo-vou-used-codes-row-foot .no-rs-th, .woo-vou-unused-codes-row-foot .no-rs-th {
+  display: none;
+}
+
+.woo-vou-used-codes-row-foot .rs-th, .woo-vou-unused-codes-row-foot .rs-th {
+  padding-left: 10px !important;
+  text-align: left;
+}
+
+
+
+.product_info.column-product_info td {
+  padding: 2px 10px;
+}
+.woo-vou-grnpdf-btn{
+	margin-top: 0px !important;
+	display: inline-block;
+	float: left;
+}
+.woo-vou-apply-btn{
+	display: inline-block;
+}
+form.search-form input{
+	display: inline-block;
+}
+}
+
+@media only screen and (max-width: 500px) {
+
+ .woo-vou-used-codes-row-foot .no-rs-th, .woo-vou-unused-codes-row-foot .no-rs-th {
+  display: none;
+}
+
+.woo-vou-used-codes-row-foot .rs-th, .woo-vou-unused-codes-row-foot .rs-th {
+  padding-left: 10px !important;
+  text-align: left;
+}
+
+.product_info.column-product_info td {
+  padding: 2px 10px;
+}
+.woo-vou-grnpdf-btn{
+	margin-top: 0px !important;
+	display: inline-block;
+	float: left;
+}
+.woo-vou-apply-btn{
+	display: inline-block;
+}
+form.search-form input{
+	display: inline-block;
+}
+form.search-form .woo-vou-meta-datetime {
+  margin-bottom: 15px;
+  width: 100%;
+}
+}
+
+/*********************** Custom CSS for Used Ticket Code Listing Table END ************************/
+/************************************** Pagination CSS Start *****************************************/
+.woo-vou-paging {
+	clear: both;
+	margin-top: 10px;
+    text-align: center;
+}
+.woo-vou-paging .woo-vou-tablenav-pages {
+    color: #636363;
+}
+.woo-vou-paging .woo-vou-tablenav-pages .dots {
+	color: #636363 !important;
+	font-weight: bold !important;
+}
+.woo-vou-paging .woo-vou-tablenav-pages {
+    cursor: default;
+    display: block;
+    line-height: 10px;
+}
+.woo-vou-paging .woo-vou-tablenav-pages a, .woo-vou-tablenav-pages span.disabled {
+	color: #636363 !important;
+	background-color: #F5F5F5;
+}
+.woo-vou-paging .woo-vou-tablenav-pages  a,
+.woo-vou-tablenav-pages span.current, .woo-vou-tablenav-pages span.disabled{
+    padding: 3px 6px;
+    text-decoration: none;
+    margin: 0px 2.5px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px 0px #CCCCCC;
+    background: linear-gradient(to bottom, #f9f9f9 0%,#efefef 44%,#e7e7e7 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
+}
+.woo-vou-paging .woo-vou-tablenav-pages .current {
+    font-weight: bold;
+    background-color:#F5F5F5;
+}
+.woo-vou-tablenav-pages a {
+    font-weight: normal;
+    padding: 0px 2px;
+}
+.woo-vou-used-codes-loader, .woo-vou-unused-codes-loader, .woo-vou-purchased-codes-loader {
+	line-height: 31px;
+	display: none;
+	margin-top: 10px;
+    text-align: center;
+}
+.woo-vou-paging .woo-vou-tablenav-pages a:hover,
+.woo-vou-tablenav-pages span.current:hover,
+.woo-vou-tablenav-pages span.disabled:hover {
+    background: #e7e7e7;
+}
+
+
+.woo-vou-used-codes-table, .woo-vou-unused-codes-table, .woo-vou-purchased-codes-table {
+	border: 1px solid #e5e5e5;
+}
+
+.woo-vou-used-codes-table > tbody > *:nth-child(2n+1), ul.striped > *:nth-child(2n+1),
+.woo-vou-unused-codes-table > tbody > *:nth-child(2n+1), ul.striped > *:nth-child(2n+1),
+.woo-vou-purchased-codes-table > tbody > *:nth-child(2n+1), ul.striped > *:nth-child(2n+1) {
+    background-color: #f9f9f9;
+}
+/************************************** Pagination CSS End *****************************************/
+
+.woo-vou-gift-field-required {
+	color: red;
+}
+.woo-vou-history-value-row-edit .ticket-submit-td {
+  text-align: right;
+}
+#woo-vou-ticket-recipient-details a.edit_recipient_details,
+#woo-vou-ticket-details a.edit_history_details,
+ #woo-vou-ticket-extra-note a.edit_extra_note {
+  border: 0 none;
+  color: #999;
+  float: right;
+  margin: 0 0 0 6px;
+  padding: 0 25px 0;
+  position: relative;
+  font-size: 11px;
+}
+.widefat td {
+  vertical-align: top;
+}
+.widefat td, .widefat th {
+  padding: 8px 10px !important;
+}
+#woo-vou-ticket-recipient-details a.edit_recipient_details::after,
+#woo-vou-ticket-details a.edit_history_details::after,
+ #woo-vou-ticket-extra-note a.edit_extra_note::after {
+    font-family: NgyShopping;
+    font-size: 14px;
+    font-weight: 400;
+    right: 0;
+    line-height: 14px;
+    position: absolute;
+    text-align: center;
+    top: 2px;
+    vertical-align: top;
+}
+#woo-vou-ticket-recipient-details a.edit_recipient_details::after,
+#woo-vou-ticket-details a.edit_history_details::after,
+ #woo-vou-ticket-extra-note a.edit_extra_note::after {
+    content: "\f464";
+    font-family: Dashicons;
+}
+.ngyshopping-help-tip {
+    color: #666;
+    display: inline-block;
+    font-size: 1.1em;
+    font-style: normal;
+    height: 16px;
+    line-height: 16px;
+    position: relative;
+    vertical-align: middle;
+    width: 16px;
+}
+.ngyshopping-help-tip::after {
+    font-family: Dashicons;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "";
+    cursor: help;
+}
+#tiptip_holder.tip_bottom {
+    padding-top: 5px;
+}
+#tiptip_holder {
+    display: none;
+    z-index: 8675309;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#tiptip_arrow, #tiptip_arrow_inner {
+    position: absolute;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 6px;
+    height: 0;
+    width: 0;
+}
+#tiptip_content {
+    color: #fff;
+    font-size: .8em;
+    max-width: 150px;
+    background: #333;
+    text-align: center;
+    border-radius: 3px;
+    padding: .618em 1em;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+    margin-top: -5px;
+    margin-left: -6px;
+    border-bottom-color: #333;
+}
+/*********************** Custom CSS for Ticket Code Details Page START ************************/
+.postbox {
+    min-width: 255px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-bottom: 20px;
+    padding: 0;
+    line-height: 1;
+}
+.metabox-holder h2.hndle{
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+}
+.postbox .inside {
+    padding: 0 12px 12px;
+    line-height: 1.4em;
+    font-size: 13px;
+    overflow-x: auto;
+}
+.postbox table.widefat {
+    box-shadow: none;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-spacing: 0;
+    width: 100%;
+    clear: both;
+    margin: 0;
+    display: block;
+    min-width: 800px;
+}
+.postbox table.widefat td, .postbox table.widefat th {
+    color: #555;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.3em;
+    font-size: 14px;
+    padding: 8px 10px;
+    word-wrap: break-word;
+}
+.postbox table.widefat th
+{
+  text-transform: capitalize;
+  width: 10%;
+}
+.postbox table.widefat td
+{
+  width: 10%;
+}
+.widefat a, .widefat button.button-link {
+    text-decoration: none;
+    color: #0073aa !important;
+}
+.postbox table.widefat textarea, .postbox table.widefat input[type="text"], .postbox table.widefat input[type="email"] {
+  padding: 2px 6px;
+  line-height: 1.4;
+  resize: vertical;
+  width: calc(100% - 20px);
+  margin: 0;
+}
+.postbox table.widefat textarea:focus, .postbox table.widefat input[type="text"]:focus, .postbox table.widefat input[type="email"]:focus {
+    border-color: #5b9dd9;
+    box-shadow: 0 0 2px rgba(30,140,190,.8);
+}
+
+.postbox table.widefat .button, .postbox table.widefat .button-secondary {
+    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+}
+.postbox table.widefat .button-primary {
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+.postbox table.widefat .woo-vou-ticket-detail-msg {
+  padding: 0 0 10px 0;
+}
+.postbox table.widefat .ticket-submit-td {
+  text-align: right;
+}
+.woo-vou-ticket-detail-msg {
+  padding-bottom: 10px;
+}
+.woo-vou-vou-code-partial-used {
+	color: #fff;
+    background-color: #2196F3;
+    border: 1px solid #1470b9;
+    text-align: center;
+    padding: 5px 0;
+    margin: 10px 0px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 11px;
+}
+.woo-vou-vou-code-partial-used:hover {
+    background-color: #4eaffd;
+    border: 1px solid #4eaffd;
+}
+.woo-vou-site-url-error {
+	color: #f90000;
+}
+/*********************** Custom CSS for Ticket Code Details Page END ************************/
+
+/*********************** Custom CSS for Send Recipient Email Popup starts ************************/
+.woo-vou-popup-content.woo-vou-expiry-date-content .woo-vou-popup,
+.woo-vou-popup-content.woo-vou-recipient-email-content .woo-vou-popup {
+  	height: auto;
+}
+.woo-vou-popup-content.woo-vou-preview-pdf-content .woo-vou-popup {
+	height: inherit;
+}
+.woo-vou-popup-content.woo-vou-preview-pdf-content .woo-vou-popup .woo-vou-preview-pdf-iframe {
+	width: 100%;
+}
+.woo-vou-popup-content.woo-vou-expiry-date-content {
+	width: 600px;
+	left: 27%;
+	position: fixed;
+	top: 50px;
+}
+.woo-vou-popup-content.woo-vou-recipient-email-content,
+.woo-vou-popup-content.woo-vou-preview-pdf-content {
+	width: 600px;
+	left: 27%;
+	position: fixed;
+	top: 50px;
+	box-shadow: 0 4px 30px #000000;
+	background: #fff;
+	display: none;
+	z-index: 999999;
+}
+.woo-vou-popup-content.woo-vou-preview-pdf-content {
+	width: 900px;
+	height: 80%;
+	left: 17%;
+}
+.woo-vou-popup-content.woo-vou-expiry-date-content .woo-vou-popup .woo-vou-change-exp-datetime {
+  	width:auto;
+}
+.woo-vou-popup-content.woo-vou-expiry-date-content .woo-vou-expiry-errors,
+.woo-vou-popup-content.woo-vou-expiry-date-content .woo-vou-recipient-email-errors{
+	display:none;
+	background-color: #FFEBE8;
+    border-color: #CC0000;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding:5px;
+}
+.woo-vou-popup-content.woo-vou-expiry-date-content .woo-vou-expiry-errors.woo-vou-expiry-success,
+.woo-vou-popup-content.woo-vou-expiry-date-content .woo-vou-recipient-email-success {
+	background-color: #ebffe8;
+	border-color: #00cc00;
+}
+.woo-vou-recipient-email-content .woo-vou-popup table.form-table input[type="text"] {
+	width: calc(100% - 15px);width: -webkit-calc(100% - 15px);
+}
+.woo-vou-recipient-email-content .woo-vou-popup table.form-table tr:last-child td:last-child {
+	float: right;
+}
+.woo-vou-popup-content.woo-vou-recipient-email-content .woo-vou-recipient-email-message{
+	display:none;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding:5px;
+}
+.woo-vou-popup-content.woo-vou-recipient-email-content .woo-vou-recipient-email-errors{
+	background-color: #FFEBE8;
+    border-color: #CC0000;
+}
+.woo-vou-popup-content.woo-vou-recipient-email-content .woo-vou-recipient-email-success {
+	background-color: #ebffe8;
+	border-color: #00cc00;
+}
+.woo-vou-popup-content .description {
+	margin-left: 0px !important
+}
+.woo-vou-popup-content .description small {
+	margin-left: 5px;
+}
+.woo-vou-popup-overlay {
+	display: none;
+	background-color: #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+.woo-vou-header-title {
+    float: left;
+    padding: 6px 10px 0;
+}
+.woo-vou-popup-close {
+ 	float: right;
+    padding: 6px 10px 0;
+    text-align: right;
+}
+.woo-vou-header {
+    background-color: #0085ba;
+    color: #fff;
+    height: 35px;
+    position: relative;
+    width: 100%;
+}
+.woo-vou-popup table.form-table th {
+	font-weight:bold;
+	padding:7px !important;
+	font-family:verdana !important;
+	font-size:13px !important;
+}
+.woo-vou-popup table.form-table td {
+	padding: 3px 10px !important;
+}
+.woo-vou-popup table.form-table {
+	margin-bottom: 10px;
+}
+.woo-vou-popup.used-codes table.form-table td,
+.woo-vou-popup.used-codes table.form-table th {
+	padding:3px 10px !important;
+	border:1px solid #000000 !important;
+}
+.woo-vou-popup.used-codes table.form-table {
+	border:1px solid #000000;
+}
+.woo-vou-popup table.form-table {
+	width: 100% !important;
+	font-family:verdana !important;
+}
+.woo-vou-popup table.form-table input[type="text"], .woo-vou-popup table.form-table select {
+	width: 100px;
+}
+
+.woo-vou-ticket-gift-notification-table, .woo-vou-ticket-gift-notification-table td {
+	border: none !important;
+}
+
+.woo-vou-popup-content.woo-vou-recipient-email-content .woo-vou-popup {
+	padding: 25px;
+	position: relative;
+}
+.woo-vou-send-gift-notification-email{
+	color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+}
+.woo-vou-loader-wrap{position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+.woo-vou-loader-wrap .woo-vou-loader{
+	    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: -8px auto 0;
+}
+.woo-vou-loader-wrap {
+	display: none;
+}
+table.woo-vou-ticket-gift-notification-table .woo-vou-send-gift-notification-email {
+	background: #0085ba;
+	color: #fff;
+	border: none;
+}
+table.woo-vou-ticket-gift-notification-table .woo-vou-send-gift-notification-email:hover,
+table.woo-vou-ticket-gift-notification-table .woo-vou-send-gift-notification-email:focus {
+	background: #0085ba;
+	color: #fff;
+	border: none;
+}
+
+/* new css */
+.woo-vou-preview-pdf-content .woo-vou-popup{line-height: 0;}
+.woo-vou-preview-pdf-content .woo-vou-preview-pdf-iframe{min-height: 80vh;outline: 3px solid #0085ba;outline-offset: -3px;}
+.woo-vou-preview-pdf-content .woo-vou-header-title{padding: 10px 10px 0;font-size: 14px;line-height: 16px;}
+.woo-vou-preview-pdf-content .woo-vou-popup-close{padding: 10px 10px 0;}
+img.woo-vou-preview-loader {
+	display: none;
+}
+.woo-vou-preview-pdf-wrap .woo_vou_preview_pdf {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.woo-vou-table-filter-wrap{display: inline-block;vertical-align: top}
+.woo-vou-table-filter-wrap > input{background-color: #fff !important;border: 1px solid #aaa !important;
+	border-radius: 4px !important;color: #444 !important;line-height: 28px !important;height: 28px !important;
+	padding: 0 10px !important;font-size: 14px !important;margin-bottom: 10px !important;}
+.woo-vou-table-filter-wrap > input[type="checkbox"]{margin-left: 10px !important;}
+.woo-vou-table-filter-wrap select + span{margin-bottom: 10px;}
+.woo-vou-table-filter-wrap .woo-vou-partial-used-voucode-label-style,
+.woo-vou-table-filter-wrap .woo-vou-partial-used-voucode-label-style,
+.woo-vou-table-filter-wrap .woo-vou-partial-used-voucode-label-style{color: #444 !important;line-height: 30px !important;height: 30px !important;
+	padding: 0 10px !important;font-size: 14px !important;vertical-align: top !important;}
+table td.order-deleted-column{
+    text-align: center;
+    font-weight: bold;
+    color: #e62525 !important;
+    vertical-align: middle;
+}
+
+
+@media (max-width:767px) {
+    .woo-vou-check-code .col-3 {
+        float: left;
+        width: 29%;
+        padding: 0 5px;
+    }
+    .woo-vou-check-code .col-4 {
+      width: 46% !important;
+      padding: 0 5px;
+    }
+    .woo_pdf_res_buyer,
+    .woo_pdf_res_order {
+        margin: 0px 10px 0 0 !important;
+    }
+    .inside {
+      overflow: scroll;
+    }
+    .woo-vou-popup-content.woo-vou-preview-pdf-content {
+      width: 90%;
+      height: 80%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .woo-vou-preview-pdf-content .woo-vou-preview-pdf-iframe {
+      min-height: 100%;
+      outline: 0 !important;
+      outline-offset: 0 !important;
+      height: 100%;
+  }
+  .woo-vou-popup-content.woo-vou-preview-pdf-content .woo-vou-popup {
+      height: 100%;
+      outline: 3px solid #0085ba;
+      outline-offset: -3px;
+  }
+  .woo-vou-popup-content .woo-vou-header {
+    position: absolute;
+  }
+  .woo_pdf_vou_pro_lst .woo_pdf_res_vou{
+        float: unset !important;
+        margin:0 !important;
+  }
+  .woo_vou_product_details h2{
+    padding: 0 10px;
+  }
+
+}
+
+/*----- 22-02-2019 -----*/
+.woo-vou-preview-template-img-wrap .woo-vou-image-wrap {
+    width: 29.33%;
+    float: left;
+    padding: 5px;
+    position: relative;
+}
+.woo-vou-preview-template-img-wrap .woo-vou-image-wrap .woo-vou-preview-template-img {
+    width: 100% !important;
+    height: 60px !important;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+}
+.woo-vou-preview-template-img-wrap .woo-vou-image-wrap .woo-vou-view-preview-template-img {
+    position: absolute;
+    width: 21px;
+    margin: 0;
+    line-height: normal;
+    right: 5px;
+    opacity: 1;
+    cursor: pointer;
+    bottom: 16px;
+    background: #fff;
+    border-radius: 50%;
+    height: 21px;
+}
+.woo-vou-preview-template-img-wrap .woo-vou-image-wrap .woo-vou-view-preview-template-img img {
+    width: 13px;
+    text-align: center;
+    display: block;
+    line-height: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 4px;
+    left: 1px;
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    .woo-vou-preview-template-img-wrap .woo-vou-image-wrap .woo-vou-preview-template-img {
+        height: 70px !important;
+    }
+}
+@media screen and (max-width:365px) {
+    .woo-vou-preview-template-img-wrap .woo-vou-image-wrap {
+        width: 33.333%;
+    }
+}
