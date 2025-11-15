@@ -174,6 +174,14 @@ function App() {
                       <ul className="list-none ml-4 ">
                         <li>
                           <a
+                            href="/International Test Conference -- India 2025.html"
+                            className="hover:text-purple-500 text-xl "
+                          >
+                            ITC 2025
+                          </a>
+                        </li>
+                        <li>
+                          <a
                             href="/itc_2024_archive/itc_2024.html"
                             className="hover:text-purple-500 text-xl "
                           >
