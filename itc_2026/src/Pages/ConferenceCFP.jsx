@@ -177,111 +177,116 @@ function ConferenceCFP() {
             <div className="mx-5"> • </div>
           </Marquee>
         </div>
-        <div
-          className="mt-10 mx-8 p-6 rounded-xl border-4 border-blue-500"
-          style={{ fontFamily: '"Poppins", arial' }}
-        >
-          <p className="text-justify text-white text-xl mx-10">
-            Celebrating its 10th edition, the IEEE International Test Conference
-            India (ITC India) is the premier conference dedicated to testing of
-            electronic devices, circuits, and systems. ITC India 2026 invites
-            researchers, developers, and practitioners from academia and
-            industry to submit original, unpublished work on all aspects of VLSI
-            test, reliability, yield, and quality for current and emerging
-            semiconductor technologies.
-          </p>
-          <p className="text-justify text-white text-xl mt-10 mx-10">
-            We seek high-quality unpublished submissions for papers (4-6 pages)
-            covering the theoretical, practical, and experimental aspects of
-            VLSI testing.
-          </p>
+        <div className="flex justify-center">
+          <div
+            className="mt-10 mx-8 p-6 rounded-xl border-4 border-blue-500 max-w-[90vw]"
+            style={{ fontFamily: '"Poppins", arial' }}
+          >
+            <p className="text-justify text-white text-xl mx-10">
+              Celebrating its 10th edition, the IEEE International Test Conference
+              India (ITC India) is the premier conference dedicated to testing of
+              electronic devices, circuits, and systems. ITC India 2026 invites
+              researchers, developers, and practitioners from academia and
+              industry to submit original, unpublished work on all aspects of VLSI
+              test, reliability, yield, and quality for current and emerging
+              semiconductor technologies.
+            </p>
+            <p className="text-justify text-white text-xl mt-10 mx-10">
+              We seek high-quality unpublished submissions for papers (4-6 pages)
+              covering the theoretical, practical, and experimental aspects of
+              VLSI testing.
+            </p>
+          </div>
         </div>
         <div className="mt-10 text-blue-500 text-5xl font-bold text-center">
           Submission Guidelines
         </div>
-        <div
-          className="mt-10 mx-8 p-6 rounded-xl border-4 border-blue-500 text-white text-xl"
-          style={{ fontFamily: '"Poppins", arial' }}
-        >
-          <ul className="list-disc pl-6 space-y-4">
-            <li className="mb-4">
-              Submissions simultaneously under review or accepted by another
-              conference, symposium or journal, will be summarily rejected
-            </li>
-            <li className="mb-4">
-              Accepted papers will be submitted for inclusion into IEEE Xplore
-              subject to meeting IEEE Xplore's scope and quality requirements
-            </li>
-            <li className="mb-4">
-              For detailed information about the submission process,
-              requirements and deadlines, the selection process and any other
-              questions regarding the program itself or contact information,
-              please consult the ITC India web site at{" "}
-              <a
-                href="https://www.itctestweekindia.org"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline text-blue-300 hover:text-blue-200 break-all"
-              >
-                www.itctestweekindia.org
-              </a>{" "}
-              or email the program chair at{" "}
-              <a
-                href="mailto:ITC-India-2026-TPC@easychair.org"
-                className="underline text-blue-300 hover:text-blue-200"
-              >
-                ITC-India-2026-TPC@easychair.org
-              </a>
-            </li>
-            <li className="mb-4">
-              An abstract of 100 words or less must be entered online on the
-              submission site
-            </li>
-            <li className="mb-4">
-              An electronic copy of a complete paper up to 6 pages,
-              double-columned in IEEE Format, A4 size (
-              <a
-                href="https://www.ieee.org/conferences/publishing/templates.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline text-blue-300 hover:text-blue-200"
-              >
-                https://www.ieee.org/conferences/publishing/templates.html
-              </a>
-              ) to be submitted through{" "}
-              <a
-                href="https://easychair.org/conferences/?conf=itcindia2026"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline text-blue-300 hover:text-blue-200"
-              >
-                EasyChair
-              </a>{" "}
-              (
-              <a
-                href="https://easychair.org/conferences/?conf=itcindia2026"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline text-blue-300 hover:text-blue-200 break-all"
-              >
-                https://easychair.org/conferences/?conf=itcindia2026
-              </a>
-              )
-            </li>
-            <li className="mb-4">
-              Your submission must not include information that serves to
-              identify the authors of the manuscript, such as name(s) or
-              affiliation(s) of the author(s), anywhere in the manuscript,
-              abstract, or in the embedded PDF data. References and
-              bibliographic citations to the author(s) own published works or
-              affiliations should be made in the third person
-            </li>
-            <li className="mb-4">
-              A submission of 1-3 pages will be reviewed as a poster submission.
-              A submission of 4-6 pages may be accepted as a paper or poster
-              depending on the reviewer feedback
-            </li>
-          </ul>
+        <div className="flex justify-center">
+          <div
+            className="mt-10 mx-8 p-6 rounded-xl border-4 border-blue-500 text-white text-xl max-w-[90vw]"
+            style={{ fontFamily: '"Poppins", arial' }}
+          >
+            <ul className="list-disc pl-6 space-y-4">
+              <li className="mb-4">
+                Submissions simultaneously under review or accepted by another
+                conference, symposium or journal, will be summarily rejected
+              </li>
+              <li className="mb-4">
+
+                Accepted papers will be submitted for inclusion into IEEE Xplore
+                subject to meeting IEEE Xplore's scope and quality requirements
+              </li>
+              <li className="mb-4">
+                For detailed information about the submission process,
+                requirements and deadlines, the selection process and any other
+                questions regarding the program itself or contact information,
+                please consult the ITC India web site at{" "}
+                <a
+                  href="https://www.itctestweekindia.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline text-blue-300 hover:text-blue-200 break-all"
+                >
+                  www.itctestweekindia.org
+                </a>{" "}
+                or email the program chair at{" "}
+                <a
+                  href="mailto:ITC-India-2026-TPC@easychair.org"
+                  className="underline text-blue-300 hover:text-blue-200"
+                >
+                  ITC-India-2026-TPC@easychair.org
+                </a>
+              </li>
+              <li className="mb-4">
+                An abstract of 100 words or less must be entered online on the
+                submission site
+              </li>
+              <li className="mb-4">
+                An electronic copy of a complete paper up to 6 pages,
+                double-columned in IEEE Format, A4 size (
+                <a
+                  href="https://www.ieee.org/conferences/publishing/templates.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline text-blue-300 hover:text-blue-200"
+                >
+                  https://www.ieee.org/conferences/publishing/templates.html
+                </a>
+                ) to be submitted through{" "}
+                <a
+                  href="https://easychair.org/conferences/?conf=itcindia2026"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline text-blue-300 hover:text-blue-200"
+                >
+                  EasyChair
+                </a>{" "}
+                (
+                <a
+                  href="https://easychair.org/conferences/?conf=itcindia2026"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline text-blue-300 hover:text-blue-200 break-all"
+                >
+                  https://easychair.org/conferences/?conf=itcindia2026
+                </a>
+                )
+              </li>
+              <li className="mb-4">
+                Your submission must not include information that serves to
+                identify the authors of the manuscript, such as name(s) or
+                affiliation(s) of the author(s), anywhere in the manuscript,
+                abstract, or in the embedded PDF data. References and
+                bibliographic citations to the author(s) own published works or
+                affiliations should be made in the third person
+              </li>
+              <li className="mb-4">
+                A submission of 1-3 pages will be reviewed as a poster submission.
+                A submission of 4-6 pages may be accepted as a paper or poster
+                depending on the reviewer feedback
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -313,9 +318,6 @@ function ConferenceCFP() {
               </ul>
             </div>
           ))}
-          <div className="text-[#00E0FF] text-xl lg:text-2xl font-bold mb-4 text-center h-auto md:h-16 flex items-center justify-center">
-            We look forward to your contributions to ITC India 2026!
-          </div>
         </div>
       </div>
       <Marquee direction="right">
@@ -335,6 +337,9 @@ function ConferenceCFP() {
           alt="Mask Group"
         ></img>
       </Marquee>
+          <div className="text-[#00E0FF] text-xl lg:text-2xl font-bold mb-4 text-center h-auto md:h-16 flex items-center justify-center md:col-span-2">
+            We look forward to your contributions to ITC India 2026!
+          </div>
     </>
   );
 }
