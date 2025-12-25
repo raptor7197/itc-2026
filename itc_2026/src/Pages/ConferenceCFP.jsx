@@ -145,7 +145,7 @@ function ConferenceCFP() {
               className="bg-[#00E0FF] text-center mb-6 md:mb-0 font-bold lg:w-[25vw] md:w-[30vw] w-[60vw] lg:text-[1.4vw] md:text-[1.7vw] text-[3.5vw] px-7 py-3"
               style={{ borderRadius: "60px" }}
             >
-              Camera-ready Paper Due
+              Camera-ready Paper and IEEE Copyright Transfer Due
               <br /> 31 May 2026
             </div>
           </div>
@@ -205,45 +205,25 @@ function ConferenceCFP() {
         >
           <ul className="list-disc pl-6 space-y-4">
             <li className="mb-4">
-              <strong>Submission Format:</strong> Full papers (4-6 pages)
-              following IEEE standard two-column format
-            </li>
-            <li className="mb-4">
-              <strong>Review Process:</strong> Double-blind peer review
-            </li>
-            <li className="mb-4">
-              <strong>Submission Site:</strong>{" "}
-              <a
-                href="https://easychair.org/conferences/?conf=itcindia2026"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline text-blue-300 hover:text-blue-200 break-all"
-              >
-                https://easychair.org/conferences/?conf=itcindia2026
-              </a>
-            </li>
-            <li className="mb-4">
               Submissions simultaneously under review or accepted by another
               conference, symposium or journal, will be summarily rejected
             </li>
             <li className="mb-4">
               Accepted papers will be submitted for inclusion into IEEE Xplore
-              subject to meeting IEEE Xplore&apos;s scope and quality
-              requirements
+              subject to meeting IEEE Xplore's scope and quality requirements
             </li>
-
             <li className="mb-4">
               For detailed information about the submission process,
               requirements and deadlines, the selection process and any other
               questions regarding the program itself or contact information,
               please consult the ITC India web site at{" "}
               <a
-                href="https://itctestweekindia.org/"
+                href="https://www.itctestweekindia.org"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline text-blue-300 hover:text-blue-200 break-all"
               >
-                itctestweekindia.org
+                www.itctestweekindia.org
               </a>{" "}
               or email the program chair at{" "}
               <a
@@ -259,16 +239,16 @@ function ConferenceCFP() {
             </li>
             <li className="mb-4">
               An electronic copy of a complete paper up to 6 pages,
-              double-columned in{" "}
+              double-columned in IEEE Format, A4 size (
               <a
                 href="https://www.ieee.org/conferences/publishing/templates.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline text-blue-300 hover:text-blue-200"
               >
-                IEEE Format, A4 size
-              </a>{" "}
-              to be submitted through{" "}
+                https://www.ieee.org/conferences/publishing/templates.html
+              </a>
+              ) to be submitted through{" "}
               <a
                 href="https://easychair.org/conferences/?conf=itcindia2026"
                 target="_blank"
@@ -276,7 +256,17 @@ function ConferenceCFP() {
                 className="underline text-blue-300 hover:text-blue-200"
               >
                 EasyChair
+              </a>{" "}
+              (
+              <a
+                href="https://easychair.org/conferences/?conf=itcindia2026"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline text-blue-300 hover:text-blue-200 break-all"
+              >
+                https://easychair.org/conferences/?conf=itcindia2026
               </a>
+              )
             </li>
             <li className="mb-4">
               Your submission must not include information that serves to
@@ -285,6 +275,11 @@ function ConferenceCFP() {
               abstract, or in the embedded PDF data. References and
               bibliographic citations to the author(s) own published works or
               affiliations should be made in the third person
+            </li>
+            <li className="mb-4">
+              A submission of 1-3 pages will be reviewed as a poster submission.
+              A submission of 4-6 pages may be accepted as a paper or poster
+              depending on the reviewer feedback
             </li>
           </ul>
         </div>
@@ -318,6 +313,9 @@ function ConferenceCFP() {
               </ul>
             </div>
           ))}
+          <div className="text-[#00E0FF] text-xl lg:text-2xl font-bold mb-4 text-center h-auto md:h-16 flex items-center justify-center">
+            We look forward to your contributions to ITC India 2026!
+          </div>
         </div>
       </div>
       <Marquee direction="right">
