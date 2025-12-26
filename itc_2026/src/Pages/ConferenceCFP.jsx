@@ -192,13 +192,72 @@ function ConferenceCFP() {
               semiconductor technologies.
             </p>
             <p className="text-justify text-white text-xl mt-10 mx-10">
-              We seek high-quality unpublished submissions for papers (4-6 pages)
-              covering the theoretical, practical, and experimental aspects of
-              VLSI testing.
+             We seek high-quality unpublished submissions for papers (4-6 pages) and posters (1-6 pages)
+covering the theoretical, practical, and experimental aspects of VLSI testing.
             </p>
           </div>
         </div>
-        <div className="mt-10 text-blue-500 text-5xl font-bold text-center">
+
+        {/* Submission Format & Review Process Section */}
+        <div className="flex flex-col md:flex-row justify-center gap-8 mx-8 mt-16">
+          <div className="flex-1 max-w-[90vw] md:max-w-[42vw]">
+            <div className="p-6 rounded-xl border-4 border-blue-500 bg-gray-900/50 h-full">
+              <h3 className="text-[#00E0FF] text-2xl lg:text-3xl font-bold mb-6 text-center" style={{ fontFamily: '"Poppins", arial' }}>
+                Submission Format
+              </h3>
+              <div className="text-white text-lg space-y-4" style={{ fontFamily: '"Poppins", arial' }}>
+                <div className="flex items-start gap-3">
+                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">•</span>
+                  <p className="text-justify">
+                    <span className="font-semibold text-[#00E0FF]">Full Papers:</span> 4-6 pages following IEEE standard two-column format
+                  </p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">•</span>
+                  <p className="text-justify">
+                    <span className="font-semibold text-[#00E0FF]">Posters:</span> 1-6 pages following IEEE standard two-column format
+                  </p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">•</span>
+                  <p className="text-justify">
+                    All submissions must adhere to IEEE conference template guidelines
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex-1 max-w-[90vw] md:max-w-[42vw]">
+            <div className="p-6 rounded-xl border-4 border-blue-500 bg-gray-900/50 h-full">
+              <h3 className="text-[#00E0FF] text-2xl lg:text-3xl font-bold mb-6 text-center" style={{ fontFamily: '"Poppins", arial' }}>
+                Review Process
+              </h3>
+              <div className="text-white text-lg space-y-4" style={{ fontFamily: '"Poppins", arial' }}>
+                <div className="flex items-start gap-3">
+                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">•</span>
+                  <p className="text-justify">
+                    All submissions undergo a rigorous <span className="font-semibold text-[#00E0FF]">double-blind peer review</span> process
+                  </p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">•</span>
+                  <p className="text-justify">
+                    Multiple expert reviewers evaluate each submission for technical quality, originality, and relevance
+                  </p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">•</span>
+                  <p className="text-justify">
+                    Authors must ensure anonymity in their submissions
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-16 text-blue-500 text-5xl font-bold text-center">
           Submission Guidelines
         </div>
         <div className="flex justify-center">
@@ -291,7 +350,8 @@ function ConferenceCFP() {
       </div>
 
       <div className="mt-10 text-blue-500 text-4xl lg:text-5xl font-bold text-center">
-        Conference Tracks & Suggested Topics
+        Conference Tracks & Suggested Topics 
+        <p>(not limited to)</p>
       </div>
       <div className="flex justify-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-8 my-16 w-full max-w-[90vw]">
