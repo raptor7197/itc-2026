@@ -281,12 +281,12 @@ covering the theoretical, practical, and experimental aspects of VLSI testing.
                 questions regarding the program itself or contact information,
                 please consult the ITC India web site at{" "}
                 <a
-                  href="https://www.itctestweekindia.org"
+                  href="https://itctestweekindia.org"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline text-blue-300 hover:text-blue-200 break-all"
                 >
-                  www.itctestweekindia.org
+                  https://itctestweekindia.org
                 </a>{" "}
                 or email the program chair at{" "}
                 <a
