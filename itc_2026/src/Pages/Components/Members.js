@@ -7,10 +7,6 @@ const members1 = [
     name: "Sivanantham S",
     comp: "VIT Vellore",
   },
-];
-
-// Technical Program Co-Chairs (TPC)
-const members2 = [
   {
     id: 1,
     link: "https://www.linkedin.com/in/gaurav-bhargava-200bb74",
@@ -18,6 +14,10 @@ const members2 = [
     name: "Gaurav Bhargava",
     comp: "Qualcomm, India",
   },
+];
+
+// Technical Program Co-Chairs (TPC)
+const members2 = [
   {
     id: 2,
     link: "https://www.linkedin.com/in/subhadip-kundu-94862a24",
@@ -25,10 +25,6 @@ const members2 = [
     name: "Subhadip Kundu",
     comp: "Qualcomm, India",
   },
-];
-
-// Tutorial Co-Chairs
-const members3 = [
   {
     id: 3,
     link: "https://www.linkedin.com/in/chaudharyabhishek",
@@ -38,11 +34,15 @@ const members3 = [
   },
   {
     id: 4,
-    link: "https://www.linkedin.com/in/onithinbharadwaj/",
+    link: "https://www.linkedin.com/in/chaudharyabhishek",
     img: "NB.png",
     name: "Nithin Bharadwaj",
     comp: "Microchip, India",
   },
+];
+
+// Tutorial Co-Chairs
+const members3 = [
   {
     id: 5,
     link: "https://www.linkedin.com/in/bharath-nandakumar-6285549a",
@@ -180,13 +180,6 @@ const members11 = [
     name: "Dharani Srinivasan",
     comp: "Qualcomm, India",
   },
-  {
-    id: 20,
-    link: "https://www.linkedin.com/in/leela-krishna-thota-ab671118",
-    img: "p10.png",
-    name: "Leela Krishna Thota",
-    comp: "Synopsys, India",
-  },
 ];
 
 // Registration Chair
@@ -197,6 +190,13 @@ const members12 = [
     img: "p7.png",
     name: "Veejaye Panayadian",
     comp: "Western Digital, India",
+  },
+  {
+    id: 20,
+    link: "https://www.linkedin.com/in/leela-krishna-thota-ab671118",
+    img: "p10.png",
+    name: "Leela Krishna Thota",
+    comp: "Synopsys, India",
   },
 ];
 

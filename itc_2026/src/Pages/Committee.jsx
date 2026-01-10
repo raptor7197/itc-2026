@@ -147,25 +147,25 @@ export default function Committee() {
         </div>
       </div>
 
-      <div className="mb-12">
+      {/* <div className="mb-12">
         <div className="text-blue-500 flex flex-row justify-center text-center text-2xl md:text-3xl font-semibold mt-12 mb-8">
           New Volunteers
         </div>
         <div className="flex flex-wrap items-center justify-center gap-6 px-4">
           {mem.members14.map(createCard)}
         </div>
-      </div>
+      </div>*/}
 
-      <div className="mb-12">
+      {/* <div className="mb-12">
         <div className="text-blue-500 flex flex-row justify-center text-center text-2xl md:text-3xl font-semibold mt-12 mb-8">
           TPC Advisory Committee
         </div>
         <div className="flex flex-wrap items-center justify-center gap-6 px-4">
           {mem.members15.map(createCard)}
         </div>
-      </div>
+      </div>*/}
 
-      <div className="mb-16">
+      {/* <div className="mb-16">
         <div className="text-blue-500 flex flex-row justify-center text-center text-2xl md:text-3xl font-semibold mt-12 mb-8">
           Advisory Committee
         </div>
@@ -176,7 +176,7 @@ export default function Committee() {
           {mem.members19.map(createCard)}
           {mem.members20.map(createCard)}
         </div>
-      </div>
+      </div>*/}
     </div>
   );
 }
