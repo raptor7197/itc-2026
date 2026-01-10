@@ -183,17 +183,18 @@ function ConferenceCFP() {
             style={{ fontFamily: '"Poppins", arial' }}
           >
             <p className="text-justify text-white text-xl mx-10">
-              Celebrating its 10th edition, the IEEE International Test Conference
-              India (ITC India) is the premier conference dedicated to testing of
-              electronic devices, circuits, and systems. ITC India 2026 invites
-              researchers, developers, and practitioners from academia and
-              industry to submit original, unpublished work on all aspects of VLSI
-              test, reliability, yield, and quality for current and emerging
-              semiconductor technologies.
+              Celebrating its 10th edition, the IEEE International Test
+              Conference India (ITC India) is the premier conference dedicated
+              to testing of electronic devices, circuits, and systems. ITC India
+              2026 invites researchers, developers, and practitioners from
+              academia and industry to submit original, unpublished work on all
+              aspects of VLSI test, reliability, yield, and quality for current
+              and emerging semiconductor technologies.
             </p>
             <p className="text-justify text-white text-xl mt-10 mx-10">
-             We seek high-quality unpublished submissions for papers (4-6 pages) and posters (1-6 pages)
-covering the theoretical, practical, and experimental aspects of VLSI testing.
+              We seek high-quality unpublished submissions for papers (4-6
+              pages) and posters (1-6 pages) covering the theoretical,
+              practical, and experimental aspects of VLSI testing.
             </p>
           </div>
         </div>
@@ -202,26 +203,45 @@ covering the theoretical, practical, and experimental aspects of VLSI testing.
         <div className="flex flex-col md:flex-row justify-center gap-8 mx-8 mt-16">
           <div className="flex-1 max-w-[90vw] md:max-w-[42vw]">
             <div className="p-6 rounded-xl border-4 border-blue-500 bg-gray-900/50 h-full">
-              <h3 className="text-[#00E0FF] text-2xl lg:text-3xl font-bold mb-6 text-center" style={{ fontFamily: '"Poppins", arial' }}>
+              <h3
+                className="text-[#00E0FF] text-2xl lg:text-3xl font-bold mb-6 text-center"
+                style={{ fontFamily: '"Poppins", arial' }}
+              >
                 Submission Format
               </h3>
-              <div className="text-white text-lg space-y-4" style={{ fontFamily: '"Poppins", arial' }}>
+              <div
+                className="text-white text-lg space-y-4"
+                style={{ fontFamily: '"Poppins", arial' }}
+              >
                 <div className="flex items-start gap-3">
-                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">•</span>
+                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">
+                    •
+                  </span>
                   <p className="text-justify">
-                    <span className="font-semibold text-[#00E0FF]">Full Papers:</span> 4-6 pages following IEEE standard two-column format
+                    <span className="font-semibold text-[#00E0FF]">
+                      Full Papers:
+                    </span>{" "}
+                    4-6 pages following IEEE standard two-column format
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">•</span>
+                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">
+                    •
+                  </span>
                   <p className="text-justify">
-                    <span className="font-semibold text-[#00E0FF]">Posters:</span> 1-6 pages following IEEE standard two-column format
+                    <span className="font-semibold text-[#00E0FF]">
+                      Posters:
+                    </span>{" "}
+                    1-6 pages following IEEE standard two-column format
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">•</span>
+                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">
+                    •
+                  </span>
                   <p className="text-justify">
-                    All submissions must adhere to IEEE conference template guidelines
+                    All submissions must adhere to IEEE conference template
+                    guidelines
                   </p>
                 </div>
               </div>
@@ -230,24 +250,41 @@ covering the theoretical, practical, and experimental aspects of VLSI testing.
 
           <div className="flex-1 max-w-[90vw] md:max-w-[42vw]">
             <div className="p-6 rounded-xl border-4 border-blue-500 bg-gray-900/50 h-full">
-              <h3 className="text-[#00E0FF] text-2xl lg:text-3xl font-bold mb-6 text-center" style={{ fontFamily: '"Poppins", arial' }}>
+              <h3
+                className="text-[#00E0FF] text-2xl lg:text-3xl font-bold mb-6 text-center"
+                style={{ fontFamily: '"Poppins", arial' }}
+              >
                 Review Process
               </h3>
-              <div className="text-white text-lg space-y-4" style={{ fontFamily: '"Poppins", arial' }}>
+              <div
+                className="text-white text-lg space-y-4"
+                style={{ fontFamily: '"Poppins", arial' }}
+              >
                 <div className="flex items-start gap-3">
-                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">•</span>
+                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">
+                    •
+                  </span>
                   <p className="text-justify">
-                    All submissions undergo a rigorous <span className="font-semibold text-[#00E0FF]">double-blind peer review</span> process
+                    All submissions undergo a rigorous{" "}
+                    <span className="font-semibold text-[#00E0FF]">
+                      double-blind peer review
+                    </span>{" "}
+                    process
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">•</span>
+                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">
+                    •
+                  </span>
                   <p className="text-justify">
-                    Multiple expert reviewers evaluate each submission for technical quality, originality, and relevance
+                    Multiple expert reviewers evaluate each submission for
+                    technical quality, originality, and relevance
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">•</span>
+                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">
+                    •
+                  </span>
                   <p className="text-justify">
                     Authors must ensure anonymity in their submissions
                   </p>
@@ -271,9 +308,9 @@ covering the theoretical, practical, and experimental aspects of VLSI testing.
                 conference, symposium or journal, will be summarily rejected
               </li>
               <li className="mb-4">
-
                 Accepted papers will be submitted for inclusion into IEEE Xplore
-                subject to meeting IEEE Xplore's scope and quality requirements
+                subject to meeting IEEE Xplore&apos;s scope and quality
+                requirements
               </li>
               <li className="mb-4">
                 For detailed information about the submission process,
@@ -340,9 +377,9 @@ covering the theoretical, practical, and experimental aspects of VLSI testing.
                 affiliations should be made in the third person
               </li>
               <li className="mb-4">
-                A submission of 1-3 pages will be reviewed as a poster submission.
-                A submission of 4-6 pages may be accepted as a paper or poster
-                depending on the reviewer feedback
+                A submission of 1-3 pages will be reviewed as a poster
+                submission. A submission of 4-6 pages may be accepted as a paper
+                or poster depending on the reviewer feedback
               </li>
             </ul>
           </div>
@@ -350,7 +387,7 @@ covering the theoretical, practical, and experimental aspects of VLSI testing.
       </div>
 
       <div className="mt-10 text-blue-500 text-4xl lg:text-5xl font-bold text-center">
-        Conference Tracks & Suggested Topics 
+        Conference Tracks & Suggested Topics
         <p>(not limited to)</p>
       </div>
       <div className="flex justify-center">
@@ -397,9 +434,9 @@ covering the theoretical, practical, and experimental aspects of VLSI testing.
           alt="Mask Group"
         ></img>
       </Marquee>
-          <div className="text-[#00E0FF] text-xl lg:text-2xl font-bold mb-4 text-center h-auto md:h-16 flex items-center justify-center md:col-span-2">
-            We look forward to your contributions to ITC India 2026!
-          </div>
+      <div className="text-[#00E0FF] text-xl lg:text-2xl font-bold mb-4 text-center h-auto md:h-16 flex items-center justify-center md:col-span-2">
+        We look forward to your contributions to ITC India 2026!
+      </div>
     </>
   );
 }

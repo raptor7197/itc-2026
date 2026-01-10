@@ -12,23 +12,9 @@ import {
   PopoverGroup,
   PopoverPanel,
 } from "@headlessui/react";
-import {
-  ArrowPathIcon,
-  Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
-import {
-  ChevronDownIcon,
-  PhoneIcon,
-  PlayCircleIcon,
-} from "@heroicons/react/20/solid";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Link } from "react-router-dom";
-
-const HomeList = [{ name: "Agenda", href: "/Agenda" }];
 
 const ProgramList = [
   { name: "Agenda", href: "/Agenda" },
@@ -46,11 +32,6 @@ const SponsorsList = [
   { name: "Our Sponsors", href: "/Sponsors" },
   { name: "Call For Sponsors", href: "/CallForSponsors" },
 ];
-const callsToAction = [
-  { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon },
-];
-
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -154,7 +135,7 @@ export default function Example() {
                           to={item.href}
                           className="block font-semibold text-white hover:text-blue-400 z-[50]"
                           style={{ transition: "0.2s" }}
-                          onClick={() => setOpen(false)}
+                          onClick={() => setMobileMenuOpen(false)}
                         >
                           {item.name}
                           <span className="absolute inset-0" />
@@ -192,7 +173,7 @@ export default function Example() {
                           to={item.href}
                           className="block font-semibold text-white hover:text-blue-400 z-[50]"
                           style={{ transition: "0.2s" }}
-                          onClick={() => setOpen(false)}
+                          onClick={() => setMobileMenuOpen(false)}
                         >
                           {item.name}
                           <span className="absolute inset-0" />
