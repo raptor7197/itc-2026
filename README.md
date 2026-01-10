@@ -1,4 +1,4 @@
-# ITC India 2026- Conference Website
+# ITC India 2026 - Conference Website
 
 [![React](https://img.shields.io/badge/React-18.3.1-blue.svg)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.0.5-646CFF.svg)](https://vitejs.dev/)
@@ -14,8 +14,8 @@ The official website for **IEEE International Test Conference (ITC) India 2026**
 
 ```bash
 # Clone the repository
-git clone https://github.com/adityakatoch2003/ITC-Web.git
-cd ITC-Web/ITCWeb
+git clone https://github.com/IEEE-VIT/ITC-2026.git
+cd ITC-2026/itc_2026
 
 # Install dependencies
 npm install
@@ -108,9 +108,8 @@ ITCWeb/
 
 ### Event Details
 - **Conference Name**: IEEE International Test Conference (ITC) India 2026
-- **Dates**: July 19-21, 2025
+- **Dates**: July 19-21, 2026
 - **Location**: India
-- **Theme**: Test Week India 2026
 
 ### Key Tracks
 1. **Conference Papers**: Technical paper presentations
@@ -143,16 +142,6 @@ npm run lint         # Run ESLint
 - **Framer Motion**: 12.4.3 - Animation library
 - **Tailwind CSS**: 3.4.17 - Utility-first CSS
 - **Vite**: 6.0.5 - Build tool and dev server
-
-### Development Guidelines
-1. Follow React best practices and hooks patterns
-2. Use Tailwind CSS for styling
-3. Implement responsive design (mobile-first)
-4. Optimize images and assets
-5. Maintain accessibility standards
-6. Test across different devices and browsers
-
-## 🌐 Deployment
 
 ### Production Build
 ```bash
