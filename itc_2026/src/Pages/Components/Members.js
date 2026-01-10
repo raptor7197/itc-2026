@@ -1,240 +1,322 @@
-// General Chairs 2026
+// General Chairs
 const members1 = [
-    {
-        id: 0,
-        link: "https://www.linkedin.com/in/vlsisiva?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p53.png',
-        name: "Sivanantham S",
-        comp: "VIT Vellore",
-    },
-    {
-        id: 1,
-        link: "https://www.linkedin.com/in/gaurav-bhargava-200bb74?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p16.png',
-        name: "Gaurav Bhargava",
-        comp: "Qualcomm, India",
-    },
+  {
+    id: 0,
+    link: "https://www.linkedin.com/in/vlsisiva",
+    img: "p53.png",
+    name: "Sivanantham S",
+    comp: "VIT Vellore",
+  },
 ];
 
-// Technical Program Co-Chairs (TPC) 2026
+// Technical Program Co-Chairs (TPC)
 const members2 = [
-    {
-        id: 2,
-        link: "https://www.linkedin.com/in/subhadip-kundu-94862a24?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p45.png',
-        name: "Subhadip Kundu",
-        comp: "Qualcomm, India",
-    },
-    {
-        id: 3,
-        link: "https://www.linkedin.com/in/chaudharyabhishek?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p25.png',
-        name: "Abhishek Chaudhary",
-        comp: "AMD, India",
-    },
-    {
-        id: 4,
-        link: "https://www.linkedin.com/in/onithinbharadwaj/",
-        img: 'NB.png',
-        name: "Nithin Bharadwaj",
-        comp: "Microchip, India",
-    },
+  {
+    id: 1,
+    link: "https://www.linkedin.com/in/gaurav-bhargava-200bb74",
+    img: "p16.png",
+    name: "Gaurav Bhargava",
+    comp: "Qualcomm, India",
+  },
+  {
+    id: 2,
+    link: "https://www.linkedin.com/in/subhadip-kundu-94862a24",
+    img: "p45.png",
+    name: "Subhadip Kundu",
+    comp: "Qualcomm, India",
+  },
 ];
 
-// Tutorial Co-Chairs 2026
+// Tutorial Co-Chairs
 const members3 = [
-    {
-        id: 5,
-        link: "https://www.linkedin.com/in/bharath-nandakumar-6285549a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p20.png',
-        name: "Bharath Nandakumar",
-        comp: "Marvell, India",
-    },
-    {
-        id: 6,
-        link: "https://www.linkedin.com/in/rajit-karmakar-01185325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p31.png',
-        name: "Dr. Rajit Karmakar",
-        comp: "Intel, India",
-    },
+  {
+    id: 3,
+    link: "https://www.linkedin.com/in/chaudharyabhishek",
+    img: "p25.png",
+    name: "Abhishek Chaudhary",
+    comp: "AMD, India",
+  },
+  {
+    id: 4,
+    link: "https://www.linkedin.com/in/onithinbharadwaj/",
+    img: "NB.png",
+    name: "Nithin Bharadwaj",
+    comp: "Microchip, India",
+  },
+  {
+    id: 5,
+    link: "https://www.linkedin.com/in/bharath-nandakumar-6285549a",
+    img: "p20.png",
+    name: "Bharath Nandakumar",
+    comp: "Marvell, India",
+  },
+  {
+    id: 6,
+    link: "https://www.linkedin.com/in/rajit-karmakar-01185325",
+    img: "p31.png",
+    name: "Dr. Rajit Karmakar",
+    comp: "Intel, India",
+  },
 ];
 
-// Industry Test Challenges Co-Chairs 2026
+// Industry Test Challenges Co-Chairs
 const members4 = [
-    {
-        id: 7,
-        link: "https://www.linkedin.com/in/nikhilsudhakaran?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p39.png',
-        name: "Nikhil Sudhakaran",
-        comp: "Marvell, India",
-    },
-    {
-        id: 8,
-        link: "https://www.linkedin.com/in/anujgupta27?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p21.png',
-        name: "Anuj Gupta",
-        comp: "Cadence Design Systems",
-    },
-    {
-        id: 9,
-        link: "https://www.linkedin.com/in/achingrover",
-        img: 'p52.png',
-        name: "Achin Grover",
-        comp: "Google, India",
-    },
+  {
+    id: 7,
+    link: "https://www.linkedin.com/in/nikhilsudhakaran",
+    img: "p39.png",
+    name: "Nikhil Sudhakaran",
+    comp: "Marvell, India",
+  },
+  {
+    id: 8,
+    link: "https://www.linkedin.com/in/anujgupta27",
+    img: "p21.png",
+    name: "Anuj Gupta",
+    comp: "Cadence Design Systems",
+  },
+  {
+    id: 9,
+    link: "https://www.linkedin.com/in/achingrover",
+    img: "p52.png",
+    name: "Achin G",
+    comp: "Google, India",
+  },
 ];
 
-// Industry Sessions Co-Chairs 2026
+// Industry Sessions Co-Chairs
 const members5 = [
-    {
-        id: 10,
-        link: "https://www.linkedin.com/in/prakash-talawar-a7276b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p32.png',
-        name: "Prakash Talawar",
-        comp: "Western Digital, India",
-    },
-    {
-        id: 11,
-        link: "https://www.linkedin.com/in/mehala-balasundaram-7a3838100?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p41.png',
-        name: "Mehala Balasundaram",
-        comp: "Synopsys, India",
-    },
+  {
+    id: 10,
+    link: "https://www.linkedin.com/in/prakash-talawar-a7276b3",
+    img: "p32.png",
+    name: "Prakash Talawar",
+    comp: "Western Digital, India",
+  },
+  {
+    id: 11,
+    link: "https://www.linkedin.com/in/mehala-balasundaram-7a3838100",
+    img: "p41.png",
+    name: "Mehala Balasundaram",
+    comp: "Synopsys, India",
+  },
 ];
 
-// Academia-Research Track Co-Chairs (ART) 2026
+// Academia-Research Track Co-Chairs (ART)
 const members6 = [
-    {
-        id: 12,
-        link: "https://www.linkedin.com/in/binod-kumar-5039bb60?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p18.png',
-        name: "Prof. Binod Kumar",
-        comp: "IIT Jodhpur",
-    },
+  {
+    id: 12,
+    link: "https://www.linkedin.com/in/binod-kumar-5039bb60",
+    img: "p18.png",
+    name: "Prof. Binod Kumar",
+    comp: "IIT Jodhpur",
+  },
 ];
 
-// Panel Co-Chair 2026
+// Panel Co-Chair
 const members7 = [
-    {
-        id: 13,
-        link: "",
-        img: '',
-        name: "Venkat",
-        comp: "",
-    },
+  {
+    id: 13,
+    link: "#",
+    img: "p12.png",
+    name: "Venkat",
+    comp: "TBD",
+  },
 ];
 
-// Publication Co-Chair 2026
+// Publication Co-Chair
 const members8 = [
-    {
-        id: 14,
-        link: "https://www.linkedin.com/in/lakshmanan-balasubramanian-1b60422?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p11.png',
-        name: "Lakshmanan Balasubramanian",
-        comp: "Texas Instruments, India",
-    },
+  {
+    id: 14,
+    link: "https://www.linkedin.com/in/lakshmanan-balasubramanian-1b60422",
+    img: "p11.png",
+    name: "Lakshmanan Balasubramanian",
+    comp: "Texas Instruments, India",
+  },
 ];
 
-// Fellowship Co-Chairs 2026
+// Fellowship Co-Chairs
 const members9 = [
-    {
-        id: 15,
-        link: "https://www.google.com",
-        img: 'p48.png',
-        name: "Prof. Saravanan P",
-        comp: "PSG Tech, Coimbatore",
-    },
-    {
-        id: 16,
-        link: "https://www.google.com",
-        img: 'p35.png',
-        name: "Piyushkumar Chaniyara",
-        comp: "Texas Instruments, India",
-    },
+  {
+    id: 15,
+    link: "#",
+    img: "p48.png",
+    name: "Prof. Saravanan P",
+    comp: "PSG Tech, Coimbatore",
+  },
+  {
+    id: 16,
+    link: "#",
+    img: "p35.png",
+    name: "Piyushkumar Chaniyara",
+    comp: "Texas Instruments, India",
+  },
 ];
 
-// Finance Chair 2026
+// Finance Chair
 const members10 = [
-    {
-        id: 17,
-        link: "https://www.google.com",
-        img: 'p12.png',
-        name: "Krishnan Sreenivasan",
-        comp: "AB Innovative",
-    },
+  {
+    id: 17,
+    link: "#",
+    img: "p12.png",
+    name: "Krishnan Sreenivasan",
+    comp: "AB Innovative",
+  },
 ];
 
-// Communication/Website Co-Chairs 2026
+// Communication/Website Co-Chairs
 const members11 = [
-    {
-        id: 18,
-        link: "https://www.linkedin.com/in/abhirami-r-6abb87156?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p9.png',
-        name: "Abhirami R",
-        comp: "Samsung Semiconductor India Research, India",
-    },
-    {
-        id: 19,
-        link: "https://www.google.com",
-        img: 'p19.png',
-        name: "Dharani Srinivasan",
-        comp: "Qualcomm, India",
-    },
+  {
+    id: 18,
+    link: "https://www.linkedin.com/in/abhirami-r-6abb87156",
+    img: "p9.png",
+    name: "Abhirami R",
+    comp: "Samsung Semiconductor India Research, India",
+  },
+  {
+    id: 19,
+    link: "#",
+    img: "p19.png",
+    name: "Dharani Srinivasan",
+    comp: "Qualcomm, India",
+  },
+  {
+    id: 20,
+    link: "https://www.linkedin.com/in/leela-krishna-thota-ab671118",
+    img: "p10.png",
+    name: "Leela Krishna Thota",
+    comp: "Synopsys, India",
+  },
 ];
 
-// Registration Chair 2026
+// Registration Chair
 const members12 = [
-    {
-        id: 20,
-        link: "https://www.linkedin.com/in/leela-krishna-thota-ab671118?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p10.png',
-        name: "Leela Krishna Thota",
-        comp: "Synopsys, India",
-    },
-    {
-        id: 21,
-        link: "https://www.linkedin.com/in/veejayepanayadian?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p7.png',
-        name: "Veejaye Panayadian",
-        comp: "Western Digital, India",
-    },
+  {
+    id: 21,
+    link: "https://www.linkedin.com/in/veejayepanayadian",
+    img: "p7.png",
+    name: "Veejaye Panayadian",
+    comp: "Western Digital, India",
+  },
 ];
 
-// Marketing and Conference Management Chairs 2026
+// Marketing and Conference Management Co-Chairs
 const members13 = [
-    {
-        id: 22,
-        link: "https://www.google.com",
-        img: 'p6.png',
-        name: "Veeresh Shetty",
-        comp: "Siemens EDA",
-    },
-    {
-        id: 23,
-        link: "https://www.linkedin.com/in/samuel-vishwas-dorairaj?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        img: 'p51.png',
-        name: "Samuel V Dorairaj",
-        comp: "Intel",
-    },
+  {
+    id: 22,
+    link: "#",
+    img: "p6.png",
+    name: "Veeresh Shetty",
+    comp: "Siemens EDA",
+  },
+  {
+    id: 23,
+    link: "https://www.linkedin.com/in/samuel-vishwas-dorairaj",
+    img: "p51.png",
+    name: "Samuel V Dorairaj",
+    comp: "Intel",
+  },
 ];
 
-// New Volunteers (could be considered for Track chairs) 2026
+// New Volunteers
 const members14 = [
-    {
-        id: 24,
-        link: "",
-        img: '',
-        name: "Senthilkumar Dhamodharan",
-        comp: "Caliber Interconnects",
-    },
-    {
-        id: 25,
-        link: "",
-        img: '',
-        name: "Veerabhadra Rao Vasa",
-        comp: "Google",
-    },
+  {
+    id: 24,
+    link: "#",
+    img: "p12.png",
+    name: "Senthilkumar Dhamodharan",
+    comp: "Caliber Interconnects",
+  },
+  {
+    id: 25,
+    link: "#",
+    img: "p12.png",
+    name: "Veerabhadra Rao Vasa",
+    comp: "Google",
+  },
 ];
+
+// TPC Advisory Committee
+const members15 = [
+  {
+    id: 26,
+    link: "https://www.linkedin.com/in/alex-orailoglu-52aa7123",
+    img: "alex orailoglu.png",
+    name: "Prof. Alex Orailoglu",
+    comp: "University of California, USA",
+  },
+  {
+    id: 27,
+    link: "https://cc.ee.ntu.edu.tw/~cmli/",
+    img: "Prof. James Chien-Mo Li.png",
+    name: "Prof. James Chien-Mo Li",
+    comp: "National Taiwan University, Taiwan",
+  },
+  {
+    id: 28,
+    link: "https://www.linkedin.com/in/ravikumar-cp-1039825a/",
+    img: "cp_ravikumar.png",
+    name: "Dr. C.P. Ravikumar",
+    comp: "India",
+  },
+  {
+    id: 29,
+    link: "https://engineering.cmu.edu/directory/bios/blanton-shawn.html",
+    img: "shawn blanton.png",
+    name: "R. D. (Shawn) Blanton",
+    comp: "Carnegie Mellon University, USA",
+  },
+];
+
+// Advisory Committee - Row 1
+const members16 = [
+  {
+    id: 30,
+    link: "https://www.linkedin.com/in/navin-bishnoi-707a6b3/",
+    img: "p40.png",
+    name: "Navin Bishnoi",
+    comp: "Marvell Semiconductors, India",
+  },
+  {
+    id: 31,
+    link: "https://www.linkedin.com/in/prasad-mantri-5742b156/",
+    img: "p34.png",
+    name: "Prasad Mantri",
+    comp: "Exim",
+  },
+];
+
+// Advisory Committee - Row 2
+const members17 = [];
+
+// Advisory Committee - Row 3
+const members18 = [];
+
+// Advisory Committee - Row 4
+const members19 = [];
+
+// Advisory Committee - Row 5
+const members20 = [];
 
 export default members1;
-export { members2, members3, members4, members5, members6, members7, members8, members9, members10, members11, members12, members13, members14 };
+export {
+  members2,
+  members3,
+  members4,
+  members5,
+  members6,
+  members7,
+  members8,
+  members9,
+  members10,
+  members11,
+  members12,
+  members13,
+  members14,
+  members15,
+  members16,
+  members17,
+  members18,
+  members19,
+  members20,
+};
