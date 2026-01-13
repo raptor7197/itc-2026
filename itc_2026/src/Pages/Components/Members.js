@@ -34,7 +34,7 @@ const members2 = [
   },
   {
     id: 4,
-    link: "https://www.linkedin.com/in/chaudharyabhishek",
+    link: "https://www.linkedin.com/in/onithinbharadwaj/",
     img: "NB.png",
     name: "Nithin Bharadwaj",
     comp: "Microchip, India",
@@ -55,7 +55,7 @@ const members3 = [
     link: "https://www.linkedin.com/in/rajit-karmakar-01185325",
     img: "p31.png",
     name: "Dr. Rajit Karmakar",
-    comp: "Intel, India",
+    comp: "AMD, India",
   },
 ];
 
@@ -100,11 +100,11 @@ const members5 = [
     name: "Mehala Balasundaram",
     comp: "Synopsys, India",
   }, {
-    id:57,
+    id: 57,
     link: "https://www.linkedin.com/in/shamitha-rao-989b4a9a/",
     img: "p57.png",
     name: "Shamitha Rao",
-    comp: "Synopsys, India",
+    comp: "Synapse Design, India",
   }
 ];
 
@@ -116,17 +116,23 @@ const members6 = [
     img: "p18.png",
     name: "Prof. Binod Kumar",
     comp: "IIT Jodhpur",
-  },
+  }, {
+    id: 58,
+    link: "https://www.linkedin.com/in/hafizur-rahaman-352208164/",
+    img: "Hafizur-Rahaman.png",
+    name: "Prof Hafizur Rahaman",
+    comp: "IIEST Shibpur",
+  }
 ];
 
 // Panel Co-Chair
 const members7 = [
   {
     id: 13,
-    link: "#",
+    link: "https://www.linkedin.com/in/venkata-rangam-totakura-ba42038/",
     img: "p12.png",
-    name: "Venkat",
-    comp: "TBD",
+    name: "Venkata Rangam Totakura",
+    comp: "Infineon Technologies, India",
   },
 ];
 
@@ -137,7 +143,7 @@ const members8 = [
     link: "https://www.linkedin.com/in/lakshmanan-balasubramanian-1b60422",
     img: "p11.png",
     name: "Lakshmanan Balasubramanian",
-    comp: "Texas Instruments, India",
+    comp: "Formerly with Texas Instruments, India",
   },
 ];
 
@@ -145,17 +151,17 @@ const members8 = [
 const members9 = [
   {
     id: 15,
-    link: "#",
+    link: "https://www.linkedin.com/in/dpsaravanan/",
     img: "p48.png",
     name: "Prof. Saravanan P",
     comp: "PSG Tech, India",
   },
   {
     id: 16,
-    link: "#",
+    link: "https://www.linkedin.com/in/piyushkumar-chaniyara-3291aa71/",
     img: "p35.png",
     name: "Piyushkumar Chaniyara",
-    comp: "Texas Instruments, India",
+    comp: "Arm, UK",
   },
 ];
 
@@ -181,10 +187,10 @@ const members11 = [
   },
   {
     id: 19,
-    link: "#",
+    link: "https://www.linkedin.com/in/dharani-kumar-b3908158/",
     img: "p19.png",
     name: "Dharani Srinivasan",
-    comp: "Qualcomm, India",
+    comp: "Amazon Lab126, India",
   },
 ];
 
@@ -195,7 +201,7 @@ const members12 = [
     link: "https://www.linkedin.com/in/veejayepanayadian",
     img: "p7.png",
     name: "Veejaye Panayadian",
-    comp: "Western Digital, India",
+    comp: "Sandisk, India",
   },
   {
     id: 20,
@@ -210,7 +216,7 @@ const members12 = [
 const members13 = [
   {
     id: 22,
-    link: "#",
+    link: "https://www.linkedin.com/in/veeresh-shetty-32a2216/",
     img: "p6.png",
     name: "Veeresh Shetty",
     comp: "Siemens EDA",
@@ -228,7 +234,7 @@ const members13 = [
 const members14 = [
   {
     id: 24,
-    link: "#",
+    link: "https://www.linkedin.com/in/senthilkumar-dhamodharan/",
     img: "p12.png",
     name: "Senthilkumar Dhamodharan",
     comp: "Caliber Interconnects, India",
@@ -263,7 +269,7 @@ const members15 = [
     link: "https://www.linkedin.com/in/ravikumar-cp-1039825a/",
     img: "cp_ravikumar.png",
     name: "Dr. C.P. Ravikumar",
-    comp: "India",
+    comp: "VinyanaTech, India",
   },
   {
     id: 29,
@@ -281,19 +287,27 @@ const members16 = [
     link: "https://www.linkedin.com/in/navin-bishnoi-707a6b3/",
     img: "p40.png",
     name: "Navin Bishnoi",
-    comp: "Marvell Semiconductors, India",
+    comp: "Marvell Technology, India",
   },
   {
     id: 31,
     link: "https://www.linkedin.com/in/prasad-mantri-5742b156/",
     img: "p34.png",
     name: "Prasad Mantri",
-    comp: "Exim, India",
+    comp: "Eximietas Design, India",
   },
 ];
 
-// Advisory Committee - Row 2
-const members17 = [];
+// Posters Co-Chair
+const members17 = [
+  {
+    id: 59,
+    link: "https://www.linkedin.com/in/rama-sireesha-arisetti-5a605844/",
+    img: "rama-sireesha-arisetti.png",
+    name: "Rama Sireesha Arisetti",
+    comp: "Google, India",
+  },
+];
 
 // Advisory Committee - Row 3
 const members18 = [];
