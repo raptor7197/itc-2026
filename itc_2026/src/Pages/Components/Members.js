@@ -99,7 +99,13 @@ const members5 = [
     img: "p41.png",
     name: "Mehala Balasundaram",
     comp: "Synopsys, India",
-  },
+  }, {
+    id: 32,
+    link: "https://www.linkedin.com/in/shamitha-rao-989b4a9a/",
+    img: "p57.png",
+    name: "Shamitha Rao",
+    comp: "Synopsys, India",
+  }
 ];
 
 // Academia-Research Track Co-Chairs (ART)
@@ -142,7 +148,7 @@ const members9 = [
     link: "#",
     img: "p48.png",
     name: "Prof. Saravanan P",
-    comp: "PSG Tech, Coimbatore",
+    comp: "PSG Tech, India",
   },
   {
     id: 16,
@@ -160,7 +166,7 @@ const members10 = [
     link: "#",
     img: "p12.png",
     name: "Krishnan Sreenivasan",
-    comp: "AB Innovative",
+    comp: "AB Innovative, India",
   },
 ];
 
@@ -171,7 +177,7 @@ const members11 = [
     link: "https://www.linkedin.com/in/abhirami-r-6abb87156",
     img: "p9.png",
     name: "Abhirami R",
-    comp: "Samsung Semiconductor India Research, India",
+    comp: "Samsung, India",
   },
   {
     id: 19,
@@ -214,7 +220,7 @@ const members13 = [
     link: "https://www.linkedin.com/in/samuel-vishwas-dorairaj",
     img: "p51.png",
     name: "Samuel V Dorairaj",
-    comp: "Intel",
+    comp: "Intel, India",
   },
 ];
 
@@ -225,7 +231,7 @@ const members14 = [
     link: "#",
     img: "p12.png",
     name: "Senthilkumar Dhamodharan",
-    comp: "Caliber Interconnects",
+    comp: "Caliber Interconnects, India",
   },
   {
     id: 25,
@@ -282,7 +288,7 @@ const members16 = [
     link: "https://www.linkedin.com/in/prasad-mantri-5742b156/",
     img: "p34.png",
     name: "Prasad Mantri",
-    comp: "Exim",
+    comp: "Exim, India",
   },
 ];
 

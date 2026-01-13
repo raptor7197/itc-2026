@@ -151,7 +151,7 @@ export default function Example() {
                 className="flex items-center gap-x-1 text-[1.3vw] font-semibold text-white hover:text-blue-400 "
                 style={{ transition: "0.2s" }}
               >
-                Submissions
+                Author
                 <ChevronDownIcon
                   aria-hidden="true"
                   className="size-5 flex-none text-gray-400"
