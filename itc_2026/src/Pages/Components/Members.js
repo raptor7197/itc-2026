@@ -100,7 +100,7 @@ const members5 = [
     name: "Mehala Balasundaram",
     comp: "Synopsys, India",
   }, {
-    id: 32,
+    id:57,
     link: "https://www.linkedin.com/in/shamitha-rao-989b4a9a/",
     img: "p57.png",
     name: "Shamitha Rao",
