@@ -161,7 +161,7 @@ const members9 = [
     link: "https://www.linkedin.com/in/piyushkumar-chaniyara-3291aa71/",
     img: "p35.png",
     name: "Piyushkumar Chaniyara",
-    comp: "Arm, UK",
+    comp: "Texas Instruments , UK",
   },
 ];
 
@@ -201,7 +201,7 @@ const members12 = [
     link: "https://www.linkedin.com/in/veejayepanayadian",
     img: "p7.png",
     name: "Veejaye Panayadian",
-    comp: "Sandisk, India",
+    comp: "Western Digital, India",
   },
   {
     id: 20,
