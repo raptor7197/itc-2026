@@ -5,18 +5,19 @@ import { MagicCard } from "../components/magicui/magic-card";
 
 function createCard(mem) {
   return (
-    <MagicCard
-      key={mem.id}
-      className="bg-gray-950 shadow-2xl shadow-blue-800 flex-col items-center justify-center w-[16rem] h-[22rem] text-4xl"
-      gradientColor={"#1c3659"}
-    >
-      <CommCard
-        link={mem.link}
-        img={mem.img}
-        name={mem.name}
-        company={mem.comp}
-      />
-    </MagicCard>
+    <a href={mem.link} target="_blank" rel="noopener noreferrer" className="block">
+      <MagicCard
+        key={mem.id}
+        className="bg-gray-950 shadow-2xl shadow-blue-800 flex-col items-center justify-center w-[16rem] h-[22rem] text-4xl"
+        gradientColor={"#1c3659"}
+      >
+        <CommCard
+          img={mem.img}
+          name={mem.name}
+          company={mem.comp}
+        />
+      </MagicCard>
+    </a>
   );
 }
 
@@ -84,14 +85,14 @@ export default function Committee() {
         </div>
       </div>
 
-      <div className="mb-12">
+      {/* <div className="mb-12">
         <div className="text-blue-500 flex flex-row justify-center text-center text-2xl md:text-3xl font-semibold mt-12 mb-8">
           Panel Co-Chair
         </div>
         <div className="flex flex-wrap items-center justify-center gap-6 px-4">
           {mem.members7.map(createCard)}
         </div>
-      </div>
+      </div>*/}
 
       <div className="mb-12">
         <div className="text-blue-500 flex flex-row justify-center text-center text-2xl md:text-3xl font-semibold mt-12 mb-8">
