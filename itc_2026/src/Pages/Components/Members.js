@@ -91,7 +91,7 @@ const members5 = [
     link: "https://www.linkedin.com/in/prakash-talawar-a7276b3",
     img: "p32.png",
     name: "Prakash Talawar",
-    comp: "Sandisk, India",
+    comp: "Western Digital, India",
   },
   {
     id: 11,
