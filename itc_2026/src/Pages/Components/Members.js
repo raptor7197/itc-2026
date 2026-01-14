@@ -37,7 +37,7 @@ const members2 = [
     link: "https://www.linkedin.com/in/onithinbharadwaj/",
     img: "NB.png",
     name: "Nithin Bharadwaj",
-    comp: "Microchip, India",
+    comp: "Microchip, UK",
   },
 ];
 
