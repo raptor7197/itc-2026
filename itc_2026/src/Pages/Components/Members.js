@@ -104,7 +104,7 @@ const members5 = [
     link: "https://www.linkedin.com/in/shamitha-rao-989b4a9a/",
     img: "p57.png",
     name: "Shamitha Rao",
-    comp: "Synopsys, India",
+    comp: "Synapse Design, India",
   }
 ];
 
@@ -143,7 +143,7 @@ const members8 = [
     link: "https://www.linkedin.com/in/lakshmanan-balasubramanian-1b60422",
     img: "p11.png",
     name: "Lakshmanan Balasubramanian",
-    comp: "Texas Instruments, India",
+    comp: "Formerly with Texas Instruments, India",
   },
 ];
 
@@ -190,7 +190,7 @@ const members11 = [
     link: "https://www.linkedin.com/in/dharani-kumar-b3908158/",
     img: "p19.png",
     name: "Dharani Srinivasan",
-    comp: "Amazon, India",
+    comp: "Amazon Lab126, India",
   },
 ];
 
@@ -216,7 +216,7 @@ const members12 = [
 const members13 = [
   {
     id: 22,
-    link: "#",
+    link: "https://www.linkedin.com/in/veeresh-shetty-32a2216/",
     img: "p6.png",
     name: "Veeresh Shetty",
     comp: "Siemens EDA",
@@ -298,8 +298,16 @@ const members16 = [
   },
 ];
 
-// Advisory Committee - Row 2
-const members17 = [];
+// Posters Co-Chair
+const members17 = [
+  {
+    id: 59,
+    link: "https://www.linkedin.com/in/rama-sireesha-arisetti-5a605844/",
+    img: "rama-sireesha-arisetti.png",
+    name: "Rama Sireesha Arisetti",
+    comp: "Google, India",
+  },
+];
 
 // Advisory Committee - Row 3
 const members18 = [];
