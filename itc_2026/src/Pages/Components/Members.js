@@ -130,7 +130,7 @@ const members7 = [
   {
     id: 13,
     link: "https://www.linkedin.com/in/venkata-rangam-totakura-ba42038/",
-    img: "p12.png",
+    img: "Venkata.png",
     name: "Venkata Rangam Totakura",
     comp: "Infineon Technologies, India",
   },
