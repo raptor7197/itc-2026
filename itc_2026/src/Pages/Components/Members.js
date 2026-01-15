@@ -161,7 +161,7 @@ const members9 = [
     link: "https://www.linkedin.com/in/piyushkumar-chaniyara-3291aa71/",
     img: "p35.png",
     name: "Piyushkumar Chaniyara",
-    comp: "Texas Instruments , India",
+    comp: "ARM, UK",
   },
 ];
 
