@@ -16,19 +16,19 @@ function TRC() {
         </img>
         
        </div>
-       <div className="text-white mt-10 lg:text-5xl md:text-4xl text-3xl text-center font-bold " style={{fontFamily:'"Poppins", arial'}}>
+       { /* <div className="text-white mt-10 lg:text-5xl md:text-4xl text-3xl text-center font-bold " style={{fontFamily:'"Poppins", arial'}}>
             IMPORTANT DATES
-       </div>
+       </div> */}
        <div className="mt-10 textbg">
         <div className="h-[5px] bg-white ">
         </div>
         
-        <div className="mt-12 w-[100vw]  md:gap-0 ">
+        { /* <div className="mt-12 w-[100vw]  md:gap-0 ">
             <div className="flex flex-col items-center md:flex-row justify-evenly">
                 <div className="bg-[#00E0FF] text-center mb-6 md:mb-0 font-bold lg:w-[25vw] md:w-[30vw] w-[60vw] lg:text-[1.4vw] md:text-[1.7vw] text-[3.5vw] px-7 py-3" style={{borderRadius:"60px"}}>Submission Deadline<br/> 30 May, 2025</div>
                 <div className="bg-[#00E0FF] text-center md:mb-0 font-bold lg:w-[25vw] md:w-[30vw] w-[60vw] lg:text-[1.4vw] md:text-[1.7vw] text-[3.5vw] px-7 py-3" style={{borderRadius:"60px"}}>Author Notification<br/> 30 June, 2025</div>
             </div>
-        </div>
+        </div> */}
         
         <div className="flex justify-center mt-20 mb-20"> 
         <div className="text-[5vw] md:text-[4vw] lg:text-[3vw]  text-center font-bold  rounded-3xl border-blue-500 border-4 px-7 py-4 text-white hover:scale-[1.1] transition-[0.5s] hover:bg-black">
