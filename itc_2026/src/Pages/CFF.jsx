@@ -16,7 +16,7 @@ function CFF() {
         </img>
         
        </div>
-       <div className="mt-16 bg-black py-2 lg:text-5xl md:text-4xl text-3xl  font-bold text-center text-blue-500">
+       { /* <div className="mt-16 bg-black py-2 lg:text-5xl md:text-4xl text-3xl  font-bold text-center text-blue-500">
         <Marquee className="h-[20vw] md:h-[10vw] h-[8vw]">
             <div className="mx-5 text-blue-300">Fellowship Submission is Closed. Confirmation Mails have been Sent.</div>
             <div className="mx-5"> • </div>
@@ -35,7 +35,7 @@ function CFF() {
             <div className="mx-5 text-blue-300">Fellowship Submission is Closed. Confirmation Mails have been Sent.</div>
             <div className="mx-5"> • </div>
         </Marquee>
-        </div>
+        </div> */}
        <p className="text-white mt-10 lg:text-5xl md:text-4xl text-3xl text-center font-bold " style={{fontFamily:'"Poppins", arial'}}>
             ABOUT THE FELLOWSHIP
        </p>
@@ -146,7 +146,7 @@ function CFF() {
         </div>
 
        </div>
-
+{ /*
        <div className="text-white mt-10 lg:text-5xl md:text-4xl text-3xl text-center font-bold " style={{fontFamily:'"Poppins", arial'}}>
             IMPORTANT DATES
        </div>
@@ -167,7 +167,7 @@ function CFF() {
         
         <div className="h-[5px] bg-white ">
         </div>
-       </div>
+       </div> */}
        
             <Marquee direction="right" className="mt-16">
             <img src='/Mask group.webp' className="lg:h-[8vw] h-[12vw]"></img>

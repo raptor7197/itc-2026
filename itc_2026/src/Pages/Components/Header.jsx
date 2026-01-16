@@ -22,10 +22,11 @@ const ProgramList = [
 ];
 
 const AuthorList = [
-  { name: "Regular Papers/Posters Track", href: "/CFP" },
-  {
-    /* {name: 'Tutorials Track', href: "/CFT"}, */
-  },
+  {name: "Regular Papers/Posters Track", href: "/CFP" },
+  {name: 'Tutorials Track', href: "/CFT"},
+  {name: "Fellowship", href: "/CFF"},
+  {name: "Academia Reserach Track", href: "/ART"},
+  {name: "Test Reality Check", href: "/TRC"}
 ];
 
 const SponsorsList = [

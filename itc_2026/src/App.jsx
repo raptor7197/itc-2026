@@ -4,6 +4,14 @@ import Home from "./Pages/Home";
 import Footer from "./Pages/Components/Footer";
 import Committee from "./Pages/Committee";
 import ConferenceCFP from "./Pages/ConferenceCFP";
+import CFF from "./Pages/CFF";
+import CFT from "./Pages/CFT";
+import HackathonMain from "./Pages/HackathonMain";
+import CallForSponsors from "./Pages/CallForSponsors";
+import ContactUs from "./Pages/ContactUs";
+import TRC from "./Pages/TRC";
+import ART from "./Pages/ART";
+import Sponsors from "./Pages/SponsorsNew";
 
 import {
   Sheet,
@@ -28,6 +36,14 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Committee" element={<Committee />} />
         <Route path="/CFP" element={<ConferenceCFP />} />
+        <Route path="/CFT" element={<CFT />} />
+        <Route path="/CFF" element={<CFF />} />
+        <Route path="/Hackathon" element={<HackathonMain />} />
+        <Route path="/TRC" element={<TRC />} />
+        <Route path="/ART" element={<ART />} />
+        <Route path="/Sponsors" element={<Sponsors />} />
+        <Route path="/CallforSponsors" element={<CallForSponsors />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
       </Routes>
       <div className="z-5">
         <Sheet>
