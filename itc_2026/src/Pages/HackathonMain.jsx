@@ -28,7 +28,7 @@ function HackathonMain() {
        </div>
        
        <div>
-       <div className="mt-10 mx-8 p-6 " style={{fontFamily:'"Poppins", arial'}}>
+       {/* <div className="mt-10 mx-8 p-6 " style={{fontFamily:'"Poppins", arial'}}>
           <div className="rounded-xl border-4 border-blue-500 px-6 pb-6 mb-12">
           <div className="mt-10 text-white  lg:text-5xl md:text-4xl text-3xl font-bold text-center">
             Hackathon Winners
@@ -85,18 +85,18 @@ function HackathonMain() {
                   </div></div>
               </div>
             </div>
-            </div></div>
+            </div></div> */}
           <div className="mt-10 mx-8 p-6 " style={{fontFamily:'"Poppins", arial'}}>
-          <div className="rounded-xl border-4 border-blue-500 px-6 pb-6 mb-12">
+          {/* <div className="rounded-xl border-4 border-blue-500 px-6 pb-6 mb-12">
         <div className="mt-10 text-white  lg:text-5xl md:text-4xl text-3xl font-bold text-center">
             Hackathon Timeline
             </div>
             <main className="py-16">
         <Timeline items={timelineData} />
       </main>
-            </div>
+            </div> */}
             <div className="text-[5vw] md:text-[4vw] lg:text-[3vw] text-center font-bold rounded-3xl border-blue-500 border-4 px-7 py-4 text-white">
-        <a href="https://drive.google.com/file/d/1HV669hodLhaJg-MnjPWCrmXZfEydEY6D/view?usp=drive_link" download='case_study.pdf'>DOWNLOAD CASE STUDY</a>
+        <a href="https://drive.google.com/file/d/1HV669hodLhaJg-MnjPWCrmXZfEydEY6D/view?usp=drive_link" download='case_study.pdf'>DOWNLOAD PREVIOUS YEAR CASE STUDY</a>
         </div>
 
             <div className="mt-10 text-blue-500  text-5xl font-bold text-center">Submission Guidelines</div>
