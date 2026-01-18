@@ -86,7 +86,7 @@ function CFF() {
         </div>
        </div>
 
-       <p className="text-white mt-10 lg:text-5xl md:text-4xl text-3xl text-center font-bold " style={{fontFamily:'"Poppins", arial'}}>
+       { /* <p className="text-white mt-10 lg:text-5xl md:text-4xl text-3xl text-center font-bold " style={{fontFamily:'"Poppins", arial'}}>
             APPLICATION PROCESS
        </p>
        
@@ -146,7 +146,7 @@ function CFF() {
         </div>
 
        </div>
-{ /*
+
        <div className="text-white mt-10 lg:text-5xl md:text-4xl text-3xl text-center font-bold " style={{fontFamily:'"Poppins", arial'}}>
             IMPORTANT DATES
        </div>
@@ -168,6 +168,10 @@ function CFF() {
         <div className="h-[5px] bg-white ">
         </div>
        </div> */}
+
+       <div className="text-white mt-10 lg:text-5xl md:text-4xl text-3xl text-center font-bold " style={{fontFamily:'"Poppins", arial'}}>
+            Further details to be updated soon
+       </div>
        
             <Marquee direction="right" className="mt-16">
             <img src='/Mask group.webp' className="lg:h-[8vw] h-[12vw]"></img>

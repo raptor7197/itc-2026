@@ -35,7 +35,7 @@ function CFT() {
         
         
         <div className="flex justify-center mt-20 mb-20"> 
-        <a href="https://easychair.org/conferences/?conf=itcindia2025">
+        <a href="https://easychair.org/conferences/?conf=itcindia2026">
         <div className="text-[5vw] md:text-[4vw] lg:text-[3vw]  text-center font-bold  rounded-3xl border-blue-500 border-4 px-7 py-4 text-white hover:scale-[1.1] transition-[0.5s] hover:bg-black">
         SUBMIT TUTORIAL
         
@@ -121,8 +121,7 @@ function CFT() {
 <div class="text-white text-xl lg:text-2xl px-6 font-semibold text-center bg-gray-700 py-4 rounded-3xl w-[80vw] md:w-[35vw] lg:w-[29vw]">Test Resource Partitioning</div>
 <div class="text-white text-xl lg:text-2xl px-6 font-semibold text-center bg-gray-700 py-4 rounded-3xl w-[80vw] md:w-[35vw] lg:w-[29vw]">Test Standards</div>
 <div class="text-white text-lg lg:text-2xl px-6 font-semibold text-center bg-gray-700 py-4 rounded-3xl w-[80vw] md:w-[35vw] lg:w-[29vw]">Test Time Analysis and Reduction</div>
-<div class="text-white text-xl lg:text-2xl px-6 font-semibold text-center bg-gray-700 py-4 rounded-3xl w-[80vw] md:w-[35vw] lg:w-[29vw]">Testing High Speed</div>
-<div class="text-white text-xl lg:text-2xl px-6 font-semibold text-center bg-gray-700 py-4 rounded-3xl w-[80vw] md:w-[35vw] lg:w-[29vw]">Optics/Photonics</div>
+<div class="text-white text-xl lg:text-2xl px-6 font-semibold text-center bg-gray-700 py-4 rounded-3xl w-[80vw] md:w-[35vw] lg:w-[29vw]">Testing High Speed Optics/Photonics</div>
 <div class="text-white text-lg lg:text-2xl px-6 font-semibold text-center bg-gray-700 py-4 rounded-3xl w-[80vw] md:w-[35vw] lg:w-[29vw]">Yield Analysis and Optimization</div>
 
             </div>
