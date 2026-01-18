@@ -65,7 +65,7 @@ function CFT() {
         <div className="mt-10 text-blue-500  text-5xl font-bold text-center">Submission Guidelines</div>
         <div className="mt-10 mx-8 p-6 rounded-xl border-4 border-blue-500 text-white text-xl" style={{fontFamily:'"Poppins", arial'}}>
         <li className="mb-8">Tutorial title</li>
-        <li className="mb-8">An electronic copy of a Tutorial program with a list of topics covered, a short description of each topic and the approximate time devoted to each topic (about 2000 words) – <a href="https://easychair.org/conferences/?conf=itcindia2025"><b>Submission link</b></a></li>
+        <li className="mb-8">An electronic copy of a Tutorial program with a list of topics covered, a short description of each topic and the approximate time devoted to each topic (about 2000 words) – <a href="https://easychair.org/conferences/?conf=itcindia2026"><b>Submission link</b></a></li>
         <li className="mb-8">The targeted audience and prerequisites (about 50 words)</li>
         <li className="mb-8">Tutorial duration should be 3 hours (for full tutorials) or 1.5 hours (for short tutorials)</li>
         <li className="mb-8">Name, affiliation, e-mail address of each author</li>
@@ -77,6 +77,9 @@ function CFT() {
         </div>
         </div>
 
+<div className="text-[5vw] md:text-[4vw] lg:text-[3vw] text-center font-bold rounded-3xl border-blue-500 border-4 px-7 py-4 text-white mt-5 hover:scale-[1.03] transition-[0.5s] hover:bg-black">
+        <a href="https://drive.google.com/file/d/1F_WAsyL98IlFErnYbcgc7ulhn28il2Cl/view?usp=sharing" download='tutorial_submission_template.pdf'>DOWNLOAD TUTORIAL SUBMISSION TEMPLATE</a>
+        </div>
         <div className="mt-10 text-blue-500 text-4xl lg:text-5xl font-bold text-center">Topics of interest include (not limited to)</div>
             <div className="flex justify-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-32 lg:gap-x-64 gap-y-8 mx-8 my-16">
