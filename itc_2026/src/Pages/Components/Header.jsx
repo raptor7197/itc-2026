@@ -230,13 +230,7 @@ export default function Example() {
                       </Link>
                     </DisclosureButton>
                   </Disclosure>
-                  <Disclosure as="div" className="-mx-3">
-                    <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-white text-xl hover:text-blue-500">
-                      <Link to="/CFP" onClick={() => setMobileMenuOpen(false)}>
-                        Submissions
-                      </Link>
-                    </DisclosureButton>
-                  </Disclosure>
+                  
                   <Disclosure as="div" className="-mx-3">
                     <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-white text-xl hover:text-blue-500">
                       Program
