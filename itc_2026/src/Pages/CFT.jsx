@@ -77,6 +77,9 @@ function CFT() {
         </div>
         </div>
 
+<div className="text-[5vw] md:text-[4vw] lg:text-[3vw] text-center font-bold rounded-3xl border-blue-500 border-4 px-7 py-4 text-white mt-5 hover:scale-[1.03] transition-[0.5s] hover:bg-black">
+        <a href="https://drive.google.com/file/d/1F_WAsyL98IlFErnYbcgc7ulhn28il2Cl/view?usp=sharing" download='tutorial_submission_template.pdf'>DOWNLOAD TUTORIAL SUBMISSION TEMPLATE</a>
+        </div>
         <div className="mt-10 text-blue-500 text-4xl lg:text-5xl font-bold text-center">Topics of interest include (not limited to)</div>
             <div className="flex justify-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-32 lg:gap-x-64 gap-y-8 mx-8 my-16">
