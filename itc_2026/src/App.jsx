@@ -9,7 +9,6 @@ import CFT from "./Pages/CFT";
 import HackathonMain from "./Pages/HackathonMain";
 import CallForSponsors from "./Pages/CallForSponsors";
 import ContactUs from "./Pages/ContactUs";
-import TRC from "./Pages/TRC";
 import ART from "./Pages/ART";
 import Sponsors from "./Pages/SponsorsNew";
 
@@ -39,7 +38,6 @@ function App() {
         <Route path="/CFT" element={<CFT />} />
         <Route path="/CFF" element={<CFF />} />
         <Route path="/Hackathon" element={<HackathonMain />} />
-        <Route path="/TRC" element={<TRC />} />
         <Route path="/ART" element={<ART />} />
         <Route path="/Sponsors" element={<Sponsors />} />
         <Route path="/CallforSponsors" element={<CallForSponsors />} />
