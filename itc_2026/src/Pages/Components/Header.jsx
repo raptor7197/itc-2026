@@ -25,8 +25,8 @@ const AuthorList = [
   {name: "Call for Papers", href: "/CFP" },
   {name: 'Call for Tutorials', href: "/CFT"},
   {name: "Academia Reserach Track", href: "/ART"},
-  {name: "Call for Fellowship", href: "/CFF"},
   {name: "Hackathon", href: "/Hackathon"},
+  {name: "Call for Fellowship", href: "/CFF"},
 ];
 
 const SponsorsList = [
