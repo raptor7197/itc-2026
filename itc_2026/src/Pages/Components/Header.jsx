@@ -277,13 +277,13 @@ export default function Example() {
                     </DisclosurePanel>
                   </Disclosure>
                   <Disclosure as="div" className="-mx-3">
-                    <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-white text-xl hover:text-blue-500">
+                    {/* <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-white text-xl hover:text-blue-500">
                       Sponsors
                       <ChevronDownIcon
                         aria-hidden="true"
                         className="size-5 flex-none group-data-[open]:rotate-180"
                       />
-                    </DisclosureButton>
+                    </DisclosureButton>*/}
                     <DisclosurePanel className="mt-2 space-y-2">
                       {[...SponsorsList].map((item) => (
                         <DisclosureButton
