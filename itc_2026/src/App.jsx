@@ -212,7 +212,8 @@ function App() {
                             ITC 2022
                           </a>
                         </li>
-                        <li className="mt-2">
+                        {/* im done man*/}
+                        {/* <li className="mt-2">
                           <a
                             href="../public/itc_2021/index.html"
                             className="hover:text-purple-500 text-xl"
@@ -239,7 +240,7 @@ function App() {
                           <a href="" className="hover:text-purple-500 text-xl">
                             ITC 2017
                           </a>
-                        </li>
+                        </li>*/}
                       </ul>
                     </AccordionContent>
                   </AccordionItem>
