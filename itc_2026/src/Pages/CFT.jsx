@@ -213,10 +213,10 @@ function CFT() {
               questions regarding the program itself or contact information,
               please consult the ITC India web site at{" "}
               <a
-                href="http://www.itctestweekindia.org"
+                href="https://itctestweekindia.org/"
                 className="text-blue-300"
               >
-                http://www.itctestweekindia.org
+                https://www.itctestweekindia.org
               </a>{" "}
               or email the tutorial chair at{" "}
               <a
