@@ -104,7 +104,7 @@ const members5 = [
     link: "https://www.linkedin.com/in/shamitha-rao-989b4a9a/",
     img: "p57.png",
     name: "Shamitha Rao",
-    comp: "Synopsis Design, India",
+    comp: "Synopsys Design, India",
   }
 ];
 
@@ -201,7 +201,7 @@ const members12 = [
     link: "https://www.linkedin.com/in/veejayepanayadian",
     img: "p7.png",
     name: "Veejaye Panayadian",
-    comp: "Western Digital, India",
+    comp: "Sandisk, India",
   },
   {
     id: 20,
