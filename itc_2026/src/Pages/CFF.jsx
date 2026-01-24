@@ -45,7 +45,7 @@ function CFF() {
         <div className="mt-10 mx-8 p-6 pb-10 rounded-xl border-4 border-blue-500" style={{fontFamily:'"Poppins", arial'}}>
             <ul className="text-justify list-disc text-white text-xl mx-10">
                 <li className="mb-6">
-                IEEE ITC 2025 invites students, researchers and faculties working in the scope of VLSI Test to apply for the fellowship program. IEEE ITC has been offering generous fellowships to students, researchers and faculties of various Indian academic institutions. We are happy to continue the trend for IEEE ITC 2025 as well. The fellowship provides complimentary registration and Reimbursements (fixed amount) of travel and stay to attend the conference.
+                IEEE ITC 2025 invites students, researchers and faculties working in the scope of VLSI Test to apply for the fellowship program. IEEE ITC has been offering generous fellowships to students, researchers and faculties of various Indian academic institutions. We are happy to continue the trend for IEEE ITC 2026 as well. The fellowship provides complimentary registration and Reimbursements (fixed amount) of travel and stay to attend the conference.
                 </li>
                 <li className="mb-6">
                 Fellowships are available to Indian students, researchers and Faculties working in VLSI Test fields. Fellows need to attend the entire 3-day conference, and a record of attendance will be maintained. The fellowship should not be viewed as an honor but as an enabler for students and faculty who lack adequate support.
