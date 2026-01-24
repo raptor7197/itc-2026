@@ -57,6 +57,13 @@ const members3 = [
     name: "Dr. Rajit Karmakar",
     comp: "AMD, India",
   },
+  {
+    id: 59,
+    link: "https://www.linkedin.com/in/rama-sireesha-arisetti-5a605844/",
+    img: "rama-sireesha-arisetti-1.png",
+    name: "Rama Sireesha Arisetti",
+    comp: "Google, India",
+  },
 ];
 
 // Industry Test Challenges Co-Chairs
@@ -300,13 +307,7 @@ const members16 = [
 
 // Posters Co-Chair
 const members17 = [
-  {
-    id: 59,
-    link: "https://www.linkedin.com/in/rama-sireesha-arisetti-5a605844/",
-    img: "rama-sireesha-arisetti-1.png",
-    name: "Rama Sireesha Arisetti",
-    comp: "Google, India",
-  },
+  
 ];
 
 // Advisory Committee - Row 3
