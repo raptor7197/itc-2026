@@ -217,19 +217,26 @@ const members12 = [
     name: "Leela Krishna Thota",
     comp: "Synopsys, India",
   },
+  {
+    id: 22,
+    link:"https://www.linkedin.com/in/senthilkumar-dhamodharan/",
+    img: "SenthilKumar.png",
+    name: "Senthilkumar Dhamodharan",
+    comp: "Caliber Interconnects, India",
+  }
 ];
 
 // Marketing and Conference Management Co-Chairs
 const members13 = [
   {
-    id: 22,
+    id: 23,
     link: "https://www.linkedin.com/in/veeresh-shetty-32a2216/",
     img: "p6.png",
     name: "Veeresh Shetty",
     comp: "Siemens EDA",
   },
   {
-    id: 23,
+    id: 24,
     link: "https://www.linkedin.com/in/samuel-vishwas-dorairaj",
     img: "p51.png",
     name: "Samuel V Dorairaj",
@@ -240,14 +247,14 @@ const members13 = [
 // New Volunteers
 const members14 = [
   {
-    id: 24,
+    id: 25,
     link: "https://www.linkedin.com/in/senthilkumar-dhamodharan/",
     img: "p12.png",
     name: "Senthilkumar Dhamodharan",
     comp: "Caliber Interconnects, India",
   },
   {
-    id: 25,
+    id: 26,
     link: "#",
     img: "p12.png",
     name: "Veerabhadra Rao Vasa",
@@ -258,28 +265,28 @@ const members14 = [
 // TPC Advisory Committee
 const members15 = [
   {
-    id: 26,
+    id: 27,
     link: "https://www.linkedin.com/in/alex-orailoglu-52aa7123",
     img: "alex orailoglu.png",
     name: "Prof. Alex Orailoglu",
     comp: "University of California, USA",
   },
   {
-    id: 27,
+    id: 28,
     link: "https://cc.ee.ntu.edu.tw/~cmli/",
     img: "Prof. James Chien-Mo Li.png",
     name: "Prof. James Chien-Mo Li",
     comp: "National Taiwan University, Taiwan",
   },
   {
-    id: 28,
+    id: 29,
     link: "https://www.linkedin.com/in/ravikumar-cp-1039825a/",
     img: "cp_ravikumar.png",
     name: "Dr. C.P. Ravikumar",
     comp: "VinyanaTech, India",
   },
   {
-    id: 29,
+    id: 30,
     link: "https://engineering.cmu.edu/directory/bios/blanton-shawn.html",
     img: "shawn blanton.png",
     name: "R. D. (Shawn) Blanton",
@@ -290,14 +297,14 @@ const members15 = [
 // Advisory Committee - Row 1
 const members16 = [
   {
-    id: 30,
+    id: 31,
     link: "https://www.linkedin.com/in/navin-bishnoi-707a6b3/",
     img: "p40.png",
     name: "Navin Bishnoi",
     comp: "Marvell Technology, India",
   },
   {
-    id: 31,
+    id: 32,
     link: "https://www.linkedin.com/in/prasad-mantri-5742b156/",
     img: "p34.png",
     name: "Prasad Mantri",
