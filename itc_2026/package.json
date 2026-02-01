@@ -1,6 +1,7 @@
 {
   "name": "itcweb",
   "private": true,
+  "packageManager": "pnpm@9.15.0",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
