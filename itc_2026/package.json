@@ -23,7 +23,6 @@
     "clsx": "^2.1.1",
     "embla-carousel-react": "^8.5.2",
     "framer-motion": "^12.4.3",
-    "itcweb": "file:",
     "lucide-react": "^0.474.0",
     "motion": "^12.4.3",
     "react": "^18.3.1",
