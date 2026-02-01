@@ -220,7 +220,7 @@ const members12 = [
   {
     id: 22,
     link: "https://www.linkedin.com/in/senthilkumar-dhamodharan/",
-    img: "image.png",
+    img: "p26.png",
     name: "Senthilkumar Dhamodharan",
     comp: "Caliber Interconnects, India",
   }
