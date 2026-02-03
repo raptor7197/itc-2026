@@ -3,7 +3,11 @@ export default function CommCard(props) {
     <div className="w-48 h-[22rem] " style={{ fontFamily: '"Poppins", arial' }}>
       <div>
         <div className="mt-8">
+<<<<<<< HEAD
           <img src={props.img} alt={props.name}></img>
+=======
+          <img src={props.img.startsWith('/') ? props.img : `/${props.img}`} alt={props.name}></img>
+>>>>>>> upstream/main
         </div>
         <div className="flex flex-row justify-center text-white text-center text-lg font-semibold cursor-default">
           {props.name}
