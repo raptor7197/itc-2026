@@ -129,7 +129,15 @@ const members6 = [
     img: "Hafizur-Rahaman.png",
     name: "Prof Hafizur Rahaman",
     comp: "IIEST Shibpur",
+  },
+  {
+    id: 60,
+    link: "https://www.linkedin.com/in/sreejit-chakravarty?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BTMrtEoNiSF%2B4f6%2Bs3Er4aQ%3D%3D",
+    img: "sreejit_1.png",
+    name: "Sreejit Chakravarty",
+    comp: "Ampere Computing",
   }
+
 ];
 
 // Panel Co-Chair
@@ -152,6 +160,13 @@ const members8 = [
     name: "Lakshmanan Balasubramanian",
     comp: "Formerly with Texas Instruments, India",
   },
+  {
+    id: 61,
+    link: "https://www.linkedin.com/in/dr-shylashree-n-1a9504148?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BrnLm6qfjQc2RJHNmvkDzbQ%3D%3D",
+    img: "p61.png",
+    name: "Dr. Shylashree N",
+    comp: "RVCE",
+  }
 ];
 
 // Fellowship Co-Chairs
