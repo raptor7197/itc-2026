@@ -129,7 +129,15 @@ const members6 = [
     img: "Hafizur-Rahaman.png",
     name: "Prof Hafizur Rahaman",
     comp: "IIEST Shibpur",
+  },
+  {
+    id: 60,
+    link: "https://www.linkedin.com/in/sreejit-chakravarty?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BTMrtEoNiSF%2B4f6%2Bs3Er4aQ%3D%3D",
+    img: "sreejit_1.png",
+    name: "Sreejit Chakravarty",
+    comp: "Ampere Computing",
   }
+
 ];
 
 // Panel Co-Chair
@@ -152,6 +160,13 @@ const members8 = [
     name: "Lakshmanan Balasubramanian",
     comp: "Formerly with Texas Instruments, India",
   },
+  {
+    id: 61,
+    link: "https://www.linkedin.com/in/dr-shylashree-n-1a9504148?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BrnLm6qfjQc2RJHNmvkDzbQ%3D%3D",
+    img: "p61.png",
+    name: "Dr. Shylashree N",
+    comp: "RVCE",
+  }
 ];
 
 // Fellowship Co-Chairs
@@ -217,8 +232,6 @@ const members12 = [
     name: "Leela Krishna Thota",
     comp: "Synopsys, India",
   },
-<<<<<<< HEAD
-=======
   {
     id: 22,
     link: "https://www.linkedin.com/in/senthilkumar-dhamodharan/",
@@ -226,28 +239,19 @@ const members12 = [
     name: "Senthilkumar Dhamodharan",
     comp: "Caliber Interconnects, India",
   }
->>>>>>> upstream/main
 ];
 
 // Marketing and Conference Management Co-Chairs
 const members13 = [
   {
-<<<<<<< HEAD
-    id: 22,
-=======
     id: 23,
->>>>>>> upstream/main
     link: "https://www.linkedin.com/in/veeresh-shetty-32a2216/",
     img: "p6.png",
     name: "Veeresh Shetty",
     comp: "Siemens EDA",
   },
   {
-<<<<<<< HEAD
-    id: 23,
-=======
     id: 24,
->>>>>>> upstream/main
     link: "https://www.linkedin.com/in/samuel-vishwas-dorairaj",
     img: "p51.png",
     name: "Samuel V Dorairaj",
@@ -258,22 +262,14 @@ const members13 = [
 // New Volunteers
 const members14 = [
   {
-<<<<<<< HEAD
-    id: 24,
-=======
     id: 25,
->>>>>>> upstream/main
     link: "https://www.linkedin.com/in/senthilkumar-dhamodharan/",
     img: "p12.png",
     name: "Senthilkumar Dhamodharan",
     comp: "Caliber Interconnects, India",
   },
   {
-<<<<<<< HEAD
-    id: 25,
-=======
     id: 26,
->>>>>>> upstream/main
     link: "#",
     img: "p12.png",
     name: "Veerabhadra Rao Vasa",
@@ -284,44 +280,28 @@ const members14 = [
 // TPC Advisory Committee
 const members15 = [
   {
-<<<<<<< HEAD
-    id: 26,
-=======
     id: 27,
->>>>>>> upstream/main
     link: "https://www.linkedin.com/in/alex-orailoglu-52aa7123",
     img: "alex orailoglu.png",
     name: "Prof. Alex Orailoglu",
     comp: "University of California, USA",
   },
   {
-<<<<<<< HEAD
-    id: 27,
-=======
     id: 28,
->>>>>>> upstream/main
     link: "https://cc.ee.ntu.edu.tw/~cmli/",
     img: "Prof. James Chien-Mo Li.png",
     name: "Prof. James Chien-Mo Li",
     comp: "National Taiwan University, Taiwan",
   },
   {
-<<<<<<< HEAD
-    id: 28,
-=======
     id: 29,
->>>>>>> upstream/main
     link: "https://www.linkedin.com/in/ravikumar-cp-1039825a/",
     img: "cp_ravikumar.png",
     name: "Dr. C.P. Ravikumar",
     comp: "VinyanaTech, India",
   },
   {
-<<<<<<< HEAD
-    id: 29,
-=======
     id: 30,
->>>>>>> upstream/main
     link: "https://engineering.cmu.edu/directory/bios/blanton-shawn.html",
     img: "shawn blanton.png",
     name: "R. D. (Shawn) Blanton",
@@ -332,22 +312,14 @@ const members15 = [
 // Advisory Committee - Row 1
 const members16 = [
   {
-<<<<<<< HEAD
-    id: 30,
-=======
     id: 31,
->>>>>>> upstream/main
     link: "https://www.linkedin.com/in/navin-bishnoi-707a6b3/",
     img: "p40.png",
     name: "Navin Bishnoi",
     comp: "Marvell Technology, India",
   },
   {
-<<<<<<< HEAD
-    id: 31,
-=======
     id: 32,
->>>>>>> upstream/main
     link: "https://www.linkedin.com/in/prasad-mantri-5742b156/",
     img: "p34.png",
     name: "Prasad Mantri",
