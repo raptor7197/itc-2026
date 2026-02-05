@@ -30,7 +30,7 @@ const AuthorList = [
 ];
 
 const SponsorsList = [
-  { name: "Our Sponsors", href: "/Sponsors" },
+  // { name: "Our Sponsors", href: "/Sponsors" },
   { name: "Call For Sponsors", href: "/CallForSponsors" },
 ];
 export default function Example() {
