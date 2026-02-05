@@ -19,21 +19,26 @@ export default function Footer() {
                   Submissions
                 </div>
                 <div>
-                  <Link to="/CFP">Call for Papers</Link>
+                  <Link to="/CFP" onClick={() => window.scrollTo(0, 0)}>
+                    Call for Papers
+                  </Link>
                   {/* <Link to="/CFT">Call for Tutorials</Link>*/}
                   {/* <Link to="/ART">Call for </Link>*/}
                 </div>
                 <div>
                   {/* <Link to="/CFP">Call for Papers</Link>*/}
-                  <Link to="/CFT">Call for Tutorials</Link>
-                </div> 
+                  <Link to="/CFT" onClick={() => window.scrollTo(0, 0)}>
+                    Call for Tutorials
+                  </Link>
+                </div>
                 <div>
-                                  {/* <Link to="/CFP">Call for Papers</Link>*/}
-                                  {/* <Link to="/CFT">Call for Tutorials</Link>*/}
-                  <Link to="/ART">Academia Reserach Track </Link>
-                                  {/* <Link to="/ART">Call for </Link>*/}
-                                </div>
-                
+                  {/* <Link to="/CFP">Call for Papers</Link>*/}
+                  {/* <Link to="/CFT">Call for Tutorials</Link>*/}
+                  <Link to="/ART" onClick={() => window.scrollTo(0, 0)}>
+                    Academia Reserach Track{" "}
+                  </Link>
+                  {/* <Link to="/ART">Call for </Link>*/}
+                </div>
               </div>
               <div>
                 <div className="text-xl font-bold text-decoration-line: underline">
@@ -52,7 +57,9 @@ export default function Footer() {
                   <Link href="">Terms & Conditions</Link>
                 </div>
                 <div>
-                  <Link to="/contactus">Contact Us</Link>
+                  <Link to="/contactus" onClick={() => window.scrollTo(0, 0)}>
+                    Contact Us
+                  </Link>
                 </div>
               </div>
               <div>
