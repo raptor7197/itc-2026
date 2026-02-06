@@ -35,7 +35,7 @@ export default function Footer() {
                   {/* <Link to="/CFP">Call for Papers</Link>*/}
                   {/* <Link to="/CFT">Call for Tutorials</Link>*/}
                   <Link to="/ART" onClick={() => window.scrollTo(0, 0)}>
-                    Academia Reserach Track{" "}
+                    Academia Research Track{" "}
                   </Link>
                   {/* <Link to="/ART">Call for </Link>*/}
                 </div>
