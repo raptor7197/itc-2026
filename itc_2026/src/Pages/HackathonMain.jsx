@@ -19,11 +19,13 @@ function HackathonMain() {
       <div>
         <Header />
       </div>
-      <div className="mt-16">
+      <div className="mt-16 relative">
         <img
           src="/Hackathonheading.png"
           style={{ width: "100vw", zIndex: "-50" }}
-        ></img>
+          alt="Hackathon Background"
+        />
+        
       </div>
 
       <div>
