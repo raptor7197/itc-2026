@@ -10,7 +10,7 @@ import HackathonMain from "./Pages/HackathonMain";
 import CallForSponsors from "./Pages/CallForSponsors";
 import ContactUs from "./Pages/ContactUs";
 import ART from "./Pages/ART";
-import Sponsors from "./Pages/SponsorsNew";
+import nSponsors from "./Pages/SponsorsNew";
 
 import {
   Sheet,
@@ -39,7 +39,7 @@ function App() {
         <Route path="/CFF" element={<CFF />} />
         <Route path="/Hackathon" element={<HackathonMain />} />
         <Route path="/ART" element={<ART />} />
-        {/* <Route path="/Sponsors" element={<Sponsors />} />*/}
+        <Route path="/Sponsors" element={<nSponsors />} />
         <Route path="/CallforSponsors" element={<CallForSponsors />} />
         <Route path="/ContactUs" element={<ContactUs />} />
       </Routes>

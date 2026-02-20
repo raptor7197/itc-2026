@@ -2,7 +2,7 @@ import React from "react";
 import Header from './Components/Header'
 
 
-export default function Sponsors(){
+export default function nSponsors(){
     return (
         <div>
              <div className="z-[1000]">
