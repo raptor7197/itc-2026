@@ -108,8 +108,21 @@ export default function Home() {
       <div>
         <Header />
       </div>
-
-      <div className="flex flex-row justify-center text-center mt-28   ml-6 mr-6">
+      <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl  font-bold text-center text-blue-500">
+          <Marquee className="h-[20vw] md:h-[10vw] h-[8vw]">
+            <a href="/CFP"><div className="mx-5 text-blue-300">Call For Papers</div></a>
+            <div className="mx-5"> • </div>
+            <a href="/CFT"><div className="mx-5 text-blue-300">Call For Tutorials</div></a>
+            <div className="mx-5"> • </div>
+            <a href="/CFF"><div className="mx-5 text-blue-300">Call For Fellowship</div></a>
+            <div className="mx-5"> • </div>
+            <a href="/ART"><div className="mx-5 text-blue-300">Academia Research Track</div></a>
+            <div className="mx-5"> • </div>
+            <a href="/Hackathon"><div className="mx-5 text-blue-300">Hackathon</div></a>
+            <div className="mx-5"> • </div>
+          </Marquee>
+        </div>
+      <div className="flex flex-row justify-center text-center mt-10   ml-6 mr-6">
         <h1
           className="text-3xl font-bold text-white md:text-4xl lg:text-5xl"
           style={{ fontFamily: '"Poppins", arial' }}
