@@ -108,6 +108,18 @@ export default function Home() {
       <div>
         <Header />
       </div>
+      <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl font-bold text-center text-blue-500">
+        <Marquee className="h-[8vw] md:h-[10vw] lg:h-[8vw] z-10">
+          <div className="mx-5 text-blue-300">Academia Research Track</div>
+          <div className="mx-5"> • </div>
+          <div className="mx-5 text-blue-300">Call For Papers</div>
+          <div className="mx-5"> • </div>
+          <div className="mx-5 text-blue-300">Call For Tutorials</div>
+          <div className="mx-5"> • </div>
+          <div className="mx-5 text-blue-300">Hackathon</div>
+          <div className="mx-5"> • </div>
+        </Marquee>
+      </div>
 
       <div className="flex flex-row justify-center text-center mt-28   ml-6 mr-6">
         <h1
