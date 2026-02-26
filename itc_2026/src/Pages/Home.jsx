@@ -110,7 +110,8 @@ export default function Home() {
       </div>
       
 
-      <div className="flex flex-row justify-center text-center mt-28   ml-6 mr-6">
+      
+      <div className="flex flex-row justify-center text-center mt-10   ml-6 mr-6">
         <h1
           className="text-3xl font-bold text-white md:text-4xl lg:text-5xl"
           style={{ fontFamily: '"Poppins", arial' }}
