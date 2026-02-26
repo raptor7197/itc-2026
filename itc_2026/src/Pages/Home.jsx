@@ -115,19 +115,17 @@ export default function Home() {
           Welcome to ITC Test Week India 2026
         </h1>
       </div>
-      <div className="mt-5 ">
-        <div className="mt-5 mb-5  ">.</div>f
-      </div>
+
       <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl font-bold text-center text-blue-500 z-[0]">
         <div className="relative w-full z-0">
           <Marquee className="h-[8vw] md:h-[10vw] lg:h-[8vw]">
             <div className="mx-5 text-blue-300">
-              Key Timeline : Call for papers - 17th March, Call for tutorial -
+              Key Timeline : Call for papers - 3rd March, Call for tutorial -
               31st March
             </div>
             <div className="mx-5">•</div>
             <div className="mx-5 text-blue-300">
-              Key Timeline : Call for papers - 17th March, Call for tutorial -
+              Key Timeline : Call for papers - 3rd March, Call for tutorial -
               31st March
             </div>
             <div className="mx-5">•</div>

@@ -80,7 +80,7 @@ export default function Example() {
       </div>
 
       <header
-        className="bg-blue-950 bg-opacity-60 ml-1 mr-1 mt-2 backdrop-brightness-50 z-[1000]"
+        className="relative bg-blue-950 bg-opacity-60 ml-1 mr-1 mt-2 backdrop-brightness-50 z-[1000]"
         style={{ borderRadius: "20px", fontFamily: '"Poppins",arial' }}
       >
         <nav
@@ -137,25 +137,25 @@ export default function Example() {
                 className="absolute -left-8 top-full z-[99999] mt-3 w-72 max-w-sm overflow-hidden rounded-3xl bg-gray-950 shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
               >
                 <div className="relative p-4 z-50">
-  {AuthorList.map((item) => (
-    <div
-      key={item.name}
-      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6"
-    >
-      <div className="flex-auto">
-        <Link
-          to={item.href}
-          className="block font-semibold text-white hover:text-blue-400"
-          style={{ transition: "0.2s" }}
-          onClick={() => setMobileMenuOpen(false)}
-        >
-          {item.name}
-          <span className="absolute inset-0" />
-        </Link>
-      </div>
-    </div>
-  ))}
-</div>
+                  {AuthorList.map((item) => (
+                    <div
+                      key={item.name}
+                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6"
+                    >
+                      <div className="flex-auto">
+                        <Link
+                          to={item.href}
+                          className="block font-semibold text-white hover:text-blue-400"
+                          style={{ transition: "0.2s" }}
+                          onClick={() => setMobileMenuOpen(false)}
+                        >
+                          {item.name}
+                          <span className="absolute inset-0" />
+                        </Link>
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </PopoverPanel>
             </Popover>
 
