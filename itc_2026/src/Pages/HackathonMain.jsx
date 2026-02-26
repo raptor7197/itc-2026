@@ -9,7 +9,6 @@ import {
   AccordionTrigger,
 } from "../components/ui/accordion";
 import Header from "./Components/Header";
-import Marquee from "react-fast-marquee";
 import Timeline from "./Components/Timeline";
 import timelineData from "../TimelineData";
 
@@ -19,18 +18,7 @@ function HackathonMain() {
       <div>
         <Header />
       </div>
-      <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl  font-bold text-center text-blue-500">
-                <Marquee className="h-[20vw] md:h-[10vw] h-[8vw]">
-                  <div className="mx-5 text-blue-300">Hackathon</div>
-                  <div className="mx-5"> • </div>
-                  <div className="mx-5 text-blue-300">Hackathon</div>
-                  <div className="mx-5"> • </div>
-                  <div className="mx-5 text-blue-300">Hackathon</div>
-                  <div className="mx-5"> • </div>
-                  <div className="mx-5 text-blue-300">Hackathon</div>
-                  <div className="mx-5"> • </div>
-                </Marquee>
-              </div>
+
       <div className="mt-16 relative">
         <img
           src="/Hackathonheading.png"
@@ -421,12 +409,6 @@ function HackathonMain() {
           </div>
         </div>
       </div>
-
-      <Marquee direction="right" className="mt-16">
-        <img src="/Mask group.webp" className="lg:h-[8vw] h-[12vw]"></img>
-        <img src="/Mask group.webp" className="lg:h-[8vw] h-[12vw]"></img>
-        <img src="/Mask group.webp" className="lg:h-[8vw] h-[12vw]"></img>
-      </Marquee>
     </>
   );
 }

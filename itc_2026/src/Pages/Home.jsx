@@ -32,13 +32,13 @@ import { Component } from "lucide-react";
 
 
 export default function Home() {
-  const pageUrl = 'https://itctestweekindia.org/share.html'; 
+  const pageUrl = 'https://itctestweekindia.org/share.html';
   const shareText = 'Check out this awesome banner!';
 
   // 2. URL-encode the data for safe use in links
   const encodedPageUrl = encodeURIComponent(pageUrl);
   const encodedShareText = encodeURIComponent(shareText);
-  
+
   // 3. Create the final share URLs
   const shareLinks = {
     linkedin: `https://www.linkedin.com/shareArticle?mini=true&url=${encodedPageUrl}`,
@@ -108,20 +108,9 @@ export default function Home() {
       <div>
         <Header />
       </div>
-      <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl  font-bold text-center text-blue-500">
-          <Marquee className="h-[20vw] md:h-[10vw] h-[8vw]">
-            <a href="/CFP"><div className="mx-5 text-blue-300">Call For Papers</div></a>
-            <div className="mx-5"> • </div>
-            <a href="/CFT"><div className="mx-5 text-blue-300">Call For Tutorials</div></a>
-            <div className="mx-5"> • </div>
-            <a href="/CFF"><div className="mx-5 text-blue-300">Call For Fellowship</div></a>
-            <div className="mx-5"> • </div>
-            <a href="/ART"><div className="mx-5 text-blue-300">Academia Research Track</div></a>
-            <div className="mx-5"> • </div>
-            <a href="/Hackathon"><div className="mx-5 text-blue-300">Hackathon</div></a>
-            <div className="mx-5"> • </div>
-          </Marquee>
-        </div>
+      
+
+      
       <div className="flex flex-row justify-center text-center mt-10   ml-6 mr-6">
         <h1
           className="text-3xl font-bold text-white md:text-4xl lg:text-5xl"
@@ -129,6 +118,26 @@ export default function Home() {
         >
           Welcome to ITC Test Week India 2026
         </h1>
+      </div>
+      <div className="mt-5 ">
+        <div className="mt-5 mb-5  ">
+ .
+        </div>
+f
+      </div>
+      <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl font-bold text-center text-blue-500 z-[0]">
+        <div className="relative w-full z-0">
+          <Marquee className="h-[8vw] md:h-[10vw] lg:h-[8vw]">
+            <div className="mx-5 text-blue-300">
+              Key Timeline : Call for papers - 3rd March, Call for tutorial - 31st March
+            </div>
+            <div className="mx-5">•</div>
+            <div className="mx-5 text-blue-300">
+              Key Timeline : Call for papers - 3rd March, Call for tutorial - 31st March
+            </div>
+            <div className="mx-5">•</div>
+          </Marquee>
+        </div>
       </div>
 
       <div className=" flex flex-col lg:flex-row homebg">
@@ -172,7 +181,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
+
       {/* <div className="mt-12">
         <Marquee direction="right">
           <img src="/Mask group.webp" className="lg:h-[8vw] h-[12vw]"></img>
@@ -181,7 +190,7 @@ export default function Home() {
         </Marquee>
       </div> */}
 
-      
+
 
       <div className="mt-24 w-[100vw]">
         <Carousel items={images2} autoScrollInterval={5000} />
@@ -229,7 +238,7 @@ export default function Home() {
         </a>
       </div>
       </div> */}
-     
+
 
 
       {/* <div className="flex flex-col mt-20 ">

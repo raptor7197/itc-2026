@@ -2,7 +2,6 @@ import React from "react";
 import ColourfulText from "../components/ui/colourful-text";
 import { motion } from "motion/react";
 import Header from "./Components/Header";
-import Marquee from "react-fast-marquee";
 
 function CFT() {
   const topics = [
@@ -57,18 +56,7 @@ function CFT() {
       <div>
         <Header />
       </div>
-      <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl  font-bold text-center text-blue-500">
-          <Marquee className="h-[20vw] md:h-[10vw] h-[8vw]">
-            <div className="mx-5 text-blue-300">Call For Tutorials</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Call For Tutorials</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Call For Tutorials</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Call For Tutorials</div>
-            <div className="mx-5"> • </div>
-          </Marquee>
-        </div>
+
       <div className="mt-16">
         <img
           src="/CFTheading.png"
@@ -123,18 +111,7 @@ function CFT() {
         <div className="h-[5px] bg-white "></div>
       </div>
       <div>
-        <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl  font-bold text-center text-blue-500">
-          <Marquee className="h-[20vw] md:h-[10vw] h-[8vw]">
-            <div className="mx-5 text-blue-300">Call For Tutorials</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Call For Tutorials</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Call For Tutorials</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Call For Tutorials</div>
-            <div className="mx-5"> • </div>
-          </Marquee>
-        </div>
+
         <div
           className="mt-10 mx-8 p-6 rounded-xl border-4 border-blue-500"
           style={{ fontFamily: '"Poppins", arial' }}
@@ -273,23 +250,6 @@ function CFT() {
           ))}
         </div>
       </div>
-      <Marquee direction="right">
-        <img
-          src="/Mask group.webp"
-          className="lg:h-[8vw] h-[12vw]"
-          alt=""
-        ></img>
-        <img
-          src="/Mask group.webp"
-          className="lg:h-[8vw] h-[12vw]"
-          alt=""
-        ></img>
-        <img
-          src="/Mask group.webp"
-          className="lg:h-[8vw] h-[12vw]"
-          alt=""
-        ></img>
-      </Marquee>
     </>
   );
 }

@@ -2,7 +2,6 @@ import React from "react"
 import ColourfulText from "../components/ui/colourful-text";
 import { motion } from "motion/react";
 import  Header  from "./Components/Header";
-import Marquee from "react-fast-marquee";
 
 function ART() {
     return (
@@ -10,18 +9,7 @@ function ART() {
         <div>
         <Header/>
        </div>
-       <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl  font-bold text-center text-blue-500">
-                 <Marquee className="h-[20vw] md:h-[10vw] h-[8vw]">
-                   <div className="mx-5 text-blue-300">Academia Research Track</div>
-                   <div className="mx-5"> • </div>
-                   <div className="mx-5 text-blue-300">Academia Research Track</div>
-                   <div className="mx-5"> • </div>
-                   <div className="mx-5 text-blue-300">Academia Research Track</div>
-                   <div className="mx-5"> • </div>
-                   <div className="mx-5 text-blue-300">Academia Research Track</div>
-                   <div className="mx-5"> • </div>
-                 </Marquee>
-               </div>
+
        <div className="mt-16">
         <img src='/ARTHeading.png' style={{width:'100vw', zIndex:'-50'}}>
             
@@ -56,18 +44,6 @@ function ART() {
         </div>
        </div>
        <div>
-       <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl  font-bold text-center text-blue-500">
-        <Marquee className="h-[20vw] md:h-[10vw] ">
-            <div className="mx-5 text-blue-300">Academia Research Track</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Academia Research Track</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Academia Research Track</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Academia Research Track</div>
-            <div className="mx-5"> • </div>
-          </Marquee>
-        </div>
         <div className="mt-10 mx-8 p-6 rounded-xl border-4 border-blue-500" style={{fontFamily:'"Poppins", arial'}}>
             <p className="text-justify text-white text-xl mx-10">International Test Conference, the world’s premier venue dedicated to the electronic test of devices, boards and systems, will host a dedicated Academia Research Track (ART) to manifest creative research ideas from students and young academicians. The key objective of this academia track, first time planned to be held with the International Test Conference, is to provide a dedicated informal forum for vigorous creative discussion and debate of this area from researchers of various academic institutes. The aim is to encourage the oral/poster presentation with discussion on truly innovative and “out-of-the-box” ideas that may not yet have been fully developed for presentation at reviewed conferences to address these challenges.</p>
 <p className="text-justify text-white text-xl mt-10 mx-10">Students and young academicians are invited to submit original and high quality research work or innovative idea to this track. Selected ideas will interact with dedicated panel from industry to further extended the research work of common interests. ART is a platform of presenting late-breaking ideas, getting feedback on an innovative method, or participating without having to write a full paper.</p>
@@ -147,11 +123,7 @@ function ART() {
 
             </div>
             </div>
-            <Marquee direction="right">
-            <img src='./Mask group.webp' className="lg:h-[8vw] h-[12vw]"></img>
-            <img src='/Mask group.webp' className="lg:h-[8vw] h-[12vw]"></img>
-            <img src='/Mask group.webp' className="lg:h-[8vw] h-[12vw]"></img>
-          </Marquee>
+
 
         </>
     )

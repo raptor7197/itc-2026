@@ -2,7 +2,7 @@ import React from "react";
 import ColourfulText from "../components/ui/colourful-text";
 import { motion } from "motion/react";
 import Header from "./Components/Header";
-import Marquee from "react-fast-marquee";
+
 import { Link } from "react-router-dom";
 
 function AuthorKit() {
@@ -224,12 +224,6 @@ function AuthorKit() {
         </div>
         
       </div>
-      
-      <Marquee direction="right">
-        <img src="/Mask group.webp" className="lg:h-[8vw] h-[12vw]"></img>
-        <img src="/Mask group.webp" className="lg:h-[8vw] h-[12vw]"></img>
-        <img src="/Mask group.webp" className="lg:h-[8vw] h-[12vw]"></img>
-      </Marquee>
     </>
   );
 }

@@ -134,28 +134,28 @@ export default function Example() {
 
               <PopoverPanel
                 transition
-                className="absolute -left-8 top-full z-[10000] mt-3 w-72 max-w-sm overflow-hidden rounded-3xl bg-gray-950 shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+                className="absolute -left-8 top-full z-[99999] mt-3 w-72 max-w-sm overflow-hidden rounded-3xl bg-gray-950 shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
               >
-                <div className="p-4 z-[50]">
-                  {AuthorList.map((item) => (
-                    <div
-                      key={item.name}
-                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 z-[50]"
-                    >
-                      <div className="flex-auto z-[20]">
-                        <Link
-                          to={item.href}
-                          className="block font-semibold text-white hover:text-blue-400 z-[50]"
-                          style={{ transition: "0.2s" }}
-                          onClick={() => setMobileMenuOpen(false)}
-                        >
-                          {item.name}
-                          <span className="absolute inset-0" />
-                        </Link>
-                      </div>
-                    </div>
-                  ))}
-                </div>
+                <div className="relative p-4 z-50">
+  {AuthorList.map((item) => (
+    <div
+      key={item.name}
+      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6"
+    >
+      <div className="flex-auto">
+        <Link
+          to={item.href}
+          className="block font-semibold text-white hover:text-blue-400"
+          style={{ transition: "0.2s" }}
+          onClick={() => setMobileMenuOpen(false)}
+        >
+          {item.name}
+          <span className="absolute inset-0" />
+        </Link>
+      </div>
+    </div>
+  ))}
+</div>
               </PopoverPanel>
             </Popover>
 
@@ -173,9 +173,9 @@ export default function Example() {
 
               <PopoverPanel
                 transition
-                className="absolute -left-8 top-full z-[10000] mt-3 w-72 max-w-sm overflow-hidden rounded-3xl bg-gray-950 shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+                className="absolute -left-8 top-full z-[99999] mt-3 w-72 max-w-sm overflow-hidden rounded-3xl bg-gray-950 shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
               >
-                <div className="p-4 z-[50]">
+                <div className="p-4 z-[99999]">
                   {SponsorsList.map((item) => (
                     <div
                       key={item.name}

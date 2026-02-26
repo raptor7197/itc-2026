@@ -2,7 +2,6 @@ import React from "react"
 import ColourfulText from "../components/ui/colourful-text";
 import { motion } from "motion/react";
 import  Header  from "./Components/Header";
-import Marquee from "react-fast-marquee";
 
 function CFF() {
     return (
@@ -10,18 +9,7 @@ function CFF() {
         <div>
         <Header/>
        </div>
-       <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl  font-bold text-center text-blue-500">
-          <Marquee className="h-[20vw] md:h-[10vw] h-[8vw]">
-            <div className="mx-5 text-blue-300">Call For Fellowship</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Call For Fellowship</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Call For Fellowship</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Call For Fellowship</div>
-            <div className="mx-5"> • </div>
-          </Marquee>
-        </div>
+
        <div className="mt-16">
         <img src='/CFF.png'style={{width:'100vw', zIndex:'-50'}}>
             
@@ -184,12 +172,6 @@ function CFF() {
        <div className="text-white mt-10 lg:text-5xl md:text-4xl text-3xl text-center font-bold " style={{fontFamily:'"Poppins", arial'}}>
             Further details to be updated soon
        </div>
-       
-            <Marquee direction="right" className="mt-16">
-            <img src='/Mask group.webp' className="lg:h-[8vw] h-[12vw]"></img>
-            <img src='/Mask group.webp' className="lg:h-[8vw] h-[12vw]"></img>
-            <img src='/Mask group.webp' className="lg:h-[8vw] h-[12vw]"></img>
-          </Marquee>
 
         </>
     )
