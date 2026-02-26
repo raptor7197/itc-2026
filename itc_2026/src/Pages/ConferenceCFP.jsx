@@ -1,5 +1,4 @@
 import Header from "./Components/Header";
-import Marquee from "react-fast-marquee";
 
 function ConferenceCFP() {
   const tracks = [
@@ -100,18 +99,6 @@ function ConferenceCFP() {
       <div>
         <Header />
       </div>
-      <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl  font-bold text-center text-blue-500">
-          <Marquee className="h-[20vw] md:h-[10vw] h-[8vw]">
-            <div className="mx-5 text-blue-300">Call For Papers</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Call For Papers</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Call For Papers</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Call For Papers</div>
-            <div className="mx-5"> • </div>
-          </Marquee>
-        </div>
       <div className="mt-16">
         <img
           src="/CFPHeading.png"
@@ -177,18 +164,6 @@ function ConferenceCFP() {
         <div className="h-[5px] bg-white "></div>
       </div>
       <div>
-        <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl font-bold text-center text-blue-500">
-          <Marquee className="h-[20vw] md:h-[10vw] lg:h-[8vw]">
-            <div className="mx-5 text-blue-300">Call For Papers</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Call For Papers</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Call For Papers</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Call For Papers</div>
-            <div className="mx-5"> • </div>
-          </Marquee>
-        </div>
         <div className="flex justify-center">
           <div
             className="mt-10 mx-8 p-6 rounded-xl border-4 border-blue-500 max-w-[90vw]"
@@ -429,23 +404,6 @@ function ConferenceCFP() {
           ))}
         </div>
       </div>
-      <Marquee direction="right">
-        <img
-          src="/Mask group.webp"
-          className="lg:h-[8vw] h-[12vw]"
-          alt="Mask Group"
-        ></img>
-        <img
-          src="/Mask group.webp"
-          className="lg:h-[8vw] h-[12vw]"
-          alt="Mask Group"
-        ></img>
-        <img
-          src="/Mask group.webp"
-          className="lg:h-[8vw] h-[12vw]"
-          alt="Mask Group"
-        ></img>
-      </Marquee>
       <div className="text-[#00E0FF] text-xl lg:text-2xl font-bold mb-4 text-center h-auto md:h-16 flex items-center justify-center md:col-span-2">
         We look forward to your contributions to ITC India 2026!
       </div>

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import React from "react";
 import Header from "./Components/Header";
-import Marquee from "react-fast-marquee";
 import {
   Dialog,
   DialogClose,
@@ -182,12 +181,6 @@ function Registration() {
       <div>
       
       </div>
-
-      <Marquee direction="right" className="mt-16">
-        <img src="/Mask group.webp" className="lg:h-[8vw] h-[12vw]" alt="logo" />
-        <img src="/Mask group.webp" className="lg:h-[8vw] h-[12vw]" alt="logo" />
-        <img src="/Mask group.webp" className="lg:h-[8vw] h-[12vw]" alt="logo" />
-      </Marquee>
     </>
   );
 }

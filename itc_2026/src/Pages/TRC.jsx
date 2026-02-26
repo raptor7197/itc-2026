@@ -2,7 +2,6 @@ import React from "react"
 import ColourfulText from "../components/ui/colourful-text";
 import { motion } from "motion/react";
 import  Header  from "./Components/Header";
-import Marquee from "react-fast-marquee";
 
 function TRC() {
     return (
@@ -40,18 +39,6 @@ function TRC() {
         </div>
        </div>
        <div>
-        <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl  font-bold text-center text-blue-500">
-        <Marquee className="h-[20vw] md:h-[10vw] h-[8vw]">
-            <div className="mx-5 text-blue-300">Test Reality Check is Live</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Test Reality Check is Live</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Test Reality Check is Live</div>
-            <div className="mx-5"> • </div>
-            <div className="mx-5 text-blue-300">Test Reality Check is Live</div>
-            <div className="mx-5"> • </div>
-          </Marquee>
-        </div>
         <div className="mt-10 mx-8 p-6 rounded-xl border-4 border-blue-500" style={{fontFamily:'"Poppins", arial'}}>
         <div className="text-justify text-white text-xl mx-10 mb-4"><p>The objective of this track is to provide an informal platform for Chip Designers, EDA solution providers, product companies to debate about any specific test topic of interest with test community at large. The TRC track comprises of following two sections:</p></div>
                 <ul className="text-justify text-white text-xl mx-10 list-disc">
@@ -121,11 +108,6 @@ function TRC() {
 
             </div>
             </div>
-            <Marquee direction="right">
-            <img src='/Mask group.webp' className="lg:h-[8vw] h-[12vw]"></img>
-            <img src='/Mask group.webp' className="lg:h-[8vw] h-[12vw]"></img>
-            <img src='/Mask group.webp' className="lg:h-[8vw] h-[12vw]"></img>
-          </Marquee>
 
         </>
     )
