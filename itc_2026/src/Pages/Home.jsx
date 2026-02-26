@@ -120,6 +120,9 @@ export default function Home() {
         </h1>
       </div>
       <div className="mt-5 ">
+        <div className="mt-5 mb-5  ">
+ .
+        </div>
 f
       </div>
       <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl font-bold text-center text-blue-500 z-[0]">
