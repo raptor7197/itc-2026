@@ -11,6 +11,7 @@ import Header from "./Components/Header";
 import { Carousel } from "../components/ui/carousel";
 import Highlights from "../components/ui/Highlights";
 
+
 import {
   Sheet,
   SheetContent,
@@ -29,9 +30,10 @@ import {
 import Marquee from "react-fast-marquee";
 import { Component } from "lucide-react";
 
+
 export default function Home() {
-  const pageUrl = "https://itctestweekindia.org/share.html";
-  const shareText = "Check out this awesome banner!";
+  const pageUrl = 'https://itctestweekindia.org/share.html';
+  const shareText = 'Check out this awesome banner!';
 
   // 2. URL-encode the data for safe use in links
   const encodedPageUrl = encodeURIComponent(pageUrl);
@@ -42,7 +44,7 @@ export default function Home() {
     linkedin: `https://www.linkedin.com/shareArticle?mini=true&url=${encodedPageUrl}`,
     facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodedPageUrl}`,
     whatsapp: `https://api.whatsapp.com/send?text=${encodedShareText}%20${encodedPageUrl}`,
-    twitter: `https://x.com/intent/tweet?url=${encodedPageUrl}&text=${encodedShareText}`,
+    twitter: `https://x.com/intent/tweet?url=${encodedPageUrl}&text=${encodedShareText}`
   };
   const images = ["/VGS02418.JPG", "/VGS02444.JPG", "/VGS02452.jpg"];
 
@@ -106,7 +108,9 @@ export default function Home() {
       <div>
         <Header />
       </div>
+      
 
+      
       <div className="flex flex-row justify-center text-center mt-10   ml-6 mr-6">
         <h1
           className="text-3xl font-bold text-white md:text-4xl lg:text-5xl"
@@ -116,19 +120,20 @@ export default function Home() {
         </h1>
       </div>
       <div className="mt-5 ">
-        <div className="mt-5 mb-5  ">.</div>f
+        <div className="mt-5 mb-5  ">
+ .
+        </div>
+f
       </div>
       <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl font-bold text-center text-blue-500 z-[0]">
         <div className="relative w-full z-0">
           <Marquee className="h-[8vw] md:h-[10vw] lg:h-[8vw]">
             <div className="mx-5 text-blue-300">
-              Key Timeline : Call for papers - 17th March, Call for tutorial -
-              31st March
+              Key Timeline : Call for papers - 3rd March, Call for tutorial - 31st March
             </div>
             <div className="mx-5">•</div>
             <div className="mx-5 text-blue-300">
-              Key Timeline : Call for papers - 17th March, Call for tutorial -
-              31st March
+              Key Timeline : Call for papers - 3rd March, Call for tutorial - 31st March
             </div>
             <div className="mx-5">•</div>
           </Marquee>
@@ -185,6 +190,8 @@ export default function Home() {
         </Marquee>
       </div> */}
 
+
+
       <div className="mt-24 w-[100vw]">
         <Carousel items={images2} autoScrollInterval={5000} />
       </div>
@@ -231,6 +238,8 @@ export default function Home() {
         </a>
       </div>
       </div> */}
+
+
 
       {/* <div className="flex flex-col mt-20 ">
         <div
