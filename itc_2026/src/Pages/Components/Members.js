@@ -23,7 +23,7 @@ const members2 = [
     link: "https://www.linkedin.com/in/subhadip-kundu-94862a24",
     img: "p45.png",
     name: "Subhadip Kundu",
-    comp: "Qualcomm, India",
+    comp: "Cadence Design Systems",
   },
   {
     id: 3,
