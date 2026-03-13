@@ -194,6 +194,10 @@ export default function Committee() {
           {mem.members18.map(createCard)}
          
         </div>
+        <div className="flex flex-wrap items-center justify-center gap-6 px-4 pt-5">
+          {mem.members19.map(createCard)}
+         
+        </div>
       </div>
     </div>
   );

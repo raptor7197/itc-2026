@@ -327,6 +327,15 @@ const members16 = [
     name: "Prof. Virendra Singh",
     comp: "IIT Bombay, India",
   },
+  {
+                id: 39,
+                link: "https://www.linkedin.com/in/navin-bishnoi-707a6b3/",
+                img: 'p40.png',
+                name: "Navin Bishnoi",
+                comp: "Marvell Semiconductors, India",
+           
+               },
+         
   
 ];
 
@@ -377,7 +386,14 @@ const members18 = [{
 },];
 
 // Advisory Committee - Row 4
-const members19 = [];
+const members19 = [ {
+       id: 50,
+       link: "https://www.linkedin.com/in/sameer-chillarige-72385510?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+       img: 'p27.png',
+       name: "Sameer Chillarige",
+       comp: "Cadence, India",
+  
+      },];
 
 // Advisory Committee - Row 5
 const members20 = [];
