@@ -175,18 +175,26 @@ export default function Committee() {
         </div>
       </div>*/}
 
-      {/* <div className="mb-16">
+      <div className="mb-16">
         <div className="text-blue-500 flex flex-row justify-center text-center text-2xl md:text-3xl font-semibold mt-12 mb-8">
           Advisory Committee
         </div>
         <div className="flex flex-wrap items-center justify-center gap-6 px-4">
           {mem.members16.map(createCard)}
-          {mem.members17.map(createCard)}
-          {mem.members18.map(createCard)}
-          {mem.members19.map(createCard)}
-          {mem.members20.map(createCard)}
+          {/* {mem.members17.map(createCard)}*/}
+          {/* {mem.members18.map(createCard)}*/}
+          {/* {mem.members19.map(createCard)}*/}
+          {/* {mem.members20.map(createCard)}*/}
         </div>
-      </div>*/}
+        <div className="flex flex-wrap items-center justify-center gap-6 px-4 pt-5">
+          {mem.members17.map(createCard)}
+         
+        </div>
+        <div className="flex flex-wrap items-center justify-center gap-6 px-4 pt-5">
+          {mem.members18.map(createCard)}
+         
+        </div>
+      </div>
     </div>
   );
 }
