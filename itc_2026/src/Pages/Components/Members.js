@@ -106,13 +106,14 @@ const members5 = [
     img: "p41.png",
     name: "Mehala Balasundaram",
     comp: "Synopsys, India",
-  }, {
+  },
+  {
     id: 57,
     link: "https://www.linkedin.com/in/shamitha-rao-989b4a9a/",
     img: "p57.png",
     name: "Shamitha Rao",
     comp: "Synopsys Design, India",
-  }
+  },
 ];
 
 // Academia-Research Track Co-Chairs (ART)
@@ -123,7 +124,8 @@ const members6 = [
     img: "p18.png",
     name: "Prof. Binod Kumar",
     comp: "IIT Jodhpur",
-  }, {
+  },
+  {
     id: 58,
     link: "https://www.linkedin.com/in/hafizur-rahaman-352208164/",
     img: "Hafizur-Rahaman.png",
@@ -136,8 +138,7 @@ const members6 = [
     img: "sreejit_1.png",
     name: "Sreejit Chakravarty",
     comp: "Ampere Computing",
-  }
-
+  },
 ];
 
 // Panel Co-Chair
@@ -166,7 +167,7 @@ const members8 = [
     img: "p61.png",
     name: "Dr. Shylashree N",
     comp: "RVCE",
-  }
+  },
 ];
 
 // Fellowship Co-Chairs
@@ -238,7 +239,7 @@ const members12 = [
     img: "p26.png",
     name: "Senthilkumar Dhamodharan",
     comp: "Caliber Interconnects, India",
-  }
+  },
 ];
 
 // Marketing and Conference Management Co-Chairs
@@ -309,31 +310,71 @@ const members15 = [
   },
 ];
 
-// Advisory Committee - Row 1
+// Advisory Committee - Part 1
 const members16 = [
+ 
   {
-    id: 31,
-    link: "https://www.linkedin.com/in/navin-bishnoi-707a6b3/",
-    img: "p40.png",
-    name: "Navin Bishnoi",
-    comp: "Marvell Technology, India",
+    id: 42,
+    link: "https://www.google.com",
+    img: "p22.png",
+    name: "Prof. Adit Singh",
+    comp: "Auburn University, USA",
   },
   {
-    id: 32,
-    link: "https://www.linkedin.com/in/prasad-mantri-5742b156/",
-    img: "p34.png",
-    name: "Prasad Mantri",
-    comp: "Eximietas Design, India",
+    id: 43,
+    link: "https://www.linkedin.com/in/virendrasingh/",
+    img: "p4.png",
+    name: "Prof. Virendra Singh",
+    comp: "IIT Bombay, India",
   },
-];
-
-// Posters Co-Chair
-const members17 = [
   
 ];
 
-// Advisory Committee - Row 3
-const members18 = [];
+// Advisory Part 2
+const members17 = [ {
+  id: 41,
+  link: "https://www.linkedin.com/in/yervant-zorian-40522b1/",
+  img: "p43.png",
+  name: "Dr. Yervant Zorian",
+  comp: "Synopsys",
+},
+{
+  id: 45,
+  link: "https://www.google.com",
+  img: "p47.png",
+  name: "Scott Davidson",
+  comp: "Retired Computer Scientist, USA",
+},
+{
+  id: 47,
+  link: "https://www.linkedin.com/in/ron-press-b8bb462?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  img: "p30.png",
+  name: "Ron Press",
+  comp: "Siemens EDA, USA",
+},];
+
+// Advisory Committee - Part 3
+const members18 = [{
+  id: 46,
+  link: "https://www.google.com",
+  img: "p38.png",
+  name: "Dr. Rubin Parekhji",
+  comp: "Texas Instruments, India",
+},
+{
+  id: 49,
+  link: "https://www.linkedin.com/in/jais-abraham-8b90124/",
+  img: "p17.png",
+  name: "Jais Abraham",
+  comp: "Qualcomm, India",
+},
+{
+  id: 44,
+  link: "https://www.linkedin.com/in/susmita-sur-kolay-568bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  img: "p44.png",
+  name: "Prof. Susmita Sur-Kolay",
+  comp: "ISI, India",
+},];
 
 // Advisory Committee - Row 4
 const members19 = [];
