@@ -376,14 +376,15 @@ const members18 = [{
   img: "p17.png",
   name: "Jais Abraham",
   comp: "Qualcomm, India",
-},
-{
-  id: 44,
-  link: "https://www.linkedin.com/in/susmita-sur-kolay-568bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  img: "p44.png",
-  name: "Prof. Susmita Sur-Kolay",
-  comp: "ISI, India",
-},];
+},{
+        id: 48,
+        link: "https://www.linkedin.com/in/ujjwalguin?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        img: 'p42.png',
+        name: "Prof. Ujjwal Guin",
+        comp: "Auburn University, USA",
+   
+       },
+];
 
 // Advisory Committee - Row 4
 const members19 = [ {
