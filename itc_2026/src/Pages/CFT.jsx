@@ -101,17 +101,25 @@ function CFT() {
           </div>
         </div>
 
-        <div className="flex justify-center mt-20 mb-20">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-10 mt-20 mb-20">
           <a href="https://easychair.org/my/conference?conf=itcindia2026">
-            <div className="text-[5vw] md:text-[4vw] lg:text-[3vw]  text-center font-bold  rounded-3xl border-blue-500 border-4 px-7 py-4 text-white hover:scale-[1.1] transition-[0.5s] hover:bg-black">
+            <div className="text-[3.5vw] md:text-[2.8vw] lg:text-[2.1vw]  text-center font-bold  rounded-3xl border-blue-500 border-4 px-5 py-3 text-white hover:scale-[1.1] transition-[0.5s] hover:bg-black">
               SUBMIT TUTORIAL
+            </div>
+          </a>
+          <a
+            href="https://www.ieee.org/conferences/publishing/templates.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="text-[3.5vw] md:text-[2.8vw] lg:text-[2.1vw] text-center font-bold rounded-3xl border-blue-500 border-4 px-5 py-3 text-white hover:scale-[1.1] transition-[0.5s] hover:bg-black">
+              DOWNLOAD IEEE TEMPLATE
             </div>
           </a>
         </div>
         <div className="h-[5px] bg-white "></div>
       </div>
       <div>
-
         <div
           className="mt-10 mx-8 p-6 rounded-xl border-4 border-blue-500"
           style={{ fontFamily: '"Poppins", arial' }}
@@ -201,10 +209,7 @@ function CFT() {
               requirements and deadlines, the selection process and any other
               questions regarding the program itself or contact information,
               please consult the ITC India web site at{" "}
-              <a
-                href="https://itctestweekindia.org/"
-                className="text-blue-300"
-              >
+              <a href="https://itctestweekindia.org/" className="text-blue-300">
                 https://www.itctestweekindia.org
               </a>{" "}
               or email the tutorial chair at{" "}

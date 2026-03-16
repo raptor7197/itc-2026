@@ -33,11 +33,9 @@ export default function Home() {
   const pageUrl = "https://itctestweekindia.org/share.html";
   const shareText = "Check out this awesome banner!";
 
-  // 2. URL-encode the data for safe use in links
   const encodedPageUrl = encodeURIComponent(pageUrl);
   const encodedShareText = encodeURIComponent(shareText);
 
-  // 3. Create the final share URLs
   const shareLinks = {
     linkedin: `https://www.linkedin.com/shareArticle?mini=true&url=${encodedPageUrl}`,
     facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodedPageUrl}`,
@@ -120,12 +118,12 @@ export default function Home() {
         <div className="relative w-full">
           <Marquee className="h-[8vw] md:h-[10vw] lg:h-[8vw]">
             <div className="mx-5 text-blue-300">
-              Key Timeline : Call for papers - 17th March, Call for tutorial -
+              Key Timeline : Call for tutorial -
               31st March
             </div>
             <div className="mx-5">•</div>
             <div className="mx-5 text-blue-300">
-              Key Timeline : Call for papers - 17th March, Call for tutorial -
+              Key Timeline : Call for tutorial -
               31st March
             </div>
             <div className="mx-5">•</div>

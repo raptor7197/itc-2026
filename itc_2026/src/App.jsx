@@ -10,6 +10,7 @@ import HackathonMain from "./Pages/HackathonMain";
 import CallForSponsors from "./Pages/CallForSponsors";
 import ContactUs from "./Pages/ContactUs";
 import ART from "./Pages/ART";
+import CallForPosters from "./Pages/CallForPosters";
 import nSponsors from "./Pages/SponsorsNew";
 
 import {
@@ -39,6 +40,7 @@ function App() {
         <Route path="/CFF" element={<CFF />} />
         <Route path="/Hackathon" element={<HackathonMain />} />
         <Route path="/ART" element={<ART />} />
+        <Route path="/CallForPosters" element={<CallForPosters />} />
         <Route path="/Sponsors" element={<nSponsors />} />
         <Route path="/CallforSponsors" element={<CallForSponsors />} />
         <Route path="/ContactUs" element={<ContactUs />} />

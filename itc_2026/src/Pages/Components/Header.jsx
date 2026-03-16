@@ -27,6 +27,7 @@ const AuthorList = [
   { name: "Academia Reserach Track", href: "/ART" },
   { name: "Hackathon", href: "/Hackathon" },
   { name: "Call for Fellowship", href: "/CFF" },
+  { name: "Call for Poster", href: "/CallForPoster" },
 ];
 
 const SponsorsList = [

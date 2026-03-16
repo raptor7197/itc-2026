@@ -25,7 +25,6 @@ function HackathonMain() {
           style={{ width: "100vw", zIndex: "-50" }}
           alt="Hackathon Background"
         />
-        
       </div>
 
       <div>
@@ -115,7 +114,7 @@ function HackathonMain() {
                 </tbody>
               </table>
             </div>
-            <div className="mt-10 text-center">
+            <div className="mt-10 flex flex-col md:flex-row justify-center items-center gap-10 text-center">
               <a
                 href="https://forms.gle/Jsti3rgKSj5TLkgt7"
                 target="_blank"
@@ -123,6 +122,15 @@ function HackathonMain() {
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg lg:text-2xl md:text-xl text-lg transition-colors"
               >
                 Hackathon Registration Form
+              </a>
+              <a
+                href="https://www.ieee.org/conferences/publishing/templates.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="text-[3.5vw] md:text-[2.8vw] lg:text-[2.1vw] text-center font-bold rounded-3xl border-blue-500 border-4 px-5 py-3 text-white hover:scale-[1.1] transition-[0.5s] hover:bg-black">
+                  DOWNLOAD IEEE TEMPLATE
+                </div>
               </a>
             </div>
           </div>
