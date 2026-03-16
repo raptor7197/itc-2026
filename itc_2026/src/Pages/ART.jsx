@@ -36,7 +36,7 @@ function ART() {
 
         <div className="flex justify-center mt-20 mb-20"> 
         <div className="text-[5vw] md:text-[4vw] lg:text-[3vw]  text-center font-bold  rounded-3xl border-blue-500 border-4 px-7 py-4 text-white hover:scale-[1.1] transition-[0.5s] hover:bg-black">
-        <a href="https://easychair.org/conferences/?conf=itcindia2026">SUBMIT ACADEMIA RESEARCH TRACK
+        <a href="https://easychair.org/conferences/?conf=itcindia2026"> ACADEMIC RESEARCH TRACK SUBMISSION
         </a>
         </div>
         </div>
@@ -59,7 +59,8 @@ function ART() {
 
         <div className="mt-10 text-blue-500  text-5xl font-bold text-center">Selection Criteria</div>
         <div className="mt-10 mx-8 p-6 rounded-xl border-4 border-blue-500 text-white text-xl" style={{fontFamily:'"Poppins", arial'}}>
-        <li className="mb-8">Abstracts will be selected based on the novelty of the work and its relevance to the conference. The selected abstracts would be later either categorized into poster presentation or oral presentation, solely based on the merit.</li>
+        <li className="mb-8">Papers will be selected based on the novelty of the work and its relevance to the conference. The selected papers would be called for oral presentation.
+        The selected papers would be considered for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements.</li>
         <li className="mb-8">Upon receiving the acceptance notification, the author will be informed if the paper is classified as a regular full paper or a poster.</li>
         <li className="mb-8">The selected papers would be later either categorized into poster presentation or oral presentation, solely based on the merit.</li>
         <li className="mb-8">If the submission got accepted under full paper category, it will be considered for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements.</li>
