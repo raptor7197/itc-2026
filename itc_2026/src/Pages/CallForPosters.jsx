@@ -1,6 +1,6 @@
 import Header from "./Components/Header";
 
-function ConferenceCFP() {
+function CallForPosters() {
   const tracks = [
     {
       title: "Heterogeneous Integration, Chiplets & 2.5D/3D Test",
@@ -101,7 +101,7 @@ function ConferenceCFP() {
       </div>
       <div className="mt-16">
         <img
-          src="/CFPHeading.png"
+          src="/CallForPosters.png"
           style={{ width: "100vw", zIndex: "-50" }}
           alt="CFP Heading"
         />
@@ -139,13 +139,6 @@ function ConferenceCFP() {
             >
               Author Notification
               <br /> 10th May, 2026
-            </div>
-            <div
-              className="bg-[#00E0FF] text-center mb-6 md:mb-0 font-bold lg:w-[25vw] md:w-[30vw] w-[60vw] lg:text-[1.4vw] md:text-[1.7vw] text-[3.5vw] px-7 py-3"
-              style={{ borderRadius: "60px" }}
-            >
-              Camera-ready Paper and IEEE Copyright Transfer Due
-              <br /> 31st May 2026
             </div>
           </div>
         </div>
@@ -420,4 +413,4 @@ function ConferenceCFP() {
   );
 }
 
-export default ConferenceCFP;
+export default CallForPosters;

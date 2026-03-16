@@ -170,6 +170,18 @@ function CFF() {
         </div>
       </div>
 
+      <div className="flex justify-center mt-10 mb-10">
+        <a
+          href="https://www.ieee.org/conferences/publishing/templates.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="text-[3.5vw] md:text-[2.8vw] lg:text-[2.1vw] text-center font-bold rounded-3xl border-blue-500 border-4 px-5 py-3 text-white hover:scale-[1.1] transition-[0.5s] hover:bg-black">
+            DOWNLOAD IEEE TEMPLATE
+          </div>
+        </a>
+      </div>
+
       {/* <p className="text-white mt-10 lg:text-5xl md:text-4xl text-3xl text-center font-bold " style={{fontFamily:'"Poppins", arial'}}>
             APPLICATION PROCESS
        </p>

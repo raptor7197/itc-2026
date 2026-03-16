@@ -27,6 +27,7 @@ const AuthorList = [
   { name: "Academia Reserach Track", href: "/ART" },
   { name: "Hackathon", href: "/Hackathon" },
   { name: "Call for Fellowship", href: "/CFF" },
+  { name: "Call for Posters", href: "/CallForPosters" },
 ];
 
 const SponsorsList = [
@@ -108,6 +109,15 @@ export default function Example() {
                 style={{ transition: "0.2s" }}
               >
                 <Link to="/">Home</Link>
+              </PopoverButton>
+            </Popover>
+
+            <Popover className="relative">
+              <PopoverButton
+                className="flex items-center gap-x-1 text-[1.3vw] font-semibold text-white hover:text-blue-400 "
+                style={{ transition: "0.2s" }}
+              >
+                <Link to="/AboutUs">About Us</Link>
               </PopoverButton>
             </Popover>
 
@@ -229,6 +239,16 @@ export default function Example() {
                     <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-white text-xl hover:text-blue-500">
                       <Link to="/" onClick={() => setMobileMenuOpen(false)}>
                         Home
+                      </Link>
+                    </DisclosureButton>
+                  </Disclosure>
+                  <Disclosure as="div" className="-mx-3">
+                    <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-white text-xl hover:text-blue-500">
+                      <Link
+                        to="/AboutUs"
+                        onClick={() => setMobileMenuOpen(false)}
+                      >
+                        About Us
                       </Link>
                     </DisclosureButton>
                   </Disclosure>
