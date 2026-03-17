@@ -80,14 +80,14 @@ function CFT() {
               style={{ borderRadius: "60px" }}
             >
               Tutorial Submission Deadline
-              <br /> 31st March, 2026
+              <br /> 31<sup>st</sup> March, 2026
             </div>
             <div
               className="bg-[#00E0FF] text-center md:mb-0 font-bold lg:w-[25vw] md:w-[30vw] w-[60vw] lg:text-[1.4vw] md:text-[1.7vw] text-[3.5vw] px-7 py-3"
               style={{ borderRadius: "60px" }}
             >
               Final Manuscript Due
-              <br /> 13th June, 2026
+              <br /> 13<sup>th</sup> June, 2026
             </div>
           </div>
           <div className="flex flex-row md:mt-12 mt-6 mb-6 justify-evenly">
@@ -96,7 +96,7 @@ function CFT() {
               style={{ borderRadius: "60px" }}
             >
               Author Notification
-              <br /> 12th May, 2026
+              <br /> 12<sup>th</sup> May, 2026
             </div>
           </div>
         </div>
@@ -166,6 +166,9 @@ function CFT() {
               >
                 https://easychair.org/my/conference?conf=itcindia2026
               </a>
+            </li>
+            <li>
+              Tutorial Submission Template <a href="https://drive.google.com/file/d/1F_WAsyL98IlFErnYbcgc7ulhn28il2Cl/view" className="font-bold underline">Link</a>
             </li>
             <li>
               The following details are mandatory:
