@@ -1,4 +1,5 @@
 import Header from "./Components/Header";
+import Marquee from "react-fast-marquee";
 
 function ConferenceCFP() {
   const tracks = [
@@ -106,6 +107,23 @@ function ConferenceCFP() {
           alt="CFP Heading"
         />
       </div>
+
+      <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl font-bold text-center text-blue-500">
+        <div className="relative w-full">
+          <Marquee className="h-[8vw] md:h-[10vw] lg:h-[8vw]">
+            <div className="mx-5 text-blue-300">
+              Final Deadline : Full Paper Submission - 31st March • Abstract Submission not Necessary
+            </div>
+            <div className="mx-5">•</div>
+            <div className="mx-5 text-blue-300">
+              Deadline : Call for Tutorials - 31st March
+              31st March
+            </div>
+            <div className="mx-5">•</div>
+          </Marquee>
+        </div>
+      </div>
+
       <div
         className="text-white mt-10 lg:text-5xl md:text-4xl text-3xl text-center font-bold "
         style={{ fontFamily: '"Poppins", arial' }}
@@ -128,8 +146,9 @@ function ConferenceCFP() {
               className="bg-[#00E0FF] text-center mb-6 md:mb-0 font-bold lg:w-[25vw] md:w-[30vw] w-[60vw] lg:text-[1.4vw] md:text-[1.7vw] text-[3.5vw] px-7 py-3"
               style={{ borderRadius: "60px" }}
             >
-              Paper Submission Deadline
-              <br /> 31th March, 2026
+              Full Paper Submission Deadline
+              <br /><div className="line-through">17th March, 2026</div>
+              31th March, 2026
             </div>
           </div>
           <div className="flex flex-col items-center md:flex-row justify-evenly md:mt-12 mt-6 mb-6">

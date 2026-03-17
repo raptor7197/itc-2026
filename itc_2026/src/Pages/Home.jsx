@@ -118,12 +118,11 @@ export default function Home() {
         <div className="relative w-full">
           <Marquee className="h-[8vw] md:h-[10vw] lg:h-[8vw]">
             <div className="mx-5 text-blue-300">
-              Key Timeline : Call for Paper - 31st March, Call for tutorial -
-              31st March
+              Final Deadline : Full Paper Submission - 31st March • Abstract Submission not Necessary
             </div>
             <div className="mx-5">•</div>
             <div className="mx-5 text-blue-300">
-              Key Timeline : Call for Paper - 31st March, Call for tutorial -
+              Deadline : Call for Tutorials - 31st March
               31st March
             </div>
             <div className="mx-5">•</div>
