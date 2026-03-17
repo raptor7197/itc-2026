@@ -129,7 +129,7 @@ function ConferenceCFP() {
               style={{ borderRadius: "60px" }}
             >
               Paper Submission Deadline
-              <br /> 24th March, 2026
+              <br /> 31th March, 2026
             </div>
           </div>
           <div className="flex flex-col items-center md:flex-row justify-evenly md:mt-12 mt-6 mb-6">
