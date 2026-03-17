@@ -117,7 +117,6 @@ function ConferenceCFP() {
             <div className="mx-5">•</div>
             <div className="mx-5 text-blue-300">
               Deadline : Call for Tutorials - 31st March
-              31st March
             </div>
             <div className="mx-5">•</div>
           </Marquee>
