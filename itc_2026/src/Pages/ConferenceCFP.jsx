@@ -112,7 +112,7 @@ function ConferenceCFP() {
         <div className="relative w-full">
           <Marquee className="h-[8vw] md:h-[10vw] lg:h-[8vw]">
             <div className="mx-5 text-blue-300">
-              Final Deadline : Full Paper Submission - 31st March • Abstract Submission not Necessary
+              Final Deadline : Full Paper Submission - 31st March
             </div>
             <div className="mx-5">•</div>
             <div className="mx-5 text-blue-300">
