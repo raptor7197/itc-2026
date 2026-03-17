@@ -147,7 +147,7 @@ function ConferenceCFP() {
             >
               Full Paper Submission Deadline
               <br /><div className="line-through">17th March, 2026</div>
-              31th March, 2026
+              31<sup>st</sup> March, 2026
             </div>
           </div>
           <div className="flex flex-col items-center md:flex-row justify-evenly md:mt-12 mt-6 mb-6">
@@ -156,14 +156,14 @@ function ConferenceCFP() {
               style={{ borderRadius: "60px" }}
             >
               Author Notification
-              <br /> 10th May, 2026
+              <br /> 10<sup>th</sup> May, 2026
             </div>
             <div
               className="bg-[#00E0FF] text-center mb-6 md:mb-0 font-bold lg:w-[25vw] md:w-[30vw] w-[60vw] lg:text-[1.4vw] md:text-[1.7vw] text-[3.5vw] px-7 py-3"
               style={{ borderRadius: "60px" }}
             >
               Camera-ready Paper and IEEE Copyright Transfer Due
-              <br /> 31st May 2026
+              <br /> 31<sup>st</sup> May, 2026
             </div>
           </div>
         </div>
@@ -207,7 +207,7 @@ function ConferenceCFP() {
             </p>
             <p className="text-justify text-white text-xl mt-10 mx-10">
               We seek high-quality unpublished submissions for papers (4-6
-              pages) and posters (1-6 pages) covering the theoretical,
+              pages) covering the theoretical,
               practical, and experimental aspects of VLSI testing.
             </p>
           </div>
@@ -239,15 +239,15 @@ function ConferenceCFP() {
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="text-[#00E0FF] text-2xl font-bold mt-1">
+                  {/* <span className="text-[#00E0FF] text-2xl font-bold mt-1">
                     •
-                  </span>
-                  <p className="text-justify">
+                  </span>*/}
+                  {/* <p className="text-justify">
                     <span className="font-semibold text-[#00E0FF]">
                       Posters:
                     </span>{" "}
                     1-6 pages following IEEE standard two-column format
-                  </p>
+                  </p>*/}
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="text-[#00E0FF] text-2xl font-bold mt-1">
@@ -391,8 +391,7 @@ function ConferenceCFP() {
                 affiliations should be made in the third person
               </li>
               <li className="mb-4">
-                A submission of 1-3 pages will be reviewed as a poster
-                submission. A submission of 4-6 pages may be accepted as a paper
+                 A submission of 4-6 pages may be accepted as a paper
                 or poster depending on the reviewer feedback
               </li>
             </ul>

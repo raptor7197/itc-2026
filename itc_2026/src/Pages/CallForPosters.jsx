@@ -128,8 +128,8 @@ function CallForPosters() {
               className="bg-[#00E0FF] text-center mb-6 md:mb-0 font-bold lg:w-[25vw] md:w-[30vw] w-[60vw] lg:text-[1.4vw] md:text-[1.7vw] text-[3.5vw] px-7 py-3"
               style={{ borderRadius: "60px" }}
             >
-              Paper Submission Deadline
-              <br /> 24th March, 2026
+              Poster Submission Deadline
+              <br /> 31<sup>st</sup> March, 2026
             </div>
           </div>
           <div className="flex flex-col items-center md:flex-row justify-evenly md:mt-12 mt-6 mb-6">
@@ -138,7 +138,7 @@ function CallForPosters() {
               style={{ borderRadius: "60px" }}
             >
               Author Notification
-              <br /> 10th May, 2026
+              <br /> 10<sup>th</sup> May, 2026
             </div>
           </div>
         </div>
@@ -150,7 +150,7 @@ function CallForPosters() {
             rel="noopener noreferrer"
           >
             <div className="text-[3.5vw] md:text-[2.8vw] lg:text-[2.1vw] text-center font-bold rounded-3xl border-blue-500 border-4 px-5 py-3 text-white hover:scale-[1.1] transition-[0.5s] hover:bg-black">
-              SUBMIT PAPER
+              SUBMIT POSTER
             </div>
           </a>
           <a
@@ -181,8 +181,7 @@ function CallForPosters() {
               and emerging semiconductor technologies.
             </p>
             <p className="text-justify text-white text-xl mt-10 mx-10">
-              We seek high-quality unpublished submissions for papers (4-6
-              pages) and posters (1-6 pages) covering the theoretical,
+              We seek high-quality unpublished submissions for  posters (1-6 pages) covering the theoretical,
               practical, and experimental aspects of VLSI testing.
             </p>
           </div>
@@ -202,7 +201,7 @@ function CallForPosters() {
                 className="text-white text-lg space-y-4"
                 style={{ fontFamily: '"Poppins", arial' }}
               >
-                <div className="flex items-start gap-3">
+                {/* <div className="flex items-start gap-3">
                   <span className="text-[#00E0FF] text-2xl font-bold mt-1">
                     •
                   </span>
@@ -212,7 +211,7 @@ function CallForPosters() {
                     </span>{" "}
                     4-6 pages following IEEE standard two-column format
                   </p>
-                </div>
+                </div>*/}
                 <div className="flex items-start gap-3">
                   <span className="text-[#00E0FF] text-2xl font-bold mt-1">
                     •
@@ -296,11 +295,11 @@ function CallForPosters() {
                 Submissions simultaneously under review or accepted by another
                 conference, symposium or journal, will be summarily rejected
               </li>
-              <li className="mb-4">
+              {/* <li className="mb-4">
                 Accepted papers will be submitted for inclusion into IEEE Xplore
                 subject to meeting IEEE Xplore&apos;s scope and quality
                 requirements
-              </li>
+              </li>*/}
               <li className="mb-4">
                 For detailed information about the submission process,
                 requirements and deadlines, the selection process and any other
@@ -327,7 +326,7 @@ function CallForPosters() {
                 submission site
               </li>
               <li className="mb-4">
-                An electronic copy of a complete paper up to 6 pages,
+                An electronic copy of a complete poster (1-6) pages,
                 double-columned in IEEE Format, A4 size (
                 <a
                   href="https://www.ieee.org/conferences/publishing/templates.html"
@@ -365,11 +364,11 @@ function CallForPosters() {
                 bibliographic citations to the author(s) own published works or
                 affiliations should be made in the third person
               </li>
-              <li className="mb-4">
+              {/* <li className="mb-4">
                 A submission of 1-3 pages will be reviewed as a poster
                 submission. A submission of 4-6 pages may be accepted as a paper
                 or poster depending on the reviewer feedback
-              </li>
+              </li>*/}
             </ul>
           </div>
         </div>
