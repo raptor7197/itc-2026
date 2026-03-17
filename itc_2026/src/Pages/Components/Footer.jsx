@@ -39,13 +39,18 @@ export default function Footer() {
                   </Link>
                   {/* <Link to="/ART">Call for </Link>*/}
                 </div>
+                <div>
+                  <Link to="/CallForPosters" onClick={() => window.scrollTo(0, 0)}>
+                    Call for Posters
+                  </Link>
+                </div>
               </div>
               <div>
                 <div className="text-xl font-bold text-decoration-line: underline">
                   Conference
                 </div>
                 <div>
-                  <Link href="">About Us</Link>
+                  <Link href="/AboutUs">About Us</Link>
                 </div>
                 <div>
                   <Link href="">Privacy Policy</Link>
