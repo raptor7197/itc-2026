@@ -118,11 +118,28 @@ export default function Home() {
         <div className="relative w-full">
           <Marquee className="h-[8vw] md:h-[10vw] lg:h-[8vw]">
             <div className="mx-5 text-blue-300">
-              Final Deadline : Full Paper Submission - 31st March 2026 • Abstract Submission not Necessary
+              {/*Final Deadline : Full Paper Submission - 31st March 2026 • Abstract Submission not Necessary*/}
+              Key Timeline: Call for Papers - New Final Deadline: 31<sup>st</sup> March, 2026 (Full Paper) [
+            </div>
+            <div className="mx-5 text-blue-300">
+            <div className="line-through">Abstract: 17<sup>th</sup> March, Full Paper: 24<sup>th</sup> March</div>
+            </div>
+            <div className="mx-5 text-blue-300">
+            ]
             </div>
             <div className="mx-5">•</div>
             <div className="mx-5 text-blue-300">
-              Deadline : Call for Tutorials - 31st March 2026
+            Tutorials Submission Deadline - 31<sup>st</sup> March 2026
+            </div>
+            <div className="mx-5">•</div>
+           
+            <div className="mx-5 text-blue-300">
+            Posters Submission Deadline - 31<sup>st</sup> March 2026
+            </div>
+            <div className="mx-5">•</div>
+            
+            <div className="mx-5 text-blue-300">
+            ART: Full Paper Submission Deadline - 15<sup>th</sup> April 2026
             </div>
             <div className="mx-5">•</div>
           </Marquee>
