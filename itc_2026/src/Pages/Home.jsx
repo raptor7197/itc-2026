@@ -139,6 +139,8 @@ export default function Home() {
             <div className="mx-5 text-blue-300">
             ART: Full Paper Submission Deadline - 15<sup>th</sup> April 2026
             </div>
+            <div className="mx-5 text-blue-300">
+             ITC 2026 Hackathon is Live             </div>
             <div className="mx-5">•</div>
           </Marquee>
         </div>

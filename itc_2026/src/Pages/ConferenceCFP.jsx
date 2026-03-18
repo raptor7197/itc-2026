@@ -320,11 +320,7 @@ function ConferenceCFP() {
                 Submissions simultaneously under review or accepted by another
                 conference, symposium or journal, will be summarily rejected
               </li>
-              <li className="mb-4">
-                Accepted and presented papers will be submitted for inclusion into IEEE Xplore
-                subject to meeting IEEE Xplore&apos;s scope and quality
-                requirements
-              </li>
+              
               <li className="mb-4">
                 For detailed information about the submission process,
                 requirements and deadlines, the selection process and any other
@@ -392,6 +388,11 @@ function ConferenceCFP() {
               <li className="mb-4">
                  A submission of 4-6 pages may be accepted as a paper
                 or poster depending on the reviewer feedback
+              </li>
+              <li className="mb-4">
+                Accepted and presented papers will be submitted for inclusion into IEEE Xplore
+                subject to meeting IEEE Xplore&apos;s scope and quality
+                requirements
               </li>
             </ul>
           </div>
