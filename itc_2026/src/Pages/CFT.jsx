@@ -107,7 +107,7 @@ function CFT() {
               SUBMIT TUTORIAL
             </div>
           </a>
-          <a
+          {/* <a
             href="https://www.ieee.org/conferences/publishing/templates.html"
             target="_blank"
             rel="noopener noreferrer"
@@ -115,7 +115,7 @@ function CFT() {
             <div className="text-[3.5vw] md:text-[2.8vw] lg:text-[2.1vw] text-center font-bold rounded-3xl border-blue-500 border-4 px-5 py-3 text-white hover:scale-[1.1] transition-[0.5s] hover:bg-black">
               DOWNLOAD IEEE TEMPLATE
             </div>
-          </a>
+          </a>*/}
         </div>
         <div className="h-[5px] bg-white "></div>
       </div>
