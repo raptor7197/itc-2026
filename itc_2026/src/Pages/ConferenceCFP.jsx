@@ -213,7 +213,6 @@ function ConferenceCFP() {
           </div>
         </div>
 
-        {/* Submission Format & Review Process Section */}
         <div className="flex flex-col md:flex-row justify-center gap-8 mx-8 mt-16">
           <div className="flex-1 max-w-[90vw] md:max-w-[42vw]">
             <div className="p-6 rounded-xl border-4 border-blue-500 bg-gray-900/50 h-full">
@@ -322,7 +321,7 @@ function ConferenceCFP() {
                 conference, symposium or journal, will be summarily rejected
               </li>
               <li className="mb-4">
-                Accepted papers will be submitted for inclusion into IEEE Xplore
+                Accepted and presented papers will be submitted for inclusion into IEEE Xplore
                 subject to meeting IEEE Xplore&apos;s scope and quality
                 requirements
               </li>
