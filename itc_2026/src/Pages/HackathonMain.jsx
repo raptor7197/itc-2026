@@ -11,6 +11,7 @@ import {
 import Header from "./Components/Header";
 import Timeline from "./Components/Timeline";
 import timelineData from "../TimelineData";
+import Marquee from "react-fast-marquee";
 
 function HackathonMain() {
   return (
@@ -26,7 +27,24 @@ function HackathonMain() {
           alt="Hackathon Background"
         />
       </div>
-
+<div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl font-bold text-center text-blue-500">
+        <div className="relative w-full">
+          <Marquee className="h-[8vw] md:h-[10vw] lg:h-[8vw]">
+            <div className="mx-5 text-blue-300">
+            Hackathon is Live 
+            </div>      
+            <div className="mx-5">•</div>
+            <div className="mx-5 text-blue-300">
+            Hackathon is Live 
+            </div>      
+            <div className="mx-5">•</div>
+            <div className="mx-5 text-blue-300">
+            Hackathon is Live 
+            </div>      
+            <div className="mx-5">•</div>
+          </Marquee>
+        </div>
+      </div>
       <div>
         <div
           className="mt-10 mx-8 p-6 "
