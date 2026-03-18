@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="flex flex-col leading-8">
             <div className="flex flex-col gap-6 lg:flex-row justify-evenly mt-8 ml-6 mr-6">
               <div>
-                <img src="Group 1055.png" className="h-60" />
+                <img src="ITC LOGO.png" className="h-60" />
               </div>
               <div>
                 <div className="text-xl font-bold text-decoration-line: underline">
@@ -20,7 +20,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <Link to="/CFP" onClick={() => window.scrollTo(0, 0)}>
-                    Call for Papers / Tutorials
+                    Call for Papers
                   </Link>
                   {/* <Link to="/CFT">Call for Tutorials</Link>*/}
                   {/* <Link to="/ART">Call for </Link>*/}

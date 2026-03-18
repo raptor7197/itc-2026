@@ -137,7 +137,7 @@ const members6 = [
     link: "https://www.linkedin.com/in/sreejit-chakravarty?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BTMrtEoNiSF%2B4f6%2Bs3Er4aQ%3D%3D",
     img: "sreejit_1.png",
     name: "Sreejit Chakravarty",
-    comp: "Ampere Computing",
+    comp: "Ampere Computing, US ",
   },
 ];
 
