@@ -42,8 +42,8 @@ export default function Example() {
       <div className="herobg  pt-2 pb-10 pr-8 flex flex-col md:flex-row justify-evenly lg:gap-16  md:pl-16 w-[100vw] z-[-1]  items-center">
         <Link to="/">
           <img
-            src="/2018-ITC-logo-2-1-975x1024-1-1-2-qis8x6bbixjssd2bmb2tk8jwo4xzscf5cx0zrxymso.png"
-            className="lg:w-[12vw] ml-5 lg:h-[12vw] md:w-[15vw] md:h-[15vw] h-[20vw] w-[20vw]"
+            src="/ITC LOGO.png"
+            className="lg:w-[12vw] ml-5 lg:h-[12vw] md:w-[15vw] md:h-[15vw] h-[20vw] w-[20vw] mt-5"
           ></img>
         </Link>
         <div className=" flex flex-col gap-4 ml-8 md:ml-12">
