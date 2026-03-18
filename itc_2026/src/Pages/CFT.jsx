@@ -155,10 +155,9 @@ function CFT() {
         >
           <ul className="list-disc ml-10 space-y-4">
             <li>
-              A tutorial proposal needs to be submitted in template available on
-              ITC India website
+              A tutorial proposal needs to be submitted in template available on this <a href="https://easychair.org/my/conference?conf=itcindia2026" className="underline">Link</a>
             </li>
-            <li>
+            {/* <li>
               Submission link{" "}
               <a
                 href="https://easychair.org/my/conference?conf=itcindia2026"
@@ -166,11 +165,11 @@ function CFT() {
               >
                 https://easychair.org/my/conference?conf=itcindia2026
               </a>
-            </li>
+            </li>*/}
             <li>
               Tutorial Submission Template <a href="https://drive.google.com/file/d/1F_WAsyL98IlFErnYbcgc7ulhn28il2Cl/view" className="font-bold underline">Link</a>
             </li>
-            <li>
+            {/* <li>
               The following details are mandatory:
               <ul className="list-disc ml-10 mt-2 space-y-2">
                 <li>Tutorial title</li>
@@ -186,7 +185,7 @@ function CFT() {
                 </li>
                 <li>Name, affiliation, bio of each author</li>
               </ul>
-            </li>
+            </li>*/}
             <li>Proposals will undergo a panel review process</li>
             <li>
               All presenters listed in the tutorial proposal must be available
