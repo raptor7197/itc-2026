@@ -23,7 +23,7 @@ const members2 = [
     link: "https://www.linkedin.com/in/subhadip-kundu-94862a24",
     img: "p45.png",
     name: "Subhadip Kundu",
-    comp: "Cadence Design Systems",
+    comp: "Cadence, India",
   },
   {
     id: 3,
@@ -80,7 +80,7 @@ const members4 = [
     link: "https://www.linkedin.com/in/anujgupta27",
     img: "p21.png",
     name: "Anuj Gupta",
-    comp: "Cadence Design Systems",
+    comp: "Cadence, India",
   },
   {
     id: 9,
@@ -166,7 +166,7 @@ const members8 = [
     link: "https://www.linkedin.com/in/dr-shylashree-n-1a9504148?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BrnLm6qfjQc2RJHNmvkDzbQ%3D%3D",
     img: "p61.png",
     name: "Dr. Shylashree N",
-    comp: "RVCE",
+    comp: "RVCE, India",
   },
 ];
 
@@ -249,7 +249,7 @@ const members13 = [
     link: "https://www.linkedin.com/in/veeresh-shetty-32a2216/",
     img: "p6.png",
     name: "Veeresh Shetty",
-    comp: "Siemens EDA",
+    comp: "Siemens EDA, India",
   },
   {
     id: 24,
@@ -274,7 +274,7 @@ const members14 = [
     link: "#",
     img: "p12.png",
     name: "Veerabhadra Rao Vasa",
-    comp: "Google",
+    comp: "Google, India",
   },
 ];
 
@@ -345,7 +345,7 @@ const members17 = [ {
   link: "https://www.linkedin.com/in/yervant-zorian-40522b1/",
   img: "p43.png",
   name: "Dr. Yervant Zorian",
-  comp: "Synopsys",
+  comp: "Synopsys, India",
 },
 {
   id: 45,
@@ -420,4 +420,4 @@ export {
   members18,
   members19,
   members20,
-};
+};Veerabhadra Rao Vas

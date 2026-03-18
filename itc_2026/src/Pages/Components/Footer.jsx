@@ -20,7 +20,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <Link to="/CFP" onClick={() => window.scrollTo(0, 0)}>
-                    Call for Papers
+                    Call for Papers / Tutorials
                   </Link>
                   {/* <Link to="/CFT">Call for Tutorials</Link>*/}
                   {/* <Link to="/ART">Call for </Link>*/}
