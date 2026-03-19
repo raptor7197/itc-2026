@@ -166,9 +166,9 @@ function CFT() {
                 https://easychair.org/my/conference?conf=itcindia2026
               </a>
             </li>*/}
-            <li>
+            {/* <li>
               Tutorial Submission Template <a href="https://drive.google.com/file/d/1F_WAsyL98IlFErnYbcgc7ulhn28il2Cl/view" className="font-bold underline">Link</a>
-            </li>
+            </li> */}
             {/* <li>
               The following details are mandatory:
               <ul className="list-disc ml-10 mt-2 space-y-2">
