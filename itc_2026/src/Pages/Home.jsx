@@ -127,7 +127,7 @@ export default function Home() {
             </div>
             <div className="mx-5">•</div>
             <div className="mx-5 text-blue-300">
-            Tutorials Submission Deadline - 31<sup>st</sup> March 2026
+            Tutorials Submission Deadline - 15<sup>th</sup> April 2026
             </div>
             <div className="mx-5">•</div>
            
