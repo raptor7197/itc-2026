@@ -80,7 +80,7 @@ function CFT() {
               style={{ borderRadius: "60px" }}
             >
               Tutorial Submission Deadline
-              <br /> 31<sup>st</sup> March, 2026
+              <br /> 15<sup>th</sup> April, 2026
             </div>
             <div
               className="bg-[#00E0FF] text-center md:mb-0 font-bold lg:w-[25vw] md:w-[30vw] w-[60vw] lg:text-[1.4vw] md:text-[1.7vw] text-[3.5vw] px-7 py-3"
@@ -155,7 +155,7 @@ function CFT() {
         >
           <ul className="list-disc ml-10 space-y-4">
             <li>
-              A tutorial proposal needs to be submitted in template available on this <a href="https://easychair.org/my/conference?conf=itcindia2026" className="underline">Link</a>
+              A tutorial proposal needs to be submitted in template available on this <a href="https://drive.google.com/file/d/1F_WAsyL98IlFErnYbcgc7ulhn28il2Cl/view?usp=sharing" className="underline">Link</a>
             </li>
             {/* <li>
               Submission link{" "}
