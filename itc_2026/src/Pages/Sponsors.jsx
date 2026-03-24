@@ -11,7 +11,7 @@ const sponsorsData = [
     sponsors: [
       {
         name: "Caliber Interconnect",
-        image: "/public/caliber.png",
+        image: "/caliber.png",
         url: "https://caliberinterconnect.com/",
         className: "h-16 md:h-24 bg-white p-2",
       },
@@ -46,7 +46,7 @@ const sponsorsData = [
       },
       {
         name: "Cadence",
-        image: "/public/cadence.png",
+        image: "/cadence.png",
         url: "https://www.cadence.com/",
         classname:"w-15 h-15"
       },
@@ -71,7 +71,7 @@ const sponsorsData = [
     sponsors: [
       {
         name: "Anora Labs",
-        image: "/public/anora.jpeg",
+        image: "/anora.jpeg",
         url: "https://www.anoralabs.com/",
       },
     ],
