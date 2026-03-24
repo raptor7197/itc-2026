@@ -12,7 +12,7 @@ import ContactUs from "./Pages/ContactUs";
 import ART from "./Pages/ART";
 import CallForPosters from "./Pages/CallForPosters";
 import AboutUs from "./Pages/AboutUs";
-import nSponsors from "./Pages/SponsorsNew";
+import Sponsors from "./Pages/Sponsors";
 
 import {
   Sheet,
@@ -43,7 +43,7 @@ function App() {
         <Route path="/ART" element={<ART />} />
         <Route path="/CallForPosters" element={<CallForPosters />} />
         <Route path="/AboutUs" element={<AboutUs />} />
-        <Route path="/Sponsors" element={<nSponsors />} />
+        <Route path="/Sponsors" element={<Sponsors />} />
         <Route path="/CallforSponsors" element={<CallForSponsors />} />
         <Route path="/ContactUs" element={<ContactUs />} />
       </Routes>
