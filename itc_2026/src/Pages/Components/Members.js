@@ -394,7 +394,14 @@ const members19 = [ {
        name: "Sameer Chillarige",
        comp: "Cadence, India",
   
-      },];
+      }, {
+             id: 19,
+             link: "https://www.linkedin.com/in/kamlesh-pandey-4800878?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+             img: 'p13.png',
+             name: "Kamlesh Pandey",
+             comp: "Krivya Semicon, India",
+        
+            },];
 
 // Advisory Committee - Row 5
 const members20 = [];
