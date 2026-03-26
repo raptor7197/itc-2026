@@ -209,7 +209,7 @@ export default function Sponsors() {
               className="text-gray-300 mb-8 max-w-2xl mx-auto text-lg leading-relaxed"
               style={{ fontFamily: '"Poppins", arial' }}
             >
-              Join<strong>Us</strong> and other industry
+              Join <strong>Us</strong> and other industry
               leaders in shaping the future of semiconductor testing. Showcase
               your brand to a global audience of experts and innovators.
             </p>
