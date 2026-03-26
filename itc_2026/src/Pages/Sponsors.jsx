@@ -11,9 +11,9 @@ const sponsorsData = [
     sponsors: [
       {
         name: "Caliber Interconnect",
-        image: "/caliber.png",
+        image: "public/Caliber.svg",
         url: "https://caliberinterconnect.com/",
-        className: "h-16 md:h-24 bg-white p-2",
+        // className: "h-16 md:h-24 bg-white p-2",
       },
     ],
   },
@@ -46,9 +46,9 @@ const sponsorsData = [
       },
       {
         name: "Cadence",
-        image: "/cadence.png",
+        image: "/Cadence-Logo.svg",
         url: "https://www.cadence.com/",
-        classname:"w-15 h-15"
+        
       },
       {
         name: "Synopsys",
@@ -209,7 +209,7 @@ export default function Sponsors() {
               className="text-gray-300 mb-8 max-w-2xl mx-auto text-lg leading-relaxed"
               style={{ fontFamily: '"Poppins", arial' }}
             >
-              Join <strong>Caliber Interconnect</strong> and other industry
+              Join <strong>Us</strong> and other industry
               leaders in shaping the future of semiconductor testing. Showcase
               your brand to a global audience of experts and innovators.
             </p>
