@@ -11,7 +11,7 @@ const sponsorsData = [
     sponsors: [
       {
         name: "Caliber Interconnect",
-        image: "public/Caliber.svg",
+        image: "/Caliber.svg",
         url: "https://caliberinterconnect.com/",
         // className: "h-16 md:h-24 bg-white p-2",
       },
