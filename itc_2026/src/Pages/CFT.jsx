@@ -228,8 +228,8 @@ function CFT() {
 
       <div className="text-[5vw] md:text-[4vw] lg:text-[3vw] text-center font-bold rounded-3xl border-blue-500 border-4 px-7 py-4 text-white mt-5 hover:scale-[1.03] transition-[0.5s] hover:bg-black">
         <a
-          href="https://drive.google.com/file/d/1F_WAsyL98IlFErnYbcgc7ulhn28il2Cl/view?usp=sharing"
-          download="tutorial_submission_template.pdf"
+          href="/ITC_India_2026_Tutorial_Proposal_Template.pdf"
+          download="ITC_India_2026_Tutorial_Proposal_Template.pdf"
         >
           DOWNLOAD TUTORIAL SUBMISSION TEMPLATE
         </a>
