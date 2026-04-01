@@ -145,9 +145,12 @@ function ConferenceCFP() {
               className="bg-[#00E0FF] text-center mb-6 md:mb-0 font-bold lg:w-[25vw] md:w-[30vw] w-[60vw] lg:text-[1.4vw] md:text-[1.7vw] text-[3.5vw] px-7 py-3"
               style={{ borderRadius: "60px" }}
             >
-              Full Paper Submission Deadline
-              <br /><div className="line-through">17th March, 2026</div>
+              Full Paper Submission Deadline Closed
+              {/* <br /><div className="line-through">17th March, 2026</div>*/}
+              <div className="line-through">
               31<sup>st</sup> March, 2026
+              
+              </div>
             </div>
           </div>
           <div className="flex flex-col items-center md:flex-row justify-evenly md:mt-12 mt-6 mb-6">
