@@ -13,6 +13,7 @@ import ART from "./Pages/ART";
 import CallForPosters from "./Pages/CallForPosters";
 import AboutUs from "./Pages/AboutUs";
 import Sponsors from "./Pages/Sponsors";
+import CallForWorkshop from "./Pages/CallForWorkshop";
 
 import {
   Sheet,
@@ -42,6 +43,7 @@ function App() {
         <Route path="/Hackathon" element={<HackathonMain />} />
         <Route path="/ART" element={<ART />} />
         <Route path="/CallForPosters" element={<CallForPosters />} />
+        <Route path="/CallForWorkshop" element={<CallForWorkshop />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/Sponsors" element={<Sponsors />} />
         <Route path="/CallforSponsors" element={<CallForSponsors />} />
