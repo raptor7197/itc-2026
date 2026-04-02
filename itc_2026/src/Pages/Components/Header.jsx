@@ -25,6 +25,7 @@ const AuthorList = [
   { name: "Call for Papers", href: "/CFP" },
   { name: "Call for Tutorials", href: "/CFT" },
   { name: "Call for Posters", href: "/CallForPosters" },
+  { name: "Call for Workshop", href: "/CallForWorkshop" },
   { name: "Academia Reserach Track", href: "/ART" },
   { name: "Hackathon", href: "/Hackathon" },
   { name: "Call for Fellowship", href: "/CFF" },
