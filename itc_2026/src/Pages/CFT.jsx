@@ -154,9 +154,9 @@ function CFT() {
           style={{ fontFamily: '"Poppins", arial' }}
         >
           <ul className="list-disc ml-10 space-y-4">
-            <li>
+            {/* <li>
               A tutorial proposal needs to be submitted in template available on this <a href="https://drive.google.com/file/d/1F_WAsyL98IlFErnYbcgc7ulhn28il2Cl/view?usp=sharing" className="underline">Link</a>
-            </li>
+            </li>*/}
             {/* <li>
               Submission link{" "}
               <a
