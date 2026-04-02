@@ -132,7 +132,7 @@ export default function Home() {
             <div className="mx-5">•</div>
            
             <div className="mx-5 text-blue-300">
-            Posters Submission Deadline - 31<sup>st</sup> March 2026
+            Posters Submission Deadline - 15<sup>th</sup> March 2026
             </div>
             <div className="mx-5">•</div>
             
