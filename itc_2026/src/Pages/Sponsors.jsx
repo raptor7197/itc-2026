@@ -105,7 +105,7 @@ const sponsorsData = [
     sponsors: [
       {
         name: "IEEE Bangalore Section",
-        image: "public/ieeeblr.png",
+        image: "ieeeblr.png",
         url: "https://ieeebangalore.org/",
         //className: "h-12 md:h-16",
       },
@@ -116,12 +116,12 @@ const sponsorsData = [
       },
       {
         name: "TTTC",
-        image: "public/images.png",
+        image: "images.png",
         url: "https://www.ieee-tttc.org/",
       },
       {
         name: "VLSI Society of India",
-        image: "public/1630572795938.jpg",
+        image: "1630572795938.jpg",
         url: "https://vsi.org.in/",
         className: "h-24 md:h-24"
       },
