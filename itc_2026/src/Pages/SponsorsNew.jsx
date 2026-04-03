@@ -85,6 +85,27 @@ export default function nSponsors(){
               </div>
               
           </div>
+
+          <h2 className="lg:mt-20 mt-32 text-[#FFFFFF] lg:text-5xl text-4xl font-bold text-center" style={{fontFamily:'"Poppins",arial'}}>Technical Sponsors</h2>
+          <div className="w-[100vw] flex flex-col lg:flex-row mt-16 lg:gap-96 gap-20 items-center justify-evenly">
+              <div className="lg:w-[22vw] md:w-[38vw] w-[60vw] lg:h-[17.5vh] md:h-[22vh] h-[25vh] bg-gray-950 p-6 flex items-center justify-center  shadow-2xl shadow-[#8b5723] hover:shadow-[#CD7F32] duration-300 rounded-xl">
+                <img src={'/1630572795938.jpg'} ></img>
+              </div>
+              <div className="lg:w-[22vw]  md:w-[38vw] w-[60vw] lg:h-[17.5vh] md:h-[22vh] h-[25vh] bg-gray-950 p-6 flex items-center justify-center  shadow-2xl shadow-[#8b5723] hover:shadow-[#CD7F32] duration-300 rounded-xl">
+                <img src={'/IESA.jpg'} className=" lg:h-[7vw] md:h-[13vw]"></img>
+              </div>
+              
+          </div>
+          <div className="w-[100vw] flex flex-col lg:flex-row mt-20 items-center lg:gap-0 gap-20 justify-evenly">
+              
+              <div className="lg:w-[22vw] md:w-[38vw] w-[60vw] lg:h-[17.5vh] md:h-[22vh] h-[25vh] bg-gray-950 p-6 flex items-center justify-center  shadow-2xl shadow-[#8b5723] hover:shadow-[#CD7F32] duration-300 rounded-xl">
+                <img src={'/texas.png'} className=""></img>
+              </div>
+              <div className="lg:w-[22vw] md:w-[38vw] w-[60vw] lg:h-[17.5vh] md:h-[22vh] h-[25vh] bg-gray-950 p-6 flex items-center justify-center shadow-2xl shadow-[#8b5723] hover:shadow-[#CD7F32] duration-300 rounded-xl">
+                <img src={'/sandisk1.png'} className=""></img>
+              </div>
+              
+          </div>
           
           <div className="h-[10vw]"></div>
           </div>

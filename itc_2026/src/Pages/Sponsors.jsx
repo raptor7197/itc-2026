@@ -96,6 +96,37 @@ const sponsorsData = [
       },
     ],
   },
+  {
+    tier: "Technical Sponsors",
+    color: "#b8c2c3",
+    borderColor: "border-[#b8c2c3]",
+    shadowColor: "shadow-[#b8c2c3]/20",
+    hoverShadow: "hover:shadow-[#b8c2c3]/40",
+    sponsors: [
+      {
+        name: "IEEE Bangalore Section",
+        image: "public/ieeeblr.png",
+        url: "https://ieeebangalore.org/",
+        //className: "h-12 md:h-16",
+      },
+      {
+        name: "IESA",
+        image: "IESA.jpg",
+        url: "https://www.iesaonline.org/",
+      },
+      {
+        name: "TTTC",
+        image: "public/images.png",
+        url: "https://www.ieee-tttc.org/",
+      },
+      {
+        name: "VLSI Society of India",
+        image: "public/1630572795938.jpg",
+        url: "https://vsi.org.in/",
+        className: "h-24 md:h-24"
+      },
+    ],
+  },
 ];
 
 export default function Sponsors() {
