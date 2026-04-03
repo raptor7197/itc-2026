@@ -27,23 +27,17 @@ function HackathonMain() {
           alt="Hackathon Background"
         />
       </div>
-<div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl font-bold text-center text-blue-500">
-        <div className="relative w-full">
+      <div className="mt-10 bg-black py-2 lg:text-5xl md:text-4xl text-3xl font-bold text-center text-blue-500">
+        {/* <div className="relative w-full">
           <Marquee className="h-[8vw] md:h-[10vw] lg:h-[8vw]">
-            <div className="mx-5 text-blue-300">
-            Hackathon is Live 
-            </div>      
+            <div className="mx-5 text-blue-300">Hackathon is Live</div>
             <div className="mx-5">•</div>
-            <div className="mx-5 text-blue-300">
-            Hackathon is Live 
-            </div>      
+            <div className="mx-5 text-blue-300">Hackathon is Live</div>
             <div className="mx-5">•</div>
-            <div className="mx-5 text-blue-300">
-            Hackathon is Live 
-            </div>      
+            <div className="mx-5 text-blue-300">Hackathon is Live</div>
             <div className="mx-5">•</div>
           </Marquee>
-        </div>
+        </div>*/}
       </div>
       <div>
         <div
@@ -176,9 +170,10 @@ function HackathonMain() {
                 <li>Submit a research proposal</li>
               </ul>
               <p className="mb-6">
-                The submission is limited to 2-pages and must be submitted by
-                the due date. Feedback will be provided to all the teams by the
-                ART committee to help complete the proposed research.
+                The initial project proposal submission is limited to 2-pages
+                and must be submitted by the due date. Feedback will be provided
+                to all the teams by the ART committee to help complete the
+                proposed research.
               </p>
             </div>
           </div>
@@ -388,22 +383,8 @@ function HackathonMain() {
               Ensure submissions are complete and adhere to the guidelines
               provided.
             </li>
-
-            <h2 className="mt-5 mb-5 text-blue-300 text-3xl font-bold">
-              Result Submission
-            </h2>
-            <h1 className="mt-5 mb-5 text-blue-100 text-2xl font-semibold">
-              Google Form
-            </h1>
-            <li className="mb-8">
-              Results for each stage must be submitted through a Google form.
-            </li>
-            <li className="mb-8">
-              The form requires values to be provided along with related log
-              files (tool outputs).
-            </li>
-            <li className="mb-8">
-              Double-check all entries for accuracy before submission.
+            <li className="mb-8 font-bold text-[#00E0FF]">
+              Submission to be made through EasyChair.
             </li>
 
             <h1 className="mt-5 mb-5 text-blue-100 text-2xl font-semibold">
