@@ -118,29 +118,29 @@ export default function Home() {
         <div className="relative w-full">
           <Marquee className="h-[8vw] md:h-[10vw] lg:h-[8vw]">
             <div className="mx-5 text-blue-300">
-              Key Timeline: Call for Posters - New  Deadline: 15<sup>th</sup> April, 2026 
+              Key Timeline: Call for Posters - New Deadline: 15<sup>th</sup>{" "}
+              April, 2026
+            </div>
+            <div className="mx-5">•</div>
+
+            <div className="mx-5 text-blue-300">Call For Papers - Closed</div>
+            <div className="mx-5">•</div>
+            <div className="mx-5 text-blue-300">
+              Tutorials Submission Deadline - 15<sup>th</sup> April 2026
             </div>
             <div className="mx-5">•</div>
 
             <div className="mx-5 text-blue-300">
-            Call For Papers - Closed
+              Posters Submission Deadline - 15<sup>th</sup> March 2026
             </div>
             <div className="mx-5">•</div>
+
             <div className="mx-5 text-blue-300">
-            Tutorials Submission Deadline - 15<sup>th</sup> April 2026
-            </div>
-            <div className="mx-5">•</div>
-           
-            <div className="mx-5 text-blue-300">
-            Posters Submission Deadline - 15<sup>th</sup> March 2026
-            </div>
-            <div className="mx-5">•</div>
-            
-            <div className="mx-5 text-blue-300">
-            ART: Full Paper Submission Deadline - 15<sup>th</sup> April 2026
+              ART: Full Paper Submission Deadline - 15<sup>th</sup> April 2026
             </div>
             <div className="mx-5 text-blue-300">
-             ITC 2026 Hackathon is Live             </div>
+              ITC 2026 Hackathon is Live{" "}
+            </div>
             <div className="mx-5">•</div>
           </Marquee>
         </div>
@@ -337,6 +337,65 @@ export default function Home() {
           <div className="h-[10vw]"></div>
         </div>
       </div> */}
+
+      <div className="w-full mt-24 mb-16 flex flex-col items-center">
+        <h2
+          className="lg:text-4xl md:text-3xl text-2xl text-center text-white font-bold mb-12 uppercase tracking-wide"
+          style={{ fontFamily: '"Poppins",arial' }}
+        >
+          Technical Sponsors
+        </h2>
+        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 lg:gap-16 px-4">
+          <a
+            href="https://ieeebangalore.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white/90 p-4 rounded-xl shadow-lg hover:shadow-white/20 hover:bg-white transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center w-[70vw] sm:w-[40vw] md:w-[25vw] lg:w-[18vw] h-[16vh]"
+          >
+            <img
+              src="ieeeblr.png"
+              alt="IEEE Bangalore Section"
+              className="max-h-full max-w-full object-contain"
+            />
+          </a>
+          <a
+            href="https://www.iesaonline.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white/90 p-4 rounded-xl shadow-lg hover:shadow-white/20 hover:bg-white transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center w-[70vw] sm:w-[40vw] md:w-[25vw] lg:w-[18vw] h-[16vh]"
+          >
+            <img
+              src="IESA.jpg"
+              alt="IESA"
+              className="max-h-full max-w-full object-contain"
+            />
+          </a>
+          <a
+            href="https://www.ieee-tttc.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white/90 p-4 rounded-xl shadow-lg hover:shadow-white/20 hover:bg-white transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center w-[70vw] sm:w-[40vw] md:w-[25vw] lg:w-[18vw] h-[16vh]"
+          >
+            <img
+              src="images.png"
+              alt="TTTC"
+              className="max-h-full max-w-full object-contain"
+            />
+          </a>
+          <a
+            href="https://vsi.org.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white/90 p-4 rounded-xl shadow-lg hover:shadow-white/20 hover:bg-white transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center w-[70vw] sm:w-[40vw] md:w-[25vw] lg:w-[18vw] h-[16vh]"
+          >
+            <img
+              src="1630572795938.jpg"
+              alt="VLSI Society of India"
+              className="max-h-full max-w-full object-contain"
+            />
+          </a>
+        </div>
+      </div>
     </>
   );
 }
