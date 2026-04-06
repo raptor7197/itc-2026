@@ -347,30 +347,6 @@ export default function Home() {
         </h2>
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 lg:gap-16 px-4">
           <a
-            href="https://ieeebangalore.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white/90 p-4 rounded-xl shadow-lg hover:shadow-white/20 hover:bg-white transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center w-[70vw] sm:w-[40vw] md:w-[25vw] lg:w-[18vw] h-[16vh]"
-          >
-            <img
-              src="ieeeblr.png"
-              alt="IEEE Bangalore Section"
-              className="max-h-full max-w-full object-contain"
-            />
-          </a>
-          <a
-            href="https://www.iesaonline.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white/90 p-4 rounded-xl shadow-lg hover:shadow-white/20 hover:bg-white transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center w-[70vw] sm:w-[40vw] md:w-[25vw] lg:w-[18vw] h-[16vh]"
-          >
-            <img
-              src="IESA.jpg"
-              alt="IESA"
-              className="max-h-full max-w-full object-contain"
-            />
-          </a>
-          <a
             href="https://www.ieee-tttc.org/"
             target="_blank"
             rel="noopener noreferrer"
@@ -379,6 +355,18 @@ export default function Home() {
             <img
               src="images.png"
               alt="TTTC"
+              className="max-h-full max-w-full object-contain"
+            />
+          </a>
+          <a
+            href="https://ieeebangalore.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white/90 p-4 rounded-xl shadow-lg hover:shadow-white/20 hover:bg-white transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center w-[70vw] sm:w-[40vw] md:w-[25vw] lg:w-[18vw] h-[16vh]"
+          >
+            <img
+              src="ieeeblr.png"
+              alt="IEEE Bangalore Section"
               className="max-h-full max-w-full object-contain"
             />
           </a>
@@ -394,6 +382,18 @@ export default function Home() {
               className="max-h-full max-w-full object-contain"
             />
           </a>
+          <a
+            href="https://www.iesaonline.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white/90 p-4 rounded-xl shadow-lg hover:shadow-white/20 hover:bg-white transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center w-[70vw] sm:w-[40vw] md:w-[25vw] lg:w-[18vw] h-[16vh]"
+          >
+            <img
+              src="IESA.jpg"
+              alt="IESA"
+              className="max-h-full max-w-full object-contain"
+            />
+          </a>          
         </div>
       </div>
     </>
