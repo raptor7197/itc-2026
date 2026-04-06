@@ -18,7 +18,7 @@ const sponsorsData = [
     ],
   },
   {
-    tier: "Platinum Sponsor",
+    tier: "Platinum Sponsors",
     color: "#E5E4E2",
     borderColor: "border-[#E5E4E2]",
     shadowColor: "shadow-[#E5E4E2]/20",
@@ -28,6 +28,12 @@ const sponsorsData = [
         name: "Siemens",
         image: "/siemens_logo_white.png",
         url: "https://www.siemens.com/",
+        className: "h-16 md:h-20",
+      },
+      {
+        name: "Google",
+        image: "/google.png",
+        url: "https://about.google/",
         className: "h-16 md:h-20",
       },
     ],
@@ -48,7 +54,6 @@ const sponsorsData = [
         name: "Cadence",
         image: "/Cadence-Logo.svg",
         url: "https://www.cadence.com/",
-        
       },
       {
         name: "Synopsys",
@@ -123,7 +128,7 @@ const sponsorsData = [
         name: "VLSI Society of India",
         image: "1630572795938.jpg",
         url: "https://vsi.org.in/",
-        className: "h-24 md:h-24"
+        className: "h-24 md:h-24",
       },
     ],
   },
@@ -240,9 +245,9 @@ export default function Sponsors() {
               className="text-gray-300 mb-8 max-w-2xl mx-auto text-lg leading-relaxed"
               style={{ fontFamily: '"Poppins", arial' }}
             >
-              Join <strong>Us</strong> and other industry
-              leaders in shaping the future of semiconductor testing. Showcase
-              your brand to a global audience of experts and innovators.
+              Join <strong>Us</strong> and other industry leaders in shaping the
+              future of semiconductor testing. Showcase your brand to a global
+              audience of experts and innovators.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
