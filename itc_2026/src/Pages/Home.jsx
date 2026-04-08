@@ -142,6 +142,11 @@ export default function Home() {
               ITC 2026 Hackathon is Live{" "}
             </div>
             <div className="mx-5">•</div>
+
+            <div className="mx-5 text-blue-300">
+             Call For Workshop Deadline- May 31<sup>st</sup>
+            </div>
+            <div className="mx-5">•</div>
           </Marquee>
         </div>
       </div>
