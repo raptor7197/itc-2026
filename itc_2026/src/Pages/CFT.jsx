@@ -80,7 +80,7 @@ function CFT() {
               style={{ borderRadius: "60px" }}
             >
               Tutorial Submission Deadline
-              <br /> 15<sup>th</sup> April, 2026
+              <br /> 22<sup>nd</sup> April, 2026
             </div>
             <div
               className="bg-[#00E0FF] text-center md:mb-0 font-bold lg:w-[25vw] md:w-[30vw] w-[60vw] lg:text-[1.4vw] md:text-[1.7vw] text-[3.5vw] px-7 py-3"
