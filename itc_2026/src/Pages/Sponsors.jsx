@@ -36,6 +36,12 @@ const sponsorsData = [
         url: "https://about.google/",
         className: "h-16 md:h-20",
       },
+      {
+        name: "Tessolve",
+        image: "/tessolve1.png",
+        url: "https://www.tessolve.com/",
+        className: "h-16 md:h-20",
+      },
     ],
   },
   {
@@ -64,6 +70,12 @@ const sponsorsData = [
         name: "Teradyne",
         image: "/teradyne.png",
         url: "https://www.teradyne.com/",
+      },
+      {
+        name: "Advantest",
+        image: "/advantest.svg",
+        url: "https://www.advantest.com/",
+        className: "h-16 md:h-20",
       },
     ],
   },
