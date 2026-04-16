@@ -126,7 +126,7 @@ export default function Home() {
             <div className="mx-5 text-blue-300">Call For Papers - Closed</div>
             <div className="mx-5">•</div>
             <div className="mx-5 text-blue-300">
-              Final Tutorials Submission Deadline - 22<sup>nd</sup> April 2026
+              Tutorials Submission Deadline - 22<sup>nd</sup> April 2026
             </div>
             <div className="mx-5">•</div>
 

@@ -52,7 +52,7 @@ export default function Example() {
             className="text-white text-center md:text-start text-[6vw]  pt-5 md:text-[2.5vw] md:leading-[5vw] lg:text-[2vw] font-bold"
             style={{ fontFamily: '"Poppins", arial' }}
           >
-            10<sup>th</sup> IEEE International Test Conference India 2026
+            10<sup>th</sup> IEEE International Test Conference India 
           </div>
           <div
             className="flex flex-row justify-center md:justify-start text-white md:gap-16 gap-8  text-4xl"
