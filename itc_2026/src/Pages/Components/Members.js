@@ -80,7 +80,7 @@ const members4 = [
     link: "https://www.linkedin.com/in/anujgupta27",
     img: "p21.png",
     name: "Anuj Gupta",
-    comp: "Cadence, India",
+    comp: "NextSilicon",
   },
   {
     id: 9,
@@ -401,7 +401,13 @@ const members19 = [ {
              name: "Kamlesh Pandey",
              comp: "Krivya Semicon, India",
         
-            },];
+            }, {
+              id: 51,
+              link: "https://www.linkedin.com/in/veerappanvv",
+              img: "vvvf.png",
+              name: "Veerappan VV",
+              comp: "Tessolve, India",
+          },];
 
 // Advisory Committee - Row 5
 const members20 = [];
