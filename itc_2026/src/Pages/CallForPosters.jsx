@@ -129,7 +129,7 @@ function CallForPosters() {
               style={{ borderRadius: "60px" }}
             >
               Poster Submission Deadline
-              <br /> 15<sup>th</sup> April, 2026
+              <br /> <s>15<sup>th</sup> April, 2026</s> Closed
             </div>
           </div>
           <div className="flex flex-col items-center md:flex-row justify-evenly md:mt-12 mt-6 mb-6">

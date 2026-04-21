@@ -126,18 +126,21 @@ export default function Home() {
             <div className="mx-5 text-blue-300">Call For Papers - Closed</div>
             <div className="mx-5">•</div>
             <div className="mx-5 text-blue-300">
-              Tutorials Submission Deadline - 22<sup>nd</sup> April 2026
+              Posters Submission - Closed
             </div>
             <div className="mx-5">•</div>
 
             <div className="mx-5 text-blue-300">
-              Posters Submission Deadline - 15<sup>th</sup> March 2026
+              Tutorials Submission Deadline - 22<sup>nd</sup> April 2026
             </div>
+
             <div className="mx-5">•</div>
 
             <div className="mx-5 text-blue-300">
               ART: Full Paper Submission Deadline - 15<sup>th</sup> April 2026
             </div>
+            <div className="mx-5">•</div>
+
             <div className="mx-5 text-blue-300">
               ITC 2026 Hackathon is Live{" "}
             </div>
